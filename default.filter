@@ -18,7 +18,7 @@ ItemDisplay[(MAG OR RARE) !ID !UNI !SET !RW EQ2 CLVL>84:
 ItemDisplay[(NMAG OR MAG OR RARE) !UNI !SET !RW (7o7 OR upk OR 7sb OR ba9 OR 7mp OR 7ha) CLVL>84:
 //
 ItemDisplay[(MAG OR RARE) !UNI !SET !RW pae CLVL>84:
-////-------------------------- High level remove non-Elite MAGIC RARE items (NOT GLOVES "EQ4")
+// High level remove non-Elite MAGIC RARE items (NOT GLOVES "EQ4")
 /ItemDisplay[]: %NAME% [ %CODE% ]%CONTINUE%
 
 
@@ -83,7 +83,7 @@ ItemDisplay[mp4 CLVL>91]:
 
 / Rejuvs
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[rvl]: %PURPLE%R %WHITE%100%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 
 / Extra Junk
 ItemDisplay[aqv CLVL<6]: Arrows
@@ -292,7 +292,6 @@ ItemDisplay[t17 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20% // River of B
 ItemDisplay[t18 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20% // Phlegethon T2
 
 
-
 //PD2 Crafting Orbs
 ItemDisplay[wss]: %RED%%NAME% %MAP-62%
 ItemDisplay[lbox]: %PURPLE%+ %RED%%NAME% +%MAP-62%
@@ -313,17 +312,17 @@ ItemDisplay[(NMAG OR MAG OR RARE) !UNI !SET !RW (NORM OR EXC) (WP1 OR WP2 OR WP3
 //RUNES
 
 
-////////////TAKEN OUT to customize Stacked Vs Unstacked
+//TAKEN OUT to customize Stacked Vs Unstacked
 /ItemDisplay[RUNE<20]: %GRAY%[%TAN%%RUNENUM%%GRAY%]%TAN%%RUNENAME%%GRAY%[#%GRAY%%QTY%%GRAY%]
 /ItemDisplay[RUNE>19 RUNE<26]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
 /ItemDisplay[RUNE>25 RUNE<28]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
 /ItemDisplay[RUNE>27 RUNE<30]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
 /ItemDisplay[RUNE>29 RUNE<32]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
 /ItemDisplay[RUNE>31]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
-////////////
+//
 
 
-//////////Non Stacked Runes
+//Non Stacked Runes
 //1-16 
 ItemDisplay[r01]: %TAN%%RUNENAME% [%RUNENUM%] 
 ItemDisplay[r02]: %TAN%%RUNENAME% [%RUNENUM%] 
@@ -361,7 +360,7 @@ ItemDisplay[r31]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNE
 ItemDisplay[r32]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENUM%]%PURPLE%%MAP% 
 ItemDisplay[r33]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENUM%]%PURPLE%%MAP% 
 
-//////////Stacked Runes
+//Stacked Runes
 //1-16 
 /El
 ItemDisplay[r01s]: %TAN%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]{%WHITE%AHS: %GRAY%+15 DEFENSE, +1 to LIGHT RADIUS %NL% %WHITE%W: %GRAY%+50 to ATTACK RATING, +1 to LIGHT RADIUS }
@@ -470,8 +469,6 @@ ItemDisplay[GEMTYPE=6 GEM=1 CLVL>59]:
 ItemDisplay[GEMTYPE=7 GEM=1 CLVL>59]: 
 
 
-
-
 ItemDisplay[GEMTYPE=1 GEM=2 CLVL<60]: %PURPLE%O%WHITE% Flawed Amethyst %GRAY%   
 ItemDisplay[GEMTYPE=2 GEM=2 CLVL<60]: %WHITE%O Flawed Diamond %GRAY%            
 ItemDisplay[GEMTYPE=3 GEM=2 CLVL<60]: %DARK_GREEN%O %WHITE%Flawed Emerald %GRAY%
@@ -487,10 +484,6 @@ ItemDisplay[GEMTYPE=4 GEM=2 CLVL>59]:
 ItemDisplay[GEMTYPE=5 GEM=2 CLVL>59]: 
 ItemDisplay[GEMTYPE=6 GEM=2 CLVL>59]: 
 ItemDisplay[GEMTYPE=7 GEM=2 CLVL>59]: 
-
-
-
-
 
 
 ItemDisplay[GEMTYPE=1 GEM=3 CLVL<60]: %PURPLE%O%WHITE%Regular Amethyst %GRAY%   
@@ -614,8 +607,6 @@ ItemDisplay[skzs]: %LIGHT_GRAY%OO %ORANGE%PSkull %GRAY%%MAP%[%QTY%]{%WHITE%S:%GR
 /ItemDisplay[gpb]: %ORANGE%P %BLUE%SAPPHIRE%GRAY%[%GREY%%QTY%%GRAY%]
 /ItemDisplay[gpy]: %ORANGE%P %YELLOW%TOPAZ%GRAY%[%GREY%%QTY%%GRAY%]
 /ItemDisplay[skz]: %ORANGE%P %TAN%SKULL%GRAY%[%GREY%%QTY%%GRAY%]
-
-
 
 
 //SHOPPING
@@ -924,7 +915,7 @@ ItemDisplay[UNI !ID crn !ETH]: %GOLD%Undead Crown
 //Undead Crown ETH
 ItemDisplay[UNI !ID crn ETH]: %GRAY%ETH %GOLD% Undead Crown
 
-//////// ----  Unique HELM EXCEPTIONAL HELM Unique
+//Unique HELM EXCEPTIONAL HELM Unique
 
 //Peasant Crown (28)
 ItemDisplay[UNI !ID xap !ETH]: %RED%- %GOLD%Peasant Crown %RED%-
@@ -971,7 +962,7 @@ ItemDisplay[UNI !ID xrn !ETH]: %RED%Crown of Thieves
 //Crown of Thieves ETH
 ItemDisplay[UNI !ID xrn ETH]: %GRAY%ETH %RED%Crown of Thieves
 
-//////// ----  Unique HELM ELITE HELM Unique
+//Unique HELM ELITE HELM Unique
 
 //Shako (62)
 ItemDisplay[UNI !ID uap !ETH]: %PURPLE%OOOOOOOOOO %RED%Shako %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
@@ -1015,7 +1006,7 @@ ItemDisplay[UNI !ID usk !ETH]: %PURPLE%OOOOOOOOOO %RED%Andariel's Visage %PURPLE
 ItemDisplay[UNI !ID usk ETH]: %GRAY%ETH %RED%OOOOOOO %GOLD%Andariel's Visage %RED%OOOOOOO%MAP%
 
 ++++ Unique ARMORS
-//////// ----  Unique ARMOR NORMAL ARMOR Unique
+//Unique ARMOR NORMAL ARMOR Unique
 
 //Greyform (1)
 ItemDisplay[UNI !ID qui !ETH]: %GOLD%Greyform
@@ -1108,7 +1099,6 @@ ItemDisplay[UNI !ID aar !ETH]:  %GOLD%Silks of the Victor
 ItemDisplay[UNI !ID aar ETH]: %GRAY%ETH %GOLD% Silks of the Victor
 
 
-
 //Heavenly Garb (29)
 ItemDisplay[UNI !ID ltp !ETH]:  %GOLD%Heavenly Garb
 
@@ -1122,7 +1112,7 @@ ItemDisplay[UNI !ID gth !ETH]: %GOLD%Rattlecage
 //Rattlecage
 ItemDisplay[UNI !ID gth ETH]: %GRAY%ETH %GOLD% Rattlecage
 
-//////// ----  Unique ARMOR EXCEPTIONAL ARMOR Unique
+//Unique ARMOR EXCEPTIONAL ARMOR Unique
 
 //The Spirit Shroud (28)
 ItemDisplay[UNI !ID xui !ETH]:  %RED%The Spirit Shroud
@@ -1219,7 +1209,7 @@ ItemDisplay[UNI !ID xar !ETH]: %GOLD%Corpsemourn
 //Corpsemourn
 ItemDisplay[UNI !ID xar ETH]: %GRAY%ETH %GOLD% Corpsemourn
 
-//////// ----  Unique ARMOR ELITE ARMOR Unique
+//Unique ARMOR ELITE ARMOR Unique
 
 //Leviathan (65)
 ItemDisplay[UNI !ID uld !ETH]: %PURPLE%OOOOOO %RED%Leviathan %PURPLE%OOOOOO%PURPLE%%MAP%
@@ -1254,8 +1244,6 @@ ItemDisplay[UNI !ID utu ETH]: %GRAY%ETH %PURPLE%OOOO %RED%The Gladiator's Bane %
 ItemDisplay[UNI !ID upl !ETH]: %PURPLE%OOOO %RED%Arkaine's Valor %PURPLE%OOOO%MAP%
 //Arkaine's Valor
 ItemDisplay[UNI !ID upl ETH]: %GRAY%ETH %PURPLE%OOOO %RED%Arkaine's Valor %PURPLE%OOOO%MAP%
-
-
 
 
 ++++ Unique SHIELDS 
@@ -1318,7 +1306,7 @@ ItemDisplay[UNI !ID gts !ETH]: %GOLD%The Ward
 ItemDisplay[UNI !ID gts ETH]: %GRAY%ETH %GOLD% The Ward
 
 
-//////// ----  Unique SHIELD EXCEPTIONAL SHIELD Unique
+//Unique SHIELD EXCEPTIONAL SHIELD Unique
 
 //Visceratuant (28)
 ItemDisplay[UNI !ID xuc !ETH]: %GOLD%Visceratuant
@@ -1373,7 +1361,7 @@ ItemDisplay[UNI !ID xts !ETH]:  %RED%O Radament's Sphere %RED%O
 //Radament's Sphere
 ItemDisplay[UNI !ID xts ETH]: %GRAY%ETH %GOLD% Radament's Sphere
 
-//////// ----  Unique SHIELD ELITE SHIELD Unique
+//Unique SHIELD ELITE SHIELD Unique
 
 //Blackoak Shield (61)
 ItemDisplay[UNI !ID uml !ETH]: %GOLD%Blackoak Shield
@@ -1447,7 +1435,7 @@ ItemDisplay[UNI !ID hgl !ETH]: %PURPLE%OOOOO %RED%Frostburn %PURPLE%OOOOO%RED%%M
 //Frostburn
 ItemDisplay[UNI !ID hgl ETH]: %GRAY%ETH %GOLD% Frostburn
 
-//////// ----  Unique GLOVES EXCEPTIONAL GLOVES Unique
+//Unique GLOVES EXCEPTIONAL GLOVES Unique
 
 //Venom Grip (29)
 ItemDisplay[UNI !ID xlg !ETH]:  %GOLD%Venom Grip
@@ -1483,7 +1471,7 @@ ItemDisplay[UNI !ID xhg !ETH]:  %GOLD%Hellmouth
 //Hellmouth
 ItemDisplay[UNI !ID xhg ETH]: %GRAY%ETH %GOLD% Hellmouth
 
-//////// ----  Unique GLOVES ELITE GLOVES Unique
+//Unique GLOVES ELITE GLOVES Unique
 
 //Steelrend (70)
 ItemDisplay[UNI !ID uhg !ETH]:  %RED%Steelrend
@@ -1501,10 +1489,9 @@ ItemDisplay[UNI !ID uvg !ETH]: %PURPLE%OOOOOOOOOO %RED%Dracul's Grasp %PURPLE%OO
 ItemDisplay[UNI !ID uvg ETH]: %GRAY%ETH %GOLD% Dracul's Grasp
 
 
-
 ++++ Unique BOOTS
 
-//////// ----  Unique BOOTS NORMAL BOOTS Unique
+//Unique BOOTS NORMAL BOOTS Unique
 
 //Hotspur (5)
 ItemDisplay[UNI !ID lbt !ETH]:  %GOLD%Hotspur
@@ -1539,7 +1526,7 @@ ItemDisplay[UNI !ID hbt !ETH]: %GOLD%Tearhaunch
 //Tearhaunch
 ItemDisplay[UNI !ID hbt ETH]: %GRAY%ETH %GOLD% Tearhaunch
 
-//////// ---- Unique BOOTS EXCEPTIONAL BOOTS Unique
+//Unique BOOTS EXCEPTIONAL BOOTS Unique
 
 //Infernostride (29)
 ItemDisplay[UNI !ID xlb !ETH]:  %RED%Infernostride
@@ -1571,7 +1558,7 @@ ItemDisplay[UNI !ID xhb !ETH]: %PURPLE%OOOOOOOOOO %RED%Gore Rider %PURPLE%OOOOOO
 //Gore Rider
 ItemDisplay[UNI !ID xhb ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Gore Rider %PURPLE%OOOOOOOOOO%MAP%
 
-//////// ---- Unique BOOTS ELITE BOOTS Unique
+//Unique BOOTS ELITE BOOTS Unique
 
 //Sandstorm Trek (64)
 ItemDisplay[UNI !ID uvb !ETH]: %RED%Sandstorm Trek
@@ -1591,7 +1578,7 @@ ItemDisplay[UNI !ID uhb ETH]: %GRAY%ETH %PURPLE%OOO %RED%Shadow Dancer %PURPLE%O
 
 ++++ Unique BELTS
 
-//////// ---- Unique BELTS NORMAL BELTS Unique ----
+//Unique BELTS NORMAL BELTS Unique
 
 //Lenymo (7)
 ItemDisplay[UNI !ID lbl !ETH]: %PURPLE%OOOOOOOOO %RED%Lenymo %PURPLE%OOOOOOOOO
@@ -1626,7 +1613,7 @@ ItemDisplay[UNI !ID hbl !ETH]:  %GOLD%Bladebuckle
 ItemDisplay[UNI !ID hbl ETH]: %GRAY%ETH %GOLD% Bladebuckle
 
 
-/         Unique BELTS EXCEPTIONAL BELTS Unique  
+//Unique BELTS EXCEPTIONAL BELTS Unique  
 
 //String of Ears (29)
 ItemDisplay[UNI !ID zlb !ETH]: %RED%O String of Ears O
@@ -1654,7 +1641,7 @@ ItemDisplay[UNI !ID zhb !ETH]: %PURPLE%OOOOOOOOOO %RED%Thundergod's Vigor OOOOOO
 //Thundergod's Vigor
 ItemDisplay[UNI !ID zhb ETH]: %GRAY%ETH %RED% Thundergod's Vigor
 
-/           Unique BELTS ELITE BELTS Unique
+//Unique BELTS ELITE BELTS Unique
 
 //Nosferatu's Coil (51)
 ItemDisplay[UNI !ID uvc !ETH]: %PURPLE%OOOOOOO %RED%Nosferatu's Coil %PURPLE%OOOOOOO
@@ -1674,7 +1661,7 @@ ItemDisplay[UNI !ID ulc ETH]: %GRAY%ETH %PURPLE%OOO %RED%Arachnid Mesh %PURPLE%O
 ++++ Unique WEAPONS
 
 ++++ Unique Axes 
-/             Unique AXE NORMAL AXE Unique
+//Unique AXE NORMAL AXE Unique
 
 /
 ////
@@ -1754,7 +1741,7 @@ ItemDisplay[UNI !ID gix !ETH]: %GOLD%Humongous
 //Humongous
 ItemDisplay[UNI !ID gix ETH]: %GRAY%ETH %GOLD% Humongous
 
-/           Unique AXE EXCEPTIONAL AXE Unique
+//Unique AXE EXCEPTIONAL AXE Unique
 
 ////
 /////////////////One handed axes
@@ -1833,7 +1820,7 @@ ItemDisplay[UNI !ID 9gi !ETH]:  %RED%The Minotaur
 //The Minotaur
 ItemDisplay[UNI !ID 9gi ETH]: %GRAY%ETH %GOLD% The Minotaur
 
-/             Unique AXE ELITE AXE Unique
+//Unique AXE ELITE AXE Unique
 
 /
 ////
@@ -1899,7 +1886,7 @@ ItemDisplay[UNI !ID 7gi ETH]:  %GRAY%ETH %RED% Executioner's Justice
 
 ++++ Unique BOWS
 
-/             Unique BOW NORMAL BOW Unique
+//Unique BOW NORMAL BOW Unique
 
 //Pluckeye
 ItemDisplay[UNI !ID sbw]: %GOLD%Pluckeye
@@ -1934,7 +1921,7 @@ ItemDisplay[UNI !ID swb]: %GOLD%Hellclap
 ItemDisplay[UNI !ID lwb]: %GOLD%Blastbark
 
 
-/           Unique BOW EXCEPTIONAL BOW Unique
+//Unique BOW EXCEPTIONAL BOW Unique
 
 //Skystrike
 ItemDisplay[UNI !ID 8sb]: %GOLD%Skystrike
@@ -1967,7 +1954,7 @@ ItemDisplay[UNI !ID 8sw]: %RED%Magewrath
 //Goldstrike Arch
 ItemDisplay[UNI !ID 8lw]: %RED%O Goldstrike Arch %RED%O
 
-/             Unique BOW ELITE BOW Unique
+//Unique BOW ELITE BOW Unique
 
 //Widowmaker
 ItemDisplay[UNI !ID 6sw]: %RED%Widowmaker
@@ -1980,9 +1967,9 @@ ItemDisplay[UNI !ID 6l7]: %RED%Eaglehorn
 //Windforce
 ItemDisplay[UNI !ID 6lw]: %PURPLE%OOOOOOOOOO %RED%Windforce %PURPLE%OOOOOOOOOO%MAP%
 
-++++ Unique Crossbows ++++ START
+++++ Unique Crossbows
 
-/             Unique CROSSBOW NORMAL CROSSBOW Unique
+//Unique CROSSBOW NORMAL CROSSBOW Unique
 
 //Leadcrow
 ItemDisplay[UNI !ID lxb]: %GOLD%Leadcrow
@@ -1999,7 +1986,7 @@ ItemDisplay[UNI !ID hxb]: %GOLD%Hellcast
 //Doomslinger
 ItemDisplay[UNI !ID rxb]: %RED%O Doomslinger %RED%O
 
-/           Unique CROSSBOW EXCEPTIONAL CROSSBOW Unique
+//Unique CROSSBOW EXCEPTIONAL CROSSBOW Unique
 
 //Langer Briser
 ItemDisplay[UNI !ID 8lx]: %GOLD%Langer Briser
@@ -2016,7 +2003,7 @@ ItemDisplay[UNI !ID 8hx]: %RED%Buriza-Do Kyanon
 //Demon Machine
 ItemDisplay[UNI !ID 8rx]: %GOLD%Demon Machine
 
-/             Unique CROSSBOW ELITE CROSSBOW Unique
+//Unique CROSSBOW ELITE CROSSBOW Unique
 //Hellrack
 ItemDisplay[UNI !ID 6hx]: %GOLD%Hellrack
 
@@ -2027,7 +2014,7 @@ ItemDisplay[UNI !ID 6rx]: %GOLD%Gut Siphon
 
 ++++ Unique Daggers
 
-/             Unique DAGGER NORMAL DAGGER Unique
+//Unique DAGGER NORMAL DAGGER Unique
 
 //Gull
 ItemDisplay[UNI !ID dgr !ETH]:  %RED%O Gull %RED%O
@@ -2057,7 +2044,7 @@ ItemDisplay[UNI !ID bld !ETH]:  %GOLD%Spectral Shard
 ItemDisplay[UNI !ID bld ETH]: %GRAY%ETH %GOLD% Spectral Shard
 
 
-/           Unique DAGGER EXCEPTIONAL DAGGER Unique
+//Unique DAGGER EXCEPTIONAL DAGGER Unique
 
 //Spineripper
 ItemDisplay[UNI !ID 9dg !ETH]: %GOLD%Spineripper
@@ -2087,7 +2074,7 @@ ItemDisplay[UNI !ID 9bl !ETH]: %GOLD%Stormspike
 ItemDisplay[UNI !ID 9bl ETH]: %GRAY%ETH %GOLD% Stormspike
 
 
-/             Unique DAGGER ELITE DAGGER Unique
+//Unique DAGGER ELITE DAGGER Unique
 
 //Wizardspike
 ItemDisplay[UNI !ID 7dg !ETH]:  %RED%O Wizardspike %RED%O
@@ -2107,7 +2094,7 @@ ItemDisplay[UNI !ID 7kr ETH]:  %GRAY%ETH %RED% Fleshripper
 ItemDisplay[UNI !ID 7bl ETH]:  %GRAY%ETH %RED% Ghostflame
 
 
-++++ Unique Maces ++++ START
+++++ Unique Maces
 
 /             Unique MACE NORMAL MACE Unique
 
@@ -2243,7 +2230,7 @@ ItemDisplay[UNI !ID 9m9 !ETH]: %GOLD%Bloodtree Stump
 ItemDisplay[UNI !ID 9m9 ETH]: %GRAY%ETH %GOLD% Bloodtree Stump
 
 
-/             Unique MACE ELITE MACE Unique
+//Unique MACE ELITE MACE Unique
 
 /
 ////
@@ -2304,7 +2291,7 @@ ItemDisplay[UNI !ID 7gm ETH]: %GRAY%ETH %RED%OOO Earth Shifter or The Cranium Ba
 
 
 ++++ Unique Polearms 
-/             Unique POLEARM NORMAL POLEARM Unique
+//Unique POLEARM NORMAL POLEARM Unique
 
 //Dimoak's Hew
 ItemDisplay[UNI !ID bar !ETH]: %GOLD%Dimoak's Hew
@@ -2348,7 +2335,7 @@ ItemDisplay[UNI !ID wsc !ETH]:  %GOLD%The Grim Reaper
 ItemDisplay[UNI !ID wsc ETH]: %GRAY%ETH %GOLD% The Grim Reaper
 
 
-/           Unique POLEARM EXCEPTIONAL POLEARM Unique
+//Unique POLEARM EXCEPTIONAL POLEARM Unique
 
 //The Meat Scraper
 ItemDisplay[UNI !ID 9b7 !ETH]: %GOLD%The Meat Scraper
@@ -2393,7 +2380,7 @@ ItemDisplay[UNI !ID 9wc !ETH]:  %GOLD%Grim's Burning Dead
 ItemDisplay[UNI !ID 9wc ETH]: %GRAY%ETH %GOLD% Grim's Burning Dead
 
 
-/             Unique POLEARM ELITE POLEARM Unique
+//Unique POLEARM ELITE POLEARM Unique
 
 //Bonehew
 ItemDisplay[UNI !ID 7o7 !ETH]:  %RED%Bonehew
@@ -2422,10 +2409,8 @@ ItemDisplay[UNI !ID 7s8 ETH]: %GRAY%ETH %PURPLE%OOOOOO  Reaper's Toll %PURPLE%OO
 
 
 
-
-
 ++++ Unique Scepters
-/             Unique SCEPTER NORMAL SCEPTER Unique
+//Unique SCEPTER NORMAL SCEPTER Unique
 
 //Knell Striker
  ItemDisplay[UNI !ID scp !ETH]: %GOLD%Knell Striker
@@ -2448,7 +2433,7 @@ ItemDisplay[UNI !ID wsp !ETH]: %GOLD%Stormeye
 ItemDisplay[UNI !ID wsp ETH]:%GRAY%ETH %GOLD% Stormeye
 
 
-/           Unique SCEPTER EXCEPTIONAL SCEPTER Unique
+//Unique SCEPTER EXCEPTIONAL SCEPTER Unique
 
 //Zakarum's Hand
 ItemDisplay[UNI !ID 9sc !ETH]: %GOLD%Zakarum's Hand
@@ -2471,8 +2456,7 @@ ItemDisplay[UNI !ID 9ws !ETH]:  %RED%Hand of Blessed Light
 ItemDisplay[UNI !ID 9ws ETH]: %GRAY%ETH %GOLD% Hand of Blessed Light
 
 
-
-/             Unique SCEPTER ELITE SCEPTER Unique
+//Unique SCEPTER ELITE SCEPTER Unique
 
 //Heaven's Light or the Redeemer
 ItemDisplay[UNI !ID 7sc !ETH]:  %RED%O Heaven's Light or the Redeemer %RED%O
@@ -2488,10 +2472,8 @@ ItemDisplay[UNI !ID 7ws !ETH]: %RED%O Astreon's Iron Ward %RED%O
 ItemDisplay[UNI !ID 7ws ETH]:  %GRAY%ETH %RED% Astreon's Iron Ward
 
 
-
-
 ++++ Unique Spears
-/             Unique SPEAR NORMAL SPEAR Unique
+//Unique SPEAR NORMAL SPEAR Unique
 
 //The Dragon Chang
 ItemDisplay[UNI !ID spr !ETH]: %GOLD%The Dragon Chang
@@ -2527,7 +2509,7 @@ ItemDisplay[UNI !ID pik !ETH]: %GOLD%The Tannr Gorerod
 //The Tannr Gorerod
 ItemDisplay[UNI !ID pik ETH]: %GRAY%ETH %GOLD% The Tannr Gorerod
 
-/           Unique SPEAR EXCEPTIONAL SPEAR Unique
+//Unique SPEAR EXCEPTIONAL SPEAR Unique
 
 //The Impaler
 ItemDisplay[UNI !ID 9sr !ETH]: %GOLD%The Impaler
@@ -2564,7 +2546,7 @@ ItemDisplay[UNI !ID 9p9 !ETH]: %GOLD%Spire of Honor
 ItemDisplay[UNI !ID 9p9 ETH]: %GRAY%ETH %GOLD% Spire of Honor
 
 
-/             Unique SPEAR ELITE SPEAR Unique
+//Unique SPEAR ELITE SPEAR Unique
 
 //Viperfork
 ItemDisplay[UNI !ID 7br !ETH]: %RED%O Viperfork %RED%O
@@ -2587,15 +2569,8 @@ ItemDisplay[UNI !ID 7sr !ETH]: %RED%Arioc's Needle
 ItemDisplay[UNI !ID 7sr ETH]: %GRAY%ETH %GOLD% Arioc's Needle
 
 
-
-
-
-
-
-
-
 ++++ Unique Staves
-/             Unique STAVE NORMAL STAVE Unique
+/Unique STAVE NORMAL STAVE Unique
 
 //Bane Ash
 ItemDisplay[UNI !ID sst !ETH]: %GOLD%Bane Ash
@@ -2632,7 +2607,7 @@ ItemDisplay[UNI !ID wst !ETH]: %GOLD%The Iron Jang Bong
 ItemDisplay[UNI !ID wst ETH]:%GRAY%ETH %GOLD% The Iron Jang Bong
 
 
-/           Unique STAVE EXCEPTIONAL STAVE Unique
+//Unique STAVE EXCEPTIONAL STAVE Unique
 
 //Razorswitch
 ItemDisplay[UNI !ID 8ss !ETH]: %GOLD%Razorswitch
@@ -2669,7 +2644,7 @@ ItemDisplay[UNI !ID 8ws !ETH]: %GOLD%Skull Collector
 ItemDisplay[UNI !ID 8ws ETH]: %GRAY%ETH %GOLD% Skull Collector
 
 
-/             Unique STAVE ELITE STAVE Unique
+//Unique STAVE ELITE STAVE Unique
 
 //Ondal's Wisdom
 ItemDisplay[UNI !ID 6cs !ETH]:  %RED%O %PURPLE%Ondal's Wisdom %RED%O
@@ -2686,19 +2661,8 @@ ItemDisplay[UNI !ID 6ws ETH]: %GRAY%ETH %RED%Mang Song's Lesson
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ++++ Unique Swords
-/             Unique SWORD NORMAL SWORD Unique
+//Unique SWORD NORMAL SWORD Unique
 
 /
 ////
@@ -2800,7 +2764,7 @@ ItemDisplay[UNI !ID gsd !ETH]: %GOLD% The Patriarch
  ItemDisplay[UNI !ID gsd ETH]: %GRAY%ETH %GOLD% The Patriarch
 
 
-/           Unique SWORD EXCEPTIONAL SWORD Unique
+//Unique SWORD EXCEPTIONAL SWORD Unique
 
 /
 ////
@@ -2901,7 +2865,7 @@ ItemDisplay[UNI !ID 9fb !ETH]:  %RED%O Todesfaelle Flamme %RED%O
 //Todesfaelle Flamme (The RF Sword)
 ItemDisplay[UNI !ID 9fb ETH]:  %GRAY%ETH %RED% Todesfaelle Flamme
 
-/             Unique SWORD ELITE SWORD Unique
+//Unique SWORD ELITE SWORD Unique
 
 ////
 /////////////////One handed swords
@@ -2961,11 +2925,9 @@ ItemDisplay[UNI !ID 7gd !ETH]:  %PURPLE%OOOOOOOOOOOO %RED%The Grandfather %PURPL
 ItemDisplay[UNI !ID 7gd ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOOOO %RED%The Grandfather %PURPLE%OOOOOOOOOOOO%MAP%
 
 
-
-
 ++++ Unique Wands
 
-/             Unique WAND NORMAL WAND Unique
+//Unique WAND NORMAL WAND Unique
 
 //Torch of Iro
 ItemDisplay[UNI !ID wnd !ETH]:  %GOLD%Torch of Iro
@@ -3025,7 +2987,7 @@ ItemDisplay[UNI !ID 9gw !ETH]:  %GOLD%Blackhand Key
 ItemDisplay[UNI !ID 9gw ETH]: %GRAY%ETH %GOLD% Blackhand Key
 
 
-/             Unique WAND ELITE WAND Unique
+//Unique WAND ELITE WAND Unique
 
 //Boneshade (can get +7 Teeth +7 Bone Armor)
 ItemDisplay[UNI !ID 7bw !ETH]: %RED%Boneshade
@@ -3042,10 +3004,8 @@ ItemDisplay[UNI !ID 7gw !ETH]: %PURPLE%OOOOOOOOOOOOO %RED%Death's Web %PURPLE%OO
 ItemDisplay[UNI !ID 7gw ETH]: %GRAY%ETH %PURPLE%OOOOO %RED%Death's Web %PURPLE%OOOOO%PURPLE%%MAP%
 
 
-
-
 ++++ Unique Throwing 
-/           Unique Throw EXCEPTIONAL Throw Unique
+//Unique Throw EXCEPTIONAL Throw Unique
 
 //Deathbit
 ItemDisplay[UNI !ID 9tk !ETH]:  %GOLD%Deathbit
@@ -3059,7 +3019,7 @@ ItemDisplay[UNI !ID 9ta !ETH]:  %GOLD%The Scalper
 //ETH The Scalper
 ItemDisplay[UNI !ID 9ta ETH]:%GRAY%ETH %RED%O The Scalper %RED%O
 
-/             Unique Throw ELITE Throw Unique
+//Unique Throw ELITE Throw Unique
 
 //Warshrike
 ItemDisplay[UNI !ID 7bk !ETH]: %PURPLE%OOOOOOOOOO %RED%Warshrike %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
@@ -3077,13 +3037,8 @@ ItemDisplay[UNI !ID 7b8 !ETH]: %RED%OOOOOOOOOO %GOLD%Lacerator %RED%OOOOOOOOOO%R
 ItemDisplay[UNI !ID 7b8 ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Lacerator %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 
 
-
-
-
-
-
 ++++ Unique Javelins
-/             Unique JAVELIN ELITE JAVELIN Unique
+//Unique JAVELIN ELITE JAVELIN Unique
 
 //Demon's Arch
 ItemDisplay[UNI !ID 7s7 !ETH]: %GOLD%Demon's Arch
@@ -3102,17 +3057,9 @@ ItemDisplay[UNI !ID 7ts !ETH]: %GOLD%Gargoyle's Bite
 ItemDisplay[UNI !ID 7ts ETH]:  %GRAY%ETH %RED% Gargoyle's Bite
 
 
+++++ Unique Amazon Items
 
-
-
-
-
-
-
-
-++++ Unique Amazon Items ++++ START
-
-/             Unique WEAPON AMAZON WEAPON Unique
+//Unique WEAPON AMAZON WEAPON Unique
 
 //Stoneraven
 ItemDisplay[UNI !ID amd !ETH]: %GOLD%Stoneraven
@@ -3146,15 +3093,8 @@ ItemDisplay[UNI !ID amf ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Thunderstroke %P
 ItemDisplay[UNI !ID amb]: %GOLD%Blood Raven's Charge
 
 
-
-
-
-
-
-
-
 ++++ Unique Assassin Items
-/             Unique WEAPON ASSASSIN WEAPON Unique
+//Unique WEAPON ASSASSIN WEAPON Unique
 
 //ETH Shadow Killer
 ItemDisplay[UNI !ID 7cs ETH]: %GRAY%ETH %GOLD%Shadow Killer
@@ -3175,16 +3115,8 @@ ItemDisplay[UNI !ID 7lw !ETH]:  %RED%Firelizard's Talons
 ItemDisplay[UNI !ID 7lw ETH]: %GRAY%ETH %RED%Firelizard's Talons
 
 
-
-
-
-
-
-
-
-
 ++++ Unique Necromancer Items 
-/             Unique WEAPON NECROMANCER WEAPON Unique
+//Unique WEAPON NECROMANCER WEAPON Unique
 //Homunculus
 ItemDisplay[UNI !ID nea !ETH]: %PURPLE%OOOOOOOOOO %RED%Homunculus %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 //Homunculus
@@ -3204,13 +3136,8 @@ ItemDisplay[UNI !ID nee ETH]: %GRAY%ETH %GOLD% Boneflame
 
 
 
-
-
-
-
-
-++++ Unique Barbarian Items ++++ START
-/             Unique WEAPON BARBARIAN WEAPON Unique
+++++ Unique Barbarian Items
+//Unique WEAPON BARBARIAN WEAPON Unique
 //Arreat's Face
 ItemDisplay[UNI !ID baa !ETH]: %PURPLE%OOOOOOOOOO %RED%Arreat's Face %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 //Arreat's Face
@@ -3232,19 +3159,14 @@ ItemDisplay[UNI !ID bae !ETH]: %PURPLE%OOOOOOOOOO %RED%Halaberd's Reign %PURPLE%
 ItemDisplay[UNI !ID bae ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Halaberd's Reign %PURPLE%OOOOOOOOOO%PURPLE%%MAP% 
 
 
-
-
-
-
-
-
-//Unique Sorceress Items
-/             Unique WEAPON SORCERESS WEAPON Unique
+++++ Unique Sorceress Items
+//Unique WEAPON SORCERESS WEAPON Unique
 //The Oculus
 ItemDisplay[UNI !ID oba !ETH]: %PURPLE%OOOOOOOOOO %RED%The Oculus %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 //The Oculus
 ItemDisplay[UNI !ID oba ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%The Oculus %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 //Eschuta's Temper
+
 ItemDisplay[UNI !ID obc !ETH]: %PURPLE%OOOOOOOOOO %RED%Eschuta's Temper %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 //Eschuta's Temper
 ItemDisplay[UNI !ID obc ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Eschuta's Temper %PURPLE%OOOOOOOOOO%PURPLE%%MAP% 
@@ -3253,15 +3175,8 @@ ItemDisplay[UNI !ID obf !ETH]: %PURPLE%OOOOOOOOOO %RED%Death's Fathom %PURPLE%OO
 //Death's Fathom
 ItemDisplay[UNI !ID obf ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Death's Fathom %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
 
-
-
-
-
-
-
-
 ++++ Unique Druid Items
-/             Unique WEAPON DRUID WEAPON Unique
+///Unique WEAPON DRUID WEAPON Unique
 
 //Jalal's Mane
 ItemDisplay[UNI !ID dra !ETH]: %PURPLE%OOOOOOOOOO %RED%Jalal's Mane %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
@@ -4460,8 +4375,6 @@ ItemDisplay[7kr !ETH !RW NMAG ED=15]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%
 ItemDisplay[7bl !ETH !RW NMAG ED=15]: %GRAY%%NAME%%BLUE% +15%ED %GRAY%[%SOCKETS%]
 
 
-
-
 //Mancatcher +15ED
 ////ItemDisplay[7br !ETH !RW NMAG (SOCK=0 OR SOCK=4) ED>0 ED<15]: %DARK_GREEN%%NAME%%BLUE% +%ED %RED%[%SOCKETS%]
 ItemDisplay[7br !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: %DARK_GREEN%%NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
@@ -4805,7 +4718,6 @@ ItemDisplay[WP12 !UNI (CLSK2=2 AND SK94=3)]:
 ItemDisplay[WP12 MAG (TABSK18=3 AND SK79=3)]:
 
 
-
 //SHIELDS
 //4os Monarch, +ed Monarch 4os
 ItemDisplay[uit SUP !ETH !RW NMAG ED>0 ED<10 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
@@ -4825,7 +4737,6 @@ ItemDisplay[uit ETH SOCK=0 NMAG CLVL<80]: ETH %NAME%
 
 
 ItemDisplay[uit SUP ETH SOCK=4 NMAG]: ETH %NAME% %YELLOW%[%SOCKETS%]
-
 
 
 /////Paladin Shields
@@ -5612,11 +5523,7 @@ ItemDisplay[(ob1 OR ob2 OR ob3 OR ob4 OR ob5 OR ob6 OR ob7 OR ob8 OR ob9 OR oba 
 ItemDisplay[(dr1 OR dr2 OR dr3 OR dr4 OR dr5 OR dr6 OR dr7 OR dr8 OR dr9 OR dra OR drb OR drc OR drd OR dre OR drf) !ID !UNI CLVL>85]:
 
 
-
-
-
-
-//IGNORE MANY ITEMS AT ONCE----START
+//IGNORE MANY ITEMS AT ONCE
 // Ignore all inferior items
 
 ItemDisplay[INF CLVL<10]: %NAME%
@@ -5639,8 +5546,6 @@ ItemDisplay[NMAG EXC ELT EQ2 SOCK=0]:
 //ormal Circlets///
 ItemDisplay[(ci0 OR ci1 OR ci2 OR ci3)!UNI !RARE !RW]:
 
-
-
 ItemDisplay[MAG !ID uhg]: 
 ItemDisplay[NMAG lsd]:
 ItemDisplay[NMAG 7p7]:
@@ -5648,10 +5553,6 @@ ItemDisplay[NMAG CL1 CLVL>90]:
 ItemDisplay[NMAG CL3 CLVL>90]:
 ItemDisplay[NMAG CL5]:
 ItemDisplay[NMAG SOCK=1]:
-
-
-
-
 
 
 /???????????
@@ -5690,10 +5591,6 @@ ItemDisplay[WP13 NMAG !SK118>2 !SK119>2 !SK114>2 !SK102>2 !SK101>2]:
 ItemDisplay[NMAG ILVL>6 !CL1 !CL2 !CL4 !CL5 !CL6 !WP11 !WP13]:
 ItemDisplay[ETH SOCK>0]: %NAME% %DARK_GREEN%[%SOCKETS%] %GRAY%ETH
 ItemDisplay[ETH SOCK=0]: ETH %NAME%
-/???????????
-
-
-
 
 
 // Kill crap stuff right away
