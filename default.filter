@@ -3199,16 +3199,9 @@ ItemDisplay[UNI !ID drd !ETH]: %PURPLE%OOOOOOOOOO %RED%Spirit Keeper %PURPLE%OOO
 ItemDisplay[UNI !ID drd ETH]: %GRAY%ETH %PURPLE%OOOOOOOOOO %RED%Spirit Keeper %PURPLE%OOOOOOOOOO%PURPLE%%MAP% 
 
 
-
-
-
-
-
-
-
 ++++ Unique Paladin Items
 
-/             Unique WEAPON PALADIN WEAPON Unique
+//Unique WEAPON PALADIN WEAPON Unique
 
 //Alma Negra
 ItemDisplay[UNI !ID pac !ETH]: %RED%OOOOOO Alma Negra OOOOOO
@@ -3226,11 +3219,7 @@ ItemDisplay[UNI !ID pae !ETH]: %RED%O Dragonscale %RED%O
 ItemDisplay[UNI !ID pae ETH]: %GRAY%ETH %RED% Dragonscale
 
 
-
-
 //SETS
-
-
 
 //Sigon's Complete Steel
 //
@@ -3246,7 +3235,6 @@ ItemDisplay[SET !ID tow]: %GREEN%%NAME% %DARK_GREEN%Sigon's
 ItemDisplay[SET !ID hbl]: %GREEN%%NAME% %DARK_GREEN%Sigon's
 //Sigon's Gage
 ItemDisplay[SET !ID hgl]: %GREEN%%NAME% %DARK_GREEN%Sigon's
-
 
 
 //Immortal King
@@ -3583,12 +3571,7 @@ ItemDisplay[SET !ID 7ls ETH]: %RED%O %GREEN%ETH %NAME% %DARK_GREEN%Sazabi's %RED
 //Sazabi's Ghost Liberator
 ItemDisplay[SET !ID upl]: %RED%O %GREEN%%NAME% %DARK_GREEN%Sazabi's %RED%O
 
-
-
-
 //BASE ITEMS
-
-
 
 //WEAPONS
 
@@ -4453,9 +4436,6 @@ ItemDisplay[WP11 NMAG SOCK=4 SK49=3]: %DARK_GREEN%%NAME% %ORANGE%+3 Lightning Su
 ////ItemDisplay[WP11 NMAG SK47=2 !SOCK=3 ILVL<50]:
 
 
-
-
-
 ////Scepters////
 //
 //Magic Scepters
@@ -4482,8 +4462,6 @@ ItemDisplay[WP13 !ETH (TABSK24=3 AND SK121=3)]: %NAME% %ORANGE%+3 Combat +3 FoH 
 ItemDisplay[WP13 !ETH (TABSK24=3 AND SK101=3)]: %NAME% %ORANGE%+3 Combat +3 Holy Bolt %PURPLE%[%SOCKETS%]
 ////ItemDisplay[WP13 !ETH (CLSK3=2 AND SK112=3)]: %NAME% %ORANGE%+2 Paladin Skills +3 Blessed Hammer %RED%[%SOCKETS%]
 ////ItemDisplay[WP13 !ETH (TABSK24=3 AND SK112=3)]: %NAME% %ORANGE%+3 Combat +3 Blessed Hammer %RED%[%SOCKETS%]
-
-
 
 ////Amazon Bows////
 //
@@ -4548,8 +4526,6 @@ ItemDisplay[WP9 !CL7 NMAG !6sb ELT ED=15 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +15%E
 ItemDisplay[WP9 !CL7 NMAG ELT ED=15 (SOCK=2 OR SOCK=3)]: %DARK_GREEN%%NAME%%BLUE% +15%ED %WHITE%[%SOCKETS%]
 ////ItemDisplay[hbw NMAG SOCK=4]: %NAME% %GRAY%[%SOCKETS%]
 ////ItemDisplay[WP9 !CL7 NMAG ILVL>54]:
-
-
 
 
 ////Assassin Claws////
@@ -4717,7 +4693,6 @@ ItemDisplay[WP12 !UNI (TABSK18=2 AND SK94=3)]:
 ItemDisplay[WP12 !UNI (CLSK2=2 AND SK94=3)]: 
 ItemDisplay[WP12 MAG (TABSK18=3 AND SK79=3)]:
 
-
 //SHIELDS
 //4os Monarch, +ed Monarch 4os
 ItemDisplay[uit SUP !ETH !RW NMAG ED>0 ED<10 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
@@ -4737,7 +4712,6 @@ ItemDisplay[uit ETH SOCK=0 NMAG CLVL<80]: ETH %NAME%
 
 
 ItemDisplay[uit SUP ETH SOCK=4 NMAG]: ETH %NAME% %YELLOW%[%SOCKETS%]
-
 
 /////Paladin Shields
 ItemDisplay[CL3 !ETH NMAG RES<35 RES>19 !SOCK=1]:
@@ -4807,8 +4781,6 @@ ItemDisplay[urg !RW NMAG ED=12 SOCK=3]:
 ItemDisplay[urg !RW NMAG ED=13 SOCK=3]: 
 ItemDisplay[urg !RW NMAG ED=14 SOCK=3]: 
 ItemDisplay[urg !RW NMAG ED=15 SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
-
-
 
 //BODY ARMORS
 
@@ -4956,8 +4928,6 @@ ItemDisplay[uth ETH NMAG !SUP (SOCK=3 OR SOCK=4)]: %LIGHT_GRAY%ETH %GRAY%%NAME% 
 ItemDisplay[uul ETH NMAG !SUP (SOCK=3 OR SOCK=4)]: %LIGHT_GRAY%ETH %GRAY%%NAME% [%SOCKETS%]
 ItemDisplay[uar ETH NMAG !SUP (SOCK=3 OR SOCK=4)]: %LIGHT_GRAY%ETH %GRAY%%NAME% [%SOCKETS%]
 ItemDisplay[utp ETH NMAG !SUP (SOCK=3 OR SOCK=4)]: %LIGHT_GRAY%ETH %GRAY%%NAME% [%SOCKETS%]
-
-
 
 //NON ETH Armor +ED
 //
@@ -5162,8 +5132,6 @@ ItemDisplay[NMAG SOCK>1 ILVL<41 ltp]:%GRAY%%NAME%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK>3 xtp]:%GRAY%ETH %NAME%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK>1 xtp]:%GRAY%%NAME%[%SOCKETS%]
 
-
-
 //HELMS
 
 ////NON ETH Helms////
@@ -5202,17 +5170,11 @@ ItemDisplay[NMAG SOCK=3 !ETH msk]: %NAME% [%SOCKETS%]
 ItemDisplay[NMAG SOCK=3 !ETH xsk]: %NAME% [%SOCKETS
 
 
-
-/??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
-
-
 ////Shrunken Heads////
 //
 ItemDisplay[CL4 !ETH NMAG (SK67=3 AND SK84=3) !SOCK=1]:%NAME%
 ItemDisplay[CL4 !ETH NMAG (SK92=3 AND SK83=3) !SOCK=1]:%NAME%
 ItemDisplay[CL4 MAG !ID]:
-
-
 
 
 //Non Magic Shrunken Heads +3 to Teeth
@@ -5331,11 +5293,6 @@ ItemDisplay[CL1 !ETH NMAG SK250=2 ILVL<60]:
 ItemDisplay[CL1 !ETH NMAG SK238=2 ILVL<60]: 
 
 
-
-
-
-/??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
-
 //BASE ITEMS
 
 
@@ -5355,7 +5312,6 @@ ItemDisplay[EQ4 MAG !ETH TABSK2=3]:
 ItemDisplay[(am5 OR ama OR amf) !ETH !ID MAG ILVL>59]: %NAME%
 ItemDisplay[(am5 OR ama OR amf) ID !UNI (TABSK2>2 AND CLSK0=2)]: %NAME% %ORANGE%+3 Jav Skills +2 Ama Skills
 ItemDisplay[(am5 OR ama OR amf) ID !UNI TABSK2=6]: %NAME% %ORANGE%+6 %PURPLE%Jav Skills
-
 
 
 ////Magic Pelts
@@ -5417,7 +5373,6 @@ ItemDisplay[MAG ETH CL5 !ID]:
 ItemDisplay[MAG CL6 !ID ILVL>54]:
 //Magic Amazon Weapons
 ItemDisplay[MAG CL7 !ID ILVL>55]:
-
 
 
 
@@ -5492,7 +5447,6 @@ ItemDisplay[RARE (7tk OR 7bk OR 9tk OR 9bk OR tkf OR bkf) !ETH !ID CLVL>89]:
 ItemDisplay[RARE (7tk OR 7bk OR 9tk OR 9bk OR tkf OR bkf) ETH !ID  CLVL>89]: 
 
 
-
 // CATCH ALL
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%] [%CODE%]
@@ -5511,8 +5465,6 @@ ItemDisplay[UNI SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[SET SOCK>0]: %NAME% [%SOCKETS%]
 ItemDisplay[UNI]: %NAME%
 ItemDisplay[SET]: %NAME%
-
-
 
 ////////Take out MAGIC crap section/////////
 ///////////All Necro Shrunken Heads/////
@@ -5555,7 +5507,7 @@ ItemDisplay[NMAG CL5]:
 ItemDisplay[NMAG SOCK=1]:
 
 
-/???????????
+/??
 ItemDisplay[CL1 ETH NMAG]:
 ItemDisplay[CL1 !ETH NMAG (SK221<3 OR SK240<3 OR SK238<3 OR SK239<3 OR SK229<3 OR SK243<3 OR SK244<3 OR SK245<3 OR SK250<4 OR SK247<3)]:
 ItemDisplay[CL1 !ETH NMAG (SK221<3 OR SK222<3 OR SK225<3 OR SK234<3 OR SK244<3 OR SK239<3 OR SK245<3 OR SK250<3 OR SK238<3) ILVL>59]:
@@ -5601,8 +5553,6 @@ ItemDisplay[MAG !ID CLVL>80 6HX 6SW 6LW 7SS 7SP URG 7SR]:
 
 //Show Magic
 ItemDisplay[MAG !ID CLVL>80 HGL]: %BLUE%%NAME% 
-
-
 
 //RARE Removes
 ItemDisplay[RARE !ID CLVL>80 7PI 7WC PAC UTU]:
