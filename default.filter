@@ -27,8 +27,8 @@ ItemDisplay[(MAG OR RARE) !UNI !SET !RW pae CLVL>84:
 
 ItemDisplay[tsc CLVL<20]: %BLUE%*%WHITE%TP
 ItemDisplay[isc CLVL<20]: %RED%*%WHITE%ID
-ItemDisplay[tsc CLVL>19]: %BLUE%*%WHITE%TP
-ItemDisplay[isc CLVL>19]: %RED%*%WHITE%ID
+ItemDisplay[tsc CLVL>19]:
+ItemDisplay[isc CLVL>19]:
 ItemDisplay[tbk]: TP Tome
 ItemDisplay[ibk]: ID Tome 
 
@@ -36,15 +36,15 @@ ItemDisplay[ibk]: ID Tome
  
 / buff potions SHOW LVL
 ItemDisplay[vps CLVL<18]: %WHITE%Stam
-ItemDisplay[yps]: %GRAY%Anti
+ItemDisplay[yps]: %GRAY%A
 ItemDisplay[wms CLVL<26]: %YELLOW%Thaw
 //
-ItemDisplay[gps CLVL<41]: %GREEN%Ranc
-ItemDisplay[ops CLVL<41]: %ORANGE%Oil
-ItemDisplay[gpm CLVL<41]: %GREEN%Chok
-ItemDisplay[opm CLVL<41]: %ORANGE%Expl
-ItemDisplay[gpl CLVL<41]: %GREEN%Stra
-ItemDisplay[opl CLVL<41]: %ORANGE%Fulm
+ItemDisplay[gps CLVL<41]: %GREEN%R
+ItemDisplay[ops CLVL<41]: %ORANGE%O
+ItemDisplay[gpm CLVL<41]: %GREEN%C
+ItemDisplay[opm CLVL<41]: %ORANGE%E
+ItemDisplay[gpl CLVL<41]: %GREEN%S
+ItemDisplay[opl CLVL<41]: %ORANGE%F
 / buff potions NO SHOW LVL
 ItemDisplay[vps CLVL>18]:
 ItemDisplay[wms CLVL>26]:
@@ -58,32 +58,32 @@ ItemDisplay[opl CLVL>41]:
 
 
 / Health Potions SHOW LVL
-ItemDisplay[hp1 CLVL<18]: %RED%*%WHITE%H1
-ItemDisplay[hp2 CLVL<26]: %RED%*%WHITE%H2
-ItemDisplay[hp3 CLVL<41]: %RED%*%WHITE%H3
-ItemDisplay[hp4 CLVL<92]: %RED%*%WHITE%H4
-ItemDisplay[hp5]: %RED%*HP
+ItemDisplay[hp1 CLVL<18]: %RED%*%WHITE%HP1
+ItemDisplay[hp2 CLVL<26]: %RED%*%WHITE%HP2
+ItemDisplay[hp3 CLVL<41]: %RED%*%WHITE%HP3
+ItemDisplay[hp4 CLVL<80]: %RED%*%WHITE%HP4
+ItemDisplay[hp5]: %RED%HP 
 / Health Potions NO SHOW LVL
 ItemDisplay[hp1 CLVL>17]:
 ItemDisplay[hp2 CLVL>25]: 
 ItemDisplay[hp3 CLVL>40]: 
-ItemDisplay[hp4 CLVL>91]: 
+ItemDisplay[hp4 CLVL>81]: 
 
 / Mana Potions SHOW LVL
-ItemDisplay[mp1 CLVL<18]: %BLUE%*%WHITE%M1
-ItemDisplay[mp2 CLVL<26]: %BLUE%*%WHITE%M2
-ItemDisplay[mp3 CLVL<41]: %BLUE%*%WHITE%M3
-ItemDisplay[mp4 CLVL<92]: %BLUE%*%WHITE%M4
-ItemDisplay[mp5]: %BLUE%*MP
+ItemDisplay[mp1 CLVL<18]: %BLUE%*%WHITE%MP1
+ItemDisplay[mp2 CLVL<26]: %BLUE%*%WHITE%MP2
+ItemDisplay[mp3 CLVL<41]: %BLUE%*%WHITE%MP3
+ItemDisplay[mp4 CLVL<80]: %BLUE%*%WHITE%MP4
+ItemDisplay[mp5]: %BLUE%MP 
 / Mana Potions NO SHOW LVL
 ItemDisplay[mp1 CLVL>17]:
 ItemDisplay[mp2 CLVL>25]: 
 ItemDisplay[mp3 CLVL>40]: 
-ItemDisplay[mp4 CLVL>91]: 
+ItemDisplay[mp4 CLVL>81]: 
 
 / Rejuvs
-ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
+ItemDisplay[rvs]: %PURPLE%r
+ItemDisplay[rvl]: %PURPLE%R
 
 / Extra Junk
 ItemDisplay[aqv CLVL<6]: Arrows
@@ -272,24 +272,24 @@ ItemDisplay[toa]: %PURPLE%Token of Absolution
 
 //PD2 MAPS
 
-ItemDisplay[t11 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20%
-ItemDisplay[t12 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20%
-ItemDisplay[t13 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20%
-ItemDisplay[t14 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20%
-ItemDisplay[t15 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20%
-ItemDisplay[t16 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20% // Ruins of Viz-jun T1
-ItemDisplay[t17 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20% // River of Blood T3
-ItemDisplay[t18 !ID]: %NAME% %PURPLE%OOO %BLACK%- %PURPLE%MAP %BLACK%- %PURPLE%OOO %MAP-20% // Phlegethon T2
+ItemDisplay[t11 !ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t12 !ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t13 !ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t14 !ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t15 !ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t16 !ID]: %NAME% %PURPLE%MAP %MAP-20% // Ruins of Viz-jun T1
+ItemDisplay[t17 !ID]: %NAME% %PURPLE%MAP %MAP-20% // River of Blood T3
+ItemDisplay[t18 !ID]: %NAME% %PURPLE%MAP %MAP-20% // Phlegethon T2
 
 
-ItemDisplay[t11 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20%
-ItemDisplay[t12 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20%
-ItemDisplay[t13 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20%
-ItemDisplay[t14 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20%
-ItemDisplay[t15 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20%
-ItemDisplay[t16 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20% // Ruins of Viz-jun T1
-ItemDisplay[t17 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20% // River of Blood T3
-ItemDisplay[t18 ID]: %NAME% %BLACK%- %PURPLE%MAP %BLACK%- %MAP-20% // Phlegethon T2
+ItemDisplay[t11 ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t12 ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t13 ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t14 ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t15 ID]: %NAME% %PURPLE%MAP %MAP-20%
+ItemDisplay[t16 ID]: %NAME% %PURPLE%MAP %MAP-20% // Ruins of Viz-jun T1
+ItemDisplay[t17 ID]: %NAME% %PURPLE%MAP %MAP-20% // River of Blood T3
+ItemDisplay[t18 ID]: %NAME% %PURPLE%MAP %MAP-20% // Phlegethon T2
 
 
 //PD2 Crafting Orbs
@@ -624,7 +624,6 @@ ItemDisplay[skzs]: %LIGHT_GRAY%OO %ORANGE%PSkull %GRAY%%MAP%[%QTY%]{%WHITE%S:%GR
 
 
 // TIER 1
-// ------
 
 // 3 trap, 3 LS claws (alvl 60+)
 ItemDisplay[SIN MAG TABSK48>2 SK271>2]: %ORANGE%T1%MAP% %PURPLE%%NAME%%notify-8%
@@ -637,7 +636,6 @@ ItemDisplay[SCEPTER MAG TABSK24>2 SK121>2 SK123>2]: %ORANGE%T1%MAP% %PURPLE%%NAM
 
 
 // TIER 2
-// ------
 
 // 3/20 Javazon Gloves (alvl 60+) [nightmare anya]
 ItemDisplay[GLOVES MAG !ETH TABSK2>2 IAS>19]: %PURPLE%T2%MAP% %PURPLE%%NAME%%notify-0b%
@@ -659,7 +657,6 @@ ItemDisplay[SCEPTER MAG CLSK3>1 SK121>2 SK123>2]: %PURPLE%T2%MAP% %PURPLE%%NAME%
 
 
 // TIER 3
-// ------
 
 // 2 trap, 3 LS claws (alvl 40+)
 ItemDisplay[SIN MAG TABSK48>1 SK271>2]: %RED%T3%MAP% %PURPLE%%NAME%%notify-1%%TIER-3%
@@ -674,7 +671,6 @@ ItemDisplay[SIN MAG TABSK49>2 SK278>1]: %RED%T3%MAP% %PURPLE%%NAME%%notify-8%
 ItemDisplay[SIN MAG TABSK49>1 SK278>2]: %RED%T3%MAP% %PURPLE%%NAME%%notify-8%
 
 // TIER 4
-// ------
 
 // 4os gothic plates and ancient armor with life (of the whale, alvl 50) [hell charsi]
 ItemDisplay[(gth OR aar) MAG !ETH SOCK=4 LIFE>80]: %GOLD%T4%MAP% %PURPLE%%NAME%%TIER-4%
@@ -692,7 +688,6 @@ ItemDisplay[(uow OR uts) !ETH MAG SOCK=4 FBR>29]: %GOLD%T4%MAP% %PURPLE%%NAME%%T
 
 
 // TIER 5
-// ------
 
 // Lower res wand (need 1.9.8 or later)
 ItemDisplay[WAND MAG CHSK91>0]: %SAGE%T5%MAP% %PURPLE%%NAME%%TIER-5%
@@ -727,7 +722,6 @@ ItemDisplay[SCEPTER MAG CLSK3>1]: %SAGE%T5%MAP% %PURPLE%%NAME%%TIER-5%
 
 
 // TIER 6 (LADDER RESET STUFF)
-// ------------------
 
 // ilvl restrictions below prevent these items from showing as drops later in the game.
 // Note white items cannot be bought from vendors with ilvl>24.
@@ -870,7 +864,7 @@ ItemDisplay[RW]: %NAME%%RED%%MAP%
 
 
 ++++ Unique HELMS 
-//////// ----  Unique HELM NORMAL HELM Unique
+//Unique HELM NORMAL HELM Unique
 
 //Biggin's Bonnet (3)
 ItemDisplay[UNI !ID cap !ETH]: %GOLD%Biggin's Bonnet
