@@ -25,26 +25,26 @@ ItemDisplay[(MAG OR RARE) !UNI !SET !RW pae CLVL>84:
 
 //SHORTEN COMMON ITEM NAMES
 
-ItemDisplay[tsc CLVL<20]: %BLUE%*%WHITE%TP
-ItemDisplay[isc CLVL<20]: %RED%*%WHITE%ID
+ItemDisplay[tsc CLVL<20]: %BLUE%*%WHITE%Portal
+ItemDisplay[isc CLVL<20]: %RED%*%WHITE%Identify
 ItemDisplay[tsc CLVL>19]:
 ItemDisplay[isc CLVL>19]:
-ItemDisplay[tbk]: TP Tome
-ItemDisplay[ibk]: ID Tome 
+ItemDisplay[tbk]: %BLUE%Tome of Town-Portal
+ItemDisplay[ibk]: %RED%Tome of Identify
 
  
  
 / buff potions SHOW LVL
-ItemDisplay[vps CLVL<18]: %WHITE%Stam
-ItemDisplay[yps]: %GRAY%A
-ItemDisplay[wms CLVL<26]: %YELLOW%Thaw
+ItemDisplay[vps CLVL<18]: %WHITE%Stamina
+ItemDisplay[yps]: %GRAY%Antidote
+ItemDisplay[wms CLVL<26]: %YELLOW%Thawing
 //
-ItemDisplay[gps CLVL<41]: %GREEN%R
-ItemDisplay[ops CLVL<41]: %ORANGE%O
-ItemDisplay[gpm CLVL<41]: %GREEN%C
-ItemDisplay[opm CLVL<41]: %ORANGE%E
-ItemDisplay[gpl CLVL<41]: %GREEN%S
-ItemDisplay[opl CLVL<41]: %ORANGE%F
+ItemDisplay[gps CLVL<41]: %GREEN%Rancid
+ItemDisplay[ops CLVL<41]: %ORANGE%Oil
+ItemDisplay[gpm CLVL<41]: %GREEN%Choke
+ItemDisplay[opm CLVL<41]: %ORANGE%Explode
+ItemDisplay[gpl CLVL<41]: %GREEN%Strangle
+ItemDisplay[opl CLVL<41]: %ORANGE%Fulminate
 / buff potions NO SHOW LVL
 ItemDisplay[vps CLVL>18]:
 ItemDisplay[wms CLVL>26]:
@@ -58,11 +58,11 @@ ItemDisplay[opl CLVL>41]:
 
 
 / Health Potions SHOW LVL
-ItemDisplay[hp1 CLVL<18]: %RED%*%WHITE%HP1
-ItemDisplay[hp2 CLVL<26]: %RED%*%WHITE%HP2
-ItemDisplay[hp3 CLVL<41]: %RED%*%WHITE%HP3
-ItemDisplay[hp4 CLVL<80]: %RED%*%WHITE%HP4
-ItemDisplay[hp5]: %RED%HP 
+ItemDisplay[hp1 CLVL<18]: %GRAY%heal%RED%- 
+ItemDisplay[hp2 CLVL<26]: %GRAY%heal%RED%+
+ItemDisplay[hp3 CLVL<41]: %GRAY%HEAL%RED%-
+ItemDisplay[hp4 CLVL<80]: %GRAY%HEAL%RED%+
+ItemDisplay[hp5]: %GREEN%*%RED%HEAL
 / Health Potions NO SHOW LVL
 ItemDisplay[hp1 CLVL>17]:
 ItemDisplay[hp2 CLVL>25]: 
@@ -70,11 +70,11 @@ ItemDisplay[hp3 CLVL>40]:
 ItemDisplay[hp4 CLVL>81]: 
 
 / Mana Potions SHOW LVL
-ItemDisplay[mp1 CLVL<18]: %BLUE%*%WHITE%MP1
-ItemDisplay[mp2 CLVL<26]: %BLUE%*%WHITE%MP2
-ItemDisplay[mp3 CLVL<41]: %BLUE%*%WHITE%MP3
-ItemDisplay[mp4 CLVL<80]: %BLUE%*%WHITE%MP4
-ItemDisplay[mp5]: %BLUE%MP 
+ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
+ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%-  
+ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
+ItemDisplay[mp4 CLVL<80]: %GRAY%MANA%BLUE%- 
+ItemDisplay[mp5]: %GREEN%*%BLUE%MANA
 / Mana Potions NO SHOW LVL
 ItemDisplay[mp1 CLVL>17]:
 ItemDisplay[mp2 CLVL>25]: 
@@ -82,12 +82,12 @@ ItemDisplay[mp3 CLVL>40]:
 ItemDisplay[mp4 CLVL>81]: 
 
 / Rejuvs
-ItemDisplay[rvs]: %PURPLE%r
-ItemDisplay[rvl]: %PURPLE%R
+ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
+ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%65%
 
 / Extra Junk
-ItemDisplay[aqv CLVL<6]: Arrows
-ItemDisplay[cqv CLVL<6]: Bolts
+ItemDisplay[aqv CLVL<6]: Arrow
+ItemDisplay[cqv CLVL<6]: Bolt
 ItemDisplay[key CLVL<36]: Key
 / Extra Junk
 ItemDisplay[aqv CLVL>5]:
@@ -111,10 +111,10 @@ ItemDisplay[GOLD<5000 CLVL>79]:
 
 //Value Vendor items
 //SK88=1 =32453 Gold. SK73=1 =32453 Gold.
-ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE% $%PRICE%
-ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE% $%PRICE%
-ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %ORANGE% $%PRICE%
-ItemDisplay[WP12 NMAG !RW !ETH (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%$%PRICE%
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%%PRICE%
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%%PRICE%
+ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: %ORANGE%%PRICE%
+ItemDisplay[WP12 NMAG !RW !ETH (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%%PRICE%
 
 //QUEST ITEMS
 
@@ -826,10 +826,10 @@ ItemDisplay[UNI !ID cm2]: %PURPLE%OOOOOOOOOO %ORANGE%Hellfire Torch%PURPLE% OOOO
 ItemDisplay[MAG !ID jew]: %BLUE%OO %WHITE%%NAME% %BLUE%OO
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE%[%ILVL%]
 //Rare Jewels
-ItemDisplay[RARE !ID jew]: %PURPLE%OOO-OOO-OOO %Yellow%%NAME% %PURPLE%OOO-OOO-OOO%MAP%
+ItemDisplay[RARE !ID jew]: %PURPLE%OOOOOOOOO %Yellow%%NAME% %PURPLE% OOOOOOOOO%MAP%
 ItemDisplay[RARE jew]: %YELLOW%%NAME%%WHITE%[%ILVL%]
 //Unique Jewels
-ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%O%RED%O%GREEN%O%BLUE%O%GREEN%O%ORANGE%O%PURPLE%O%DARK_GREEN%O%PURPLE%O%WHITE%O %GOLD%- %NAME% - %PURPLE%O%RED%O%GREEN%O%BLUE%O%GREEN%O%ORANGE%O%PURPLE%O%DARK_GREEN%O%PURPLE%O%WHITE%O%PURPLE%%MAP%
+ItemDisplay[UNI !ID (rin OR amu OR jew)]: %PURPLE%O%%NAME%%O%PURPLE%%MAP%
 
 
 
@@ -842,15 +842,15 @@ ItemDisplay[MAG (rin OR amu) ILVL>87 !ID]: %BLUE%%NAME%[%ILVL%]
 ItemDisplay[MAG (rin OR amu) ILVL>87 ID]: %BLUE%%NAME%[%ILVL%]
 
 ///Rings Amulets Rare
-ItemDisplay[RARE amu !ID]:%YELLOW% OOO %YELLOW%%NAME% %YELLOW%OOO%YELLOW%%MAP%
-ItemDisplay[RARE rin !ID]:%YELLOW% OOO %YELLOW%%NAME% %YELLOW%OOO%YELLOW%%MAP%
+ItemDisplay[RARE amu !ID]:%YELLOW% OOO%YELLOW%%NAME% %YELLOW% OOO%YELLOW%%MAP%
+ItemDisplay[RARE rin !ID]:%YELLOW% OOO%YELLOW%%NAME% %YELLOW% OOO%YELLOW%%MAP%
 ItemDisplay[RARE amu ID]: %YELLOW%%NAME%
 ItemDisplay[RARE rin ID]:%YELLOW%%NAME%
 
 ///Rings Amulets Unique
-ItemDisplay[UNI !ID (rin OR amu)]: %PURPLE%OOOOOOOOOO %GOLD%%NAME% %PURPLE%OOOOOOOOOO%PURPLE%%MAP%
+ItemDisplay[UNI !ID (rin OR amu)]: %PURPLE%OOOOOO %GOLD%%NAME% %PURPLE% OOOOOO%PURPLE%%MAP%
 ///Rings Amulets Set
-ItemDisplay[SET !ID (rin OR amu)]: %PURPLE%OOOOOOOOOO %GREEN%%NAME% %PURPLE%OOOOOOOOOO%GREEN%%MAP%
+ItemDisplay[SET !ID (rin OR amu)]: %PURPLE%OOOOOO %GREEN%%NAME% %PURPLE% OOOOOO%GREEN%%MAP%
 ItemDisplay[SET ID (rin OR amu)]: %GREEN%%NAME%
 
 
@@ -877,7 +877,7 @@ ItemDisplay[UNI !ID hlm !ETH]: %GOLD%Coif of Glory
 ItemDisplay[UNI !ID hlm ETH]: %GRAY%ETH %GOLD% Coif of Glory
 
 //Tarnhelm (15)
-ItemDisplay[UNI !ID skp !ETH]: %RED%-- %GOLD%Tarnhelm %RED%--%MAP%
+ItemDisplay[UNI !ID skp !ETH]: %RED%O %GOLD%Tarnhelm %RED%O%MAP%
 //Tarnhelm ETH
 ItemDisplay[UNI !ID skp ETH]: %GRAY%ETH %GOLD% Tarnhelm
 
@@ -2157,7 +2157,7 @@ ItemDisplay[UNI !ID gma !ETH]: %GOLD%Steeldriver
 ItemDisplay[UNI !ID gma ETH]: %GRAY%ETH %GOLD% Steeldriver
 
 
-/           Unique MACE EXCEPTIONAL MACE Unique
+/Unique MACE EXCEPTIONAL MACE Unique
 
 /
 ////
@@ -5161,7 +5161,7 @@ ItemDisplay[NMAG !ETH !RW SOCK=3 ED=15 ci3]: %DARK_GREEN%%NAME%%BLUE% +15%ED %PU
 ItemDisplay[NMAG !ETH !RW SOCK=3 ci3]:
 //Low Str 3SOC Masks (NON ETH)
 ItemDisplay[NMAG SOCK=3 !ETH msk]: %NAME% [%SOCKETS%]
-ItemDisplay[NMAG SOCK=3 !ETH xsk]: %NAME% [%SOCKETS
+ItemDisplay[NMAG SOCK=3 !ETH xsk]: %NAME% [%SOCKETS%]
 
 
 ////Shrunken Heads////
