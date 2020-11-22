@@ -31,8 +31,6 @@ ItemDisplay[tsc CLVL>19]:
 ItemDisplay[isc CLVL>19]:
 ItemDisplay[tbk]: %BLUE%Tome of Town-Portal
 ItemDisplay[ibk]: %RED%Tome of Identify
-
- 
  
 / buff potions SHOW LVL
 ItemDisplay[vps CLVL<18]: %WHITE%Stamina
