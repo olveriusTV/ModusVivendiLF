@@ -12,7 +12,7 @@ ItemDisplay[GOLD<900 (CLVL>39 AND CLVL<=69)]:
 ItemDisplay[GOLD<2500 (CLVL>69 AND CLVL<=79)]:
 ItemDisplay[GOLD<5000 CLVL>79]:
 
-//Vendor on Ground
+//Ground Items for Vendor
 
 //SK88=1 =32453 Gold. SK73=1 =32453 Gold.
 ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %ORANGE%%PRICE%
@@ -483,15 +483,15 @@ ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
 //Craftables
 //Blood, Caster, Hitpower, Safety
 ItemDisplay[GLOVES ((EXC OR ELT) !(utg OR uhg)) MAG !ID]: %GRAY%O%BLUE%%NAME% %GRAY%O
-ItemDisplay[GLOVES MAG ID]: %NAME%{%GRAY%Hitpower%WHITE%: Perf %BLUE%O, %ORANGE%Ort, %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Nef, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[BOOTS MAG ID]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O, %ORANGE%Thul, %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Eth, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[BELT MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Tal, %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O, %ORANGE%Ith, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[SHIELD MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Ith, %BLUE%Jewel%NL%%GRAY%Safety%WHITE%: Perf %GREEN%O, %ORANGE%Nef, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[HELM MAG ID]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O, %ORANGE%Nef, %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Ral, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[CHEST MAG ID]: %NAME%{%GRAY%Hitpower%WHITE%: Perf %BLUE%O, %ORANGE%Nef, %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Thul, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[WEAPON MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Ort, %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O, %ORANGE%Tir, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[amu MAG]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Amn, %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O, %ORANGE%Ral, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
-ItemDisplay[rin MAG]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O, %ORANGE%Amn, %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O, %ORANGE%Sol, %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[GLOVES MAG ID]: %NAME%{%GRAY%Hitpower%WHITE%: Perf %BLUE%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[BOOTS MAG ID]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Eth %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[BELT MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Tal %WHITE%+ %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[SHIELD MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%GRAY%Safety%WHITE%: Perf %GREEN%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[HELM MAG ID]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[CHEST MAG ID]: %NAME%{%GRAY%Hitpower%WHITE%: Perf %BLUE%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[WEAPON MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Tir %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[amu MAG]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
+ItemDisplay[rin MAG]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
 
 //RW Bases with socketing recipes
 //Spirit Swords
@@ -746,7 +746,7 @@ ItemDisplay[stds]:%BLUE%Standard of Heroes
 
 //Vision of Terror + Pure Demonic Essence + Black Soulstone = Prime Evil Soul
 
-////diablo clones ingredients
+////Diablo Clone Ingredients
 //Non Stacked
 ItemDisplay[dcma]: %PURPLE%Vision of Terror %PURPLE%%MAP%
 ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %PURPLE%%MAP%
