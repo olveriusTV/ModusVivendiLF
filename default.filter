@@ -497,7 +497,7 @@ ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%RED%OOO%GREEN%Life Tap Charges%RED%OOO{%R
 
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
-ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: %YELLOW%Imbue= %WHITE%Charsi Quest}
+ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: %YELLOW%Imbue= %WHITE%At Charsi}
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
