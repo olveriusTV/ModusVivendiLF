@@ -740,10 +740,10 @@ ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences
 //Essences non stacked
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]%NL%%GREEN%Pick me!
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]%NL%%GREEN%Pick me!
-ItemDisplay[bet]: %GOLD%Terror [Diablo]%NL%%GREEN%Pick me!
-ItemDisplay[fed]: %RED%Destruction [Baal]%NL%%GREEN%Pick me!
+ItemDisplay[tes]: %GOLD%Suffering [Andariel]
+ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
+ItemDisplay[bet]: %GOLD%Terror [Diablo]
+ItemDisplay[fed]: %RED%Destruction [Baal]
 
 //Essences stacked
 ItemDisplay[tes]: %GOLD%Suffering [Andariel]
