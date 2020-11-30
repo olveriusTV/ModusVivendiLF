@@ -497,7 +497,7 @@ ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%RED%OOO%GREEN%Life Tap Charges%RED%OOO{%R
 
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
-ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: %YELLOW%Imbue= %WHITE%At Charsi}
+ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: Imbue > At Charsi}
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
@@ -734,8 +734,8 @@ ItemDisplay[upma]: %NAME%{%WHITE%Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%
 ItemDisplay[imma]: %NAME%{%WHITE%Item + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: Imbue White to %BLUE%Magic%WHITE% Map:}%CONTINUE%
 ItemDisplay[scou]: %NAME%{%WHITE%Item + %ORANGE%Hel%NL%%RED%Note%WHITE%: White Map:}%CONTINUE%
 ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: Use it to %TAN%Socket %WHITE%an Item}%CONTINUE%
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG]: %MAP-7F%%NAME%{%WHITE%Modify = At Anya%NL%%TAN%Note%WHITE%: Reroll = Mix with 3x Perf %GRAY%O}
-ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %MAP-7F%%NAME%{%TAN%Note%WHITE%: Modify = At Anya}
+ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG]: %MAP-7F%%NAME%{%WHITE%Modify > At Anya%NL%%TAN%Note%WHITE%: Reroll = Add 3x Perf %GRAY%O}
+ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %MAP-7F%%NAME%{%TAN%Note%WHITE%: Modify > At Anya}
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences
