@@ -442,35 +442,35 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
 
 //Good Magic Items
-ItemDisplay[jew MAG !ID]: %DOT-9A%%TAN%%WHITE%O%BLUE%%NAME%%WHITE%O%TAN%O
+ItemDisplay[jew MAG !ID]: %DOT-9A%%PURPLE%O %BLUE%%NAME%%PURPLE% O
 
 //Good Rare Items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%TAN%O%WHITE%O%YELLOW%%NAME%%WHITE%O%TAN%O
+ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%PURPLE%OO %YELLOW%%NAME%%PURPLE% OO
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%O%RED%O%ORANGE%O%YELLOW%O%GOLD%%NAME%%YELLOW%O%ORANGE%O%RED%O%PURPLE%O%NL%%GREEN%Pick me!
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOO%NL%%GREEN%Pick me!
 
 //Good UNIQUES
 //belts
-ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O%GOLD%%NAME%%GRAY%O%TAN%O%YELLOW%O
+ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 //armors
-ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O%GOLD%%NAME%%GRAY%O%TAN%O%YELLOW%O
+ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 //gloves
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O%GOLD%%NAME%%GRAY%O%TAN%O%YELLOW%O
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 //helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O     %GOLD%%NAME%%GRAY%O%TAN%O%YELLOW%O
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 //boots
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O%GOLD%%NAME%%GRAY%O%TAN%O%YELLOW%O
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 //shields
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O%GOLD%%NAME%%GRAY%     O%TAN%O%YELLOW%O
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 //weapons
-ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%YELLOW%O%TAN%O%GRAY%O     %GOLD%%NAME%%GRAY%O%TAN%O%YELLOW%O
+ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
 
 //Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%RED%r%ORANGE%a%YELLOW%in%GREEN%b%BLUE%o%PURPLE%w%GOLD%%NAME%%PURPLE%r%BLUE%a%GREEN%in%YELLOW%b%ORANGE%o%RED%w%NL%%GREEN%Pick me!
+ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOOOOOOO%NL%%GREEN%Pick me!
 
 //Good SET parts
-ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%PURPLE%O%RED%O%DARK_GREEN%O%GREEN%O%NAME%O%DARK_GREEN%O%RED%O%PURPLE%O
+ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%PURPLE%OOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOO%NL%%GREEN%Pick me!
 
 //Not OK Uniques and Sets
 //Armors
@@ -497,7 +497,7 @@ ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%RED%OOO%GREEN%Life Tap Charges%RED%OOO{%R
 
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
-ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: You can %YELLOW%imbue %WHITE%it using Charsi quest}
+ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: %YELLOW%Imbue= %WHITE%Charsi Quest}
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
@@ -740,10 +740,10 @@ ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences
 //Essences non stacked
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
-ItemDisplay[fed]: %RED%Destruction [Baal]
+ItemDisplay[tes]: %GOLD%Suffering [Andariel]%NL%%GREEN%Pick me!
+ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]%NL%%GREEN%Pick me!
+ItemDisplay[bet]: %GOLD%Terror [Diablo]%NL%%GREEN%Pick me!
+ItemDisplay[fed]: %RED%Destruction [Baal]%NL%%GREEN%Pick me!
 
 //Essences stacked
 ItemDisplay[tes]: %GOLD%Suffering [Andariel]
@@ -752,18 +752,18 @@ ItemDisplay[bet]: %GOLD%Terror [Diablo]
 ItemDisplay[fed]: %RED%Destruction [Baal]
 
 //Uber Keys
-ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%ORANGE%%MAP%
-ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%ORANGE%%MAP%
-ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%ORANGE%%MAP%
-ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
-ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%
-ItemDisplay[mbr]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
+ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%ORANGE%%MAP%%NL%%GREEN%Pick me!
+ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%ORANGE%%MAP%%NL%%GREEN%Pick me!
+ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%ORANGE%%MAP%%NL%%GREEN%Pick me!
+ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%%NL%%GREEN%Pick me!
+ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%%NL%%GREEN%Pick me!
+ItemDisplay[mbr]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%%NL%%GREEN%Pick me!
 ItemDisplay[std]:%BLUE%Standard of Heroes
 
-
+//Uber Keys stacked
 ItemDisplay[pk1s]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
 ItemDisplay[pk2s]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
-ItemDisplay[pk3s]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
+ItemDisplay[pk3s]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%%NL%
 ItemDisplay[dhns]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[beys]:%ORANGE%Baal's Eye%ORANGE%%MAP%
 ItemDisplay[mbrs]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
