@@ -752,12 +752,12 @@ ItemDisplay[bet]: %GOLD%Terror [Diablo]
 ItemDisplay[fed]: %RED%Destruction [Baal]
 
 //Uber Keys
-ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%ORANGE%%MAP%%NL%%GREEN%Pick me!
-ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%ORANGE%%MAP%%NL%%GREEN%Pick me!
-ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%ORANGE%%MAP%%NL%%GREEN%Pick me!
-ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%%NL%%GREEN%Pick me!
-ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%%NL%%GREEN%Pick me!
-ItemDisplay[mbr]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%%NL%%GREEN%Pick me!
+ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%ORANGE%%MAP%
+ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%ORANGE%%MAP%
+ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%ORANGE%%MAP%
+ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
+ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%
+ItemDisplay[mbr]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
 ItemDisplay[std]:%BLUE%Standard of Heroes
 
 //Uber Keys stacked
