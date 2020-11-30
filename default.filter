@@ -448,29 +448,29 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%PURPLE%O %BLUE%%NAME%%PURPLE% O
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%PURPLE%OO %YELLOW%%NAME%%PURPLE% OO
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOO%NL%%GREEN%Pick me!
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOO%NL%%GREEN%Pick it!
 
 //Good UNIQUES
 //belts
-ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 //armors
-ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 //gloves
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 //helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 //boots
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 //shields
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 //weapons
-ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick me!
+ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
 
 //Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOOOOOOO%NL%%GREEN%Pick me!
+ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOOOOOOO%NL%%GREEN%Pick it!
 
 //Good SET parts
-ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%PURPLE%OOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOO%NL%%GREEN%Pick me!
+ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%PURPLE%OOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOO%NL%%GREEN%Pick it!
 
 //Not OK Uniques and Sets
 //Armors
@@ -501,7 +501,6 @@ ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Not
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
-
 //Rare ETH EXC and ELT weapons
 ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
 
