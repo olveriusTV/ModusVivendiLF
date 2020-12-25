@@ -46,14 +46,14 @@ ItemDisplay[ibk]: %RED%Tome of Identify
 / Buff SHOW LVL
 ItemDisplay[vps CLVL<18]: %WHITE%Stamina
 ItemDisplay[yps]: %GRAY%Antidote
-ItemDisplay[wms CLVL<26]: %YELLOW%Thawing
+ItemDisplay[wms CLVL<26]: %YELLOW%Thaw
 //
-ItemDisplay[gps CLVL<41]: %GREEN%Rancid
-ItemDisplay[ops CLVL<41]: %ORANGE%Oil
-ItemDisplay[gpm CLVL<41]: %GREEN%Choke
-ItemDisplay[opm CLVL<41]: %ORANGE%Explode
-ItemDisplay[gpl CLVL<41]: %GREEN%Strangle
-ItemDisplay[opl CLVL<41]: %ORANGE%Fulminate
+ItemDisplay[gps CLVL<41]: %GREEN%Throw
+ItemDisplay[ops CLVL<41]: %ORANGE%Throw
+ItemDisplay[gpm CLVL<41]: %GREEN%Throw
+ItemDisplay[opm CLVL<41]: %ORANGE%Throw
+ItemDisplay[gpl CLVL<41]: %GREEN%Throw
+ItemDisplay[opl CLVL<41]: %ORANGE%Throw
 
 / Buff NO SHOW LVL
 ItemDisplay[vps CLVL>18]:
@@ -81,9 +81,9 @@ ItemDisplay[hp4 CLVL>80]:
 
 / Mana Potions SHOW LVL
 ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
-ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%-  
+ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
 ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
-ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%- 
+ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%+ 
 ItemDisplay[mp5]: %GREEN%*%BLUE%MANA
 / Mana Potions NO SHOW LVL
 ItemDisplay[mp1 CLVL>17]:
@@ -448,7 +448,7 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%PURPLE%O %BLUE%%NAME%%PURPLE% O
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%PURPLE%OO %YELLOW%%NAME%%PURPLE% OO
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOO%NL%%GREEN%Pick it!
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OO %GOLD%%NAME%%PURPLE% OO%NL%
 
 //Good UNIQUES
 //belts
@@ -506,7 +506,7 @@ ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
 
 //Craftables
 //Blood, Caster, Hitpower, Safety
-ItemDisplay[GLOVES ((EXC OR ELT) !(utg OR uhg)) MAG !ID]: %GRAY%O%BLUE%%NAME%%GRAY%O
+ItemDisplay[GLOVES ((EXC OR ELT) !(utg OR uhg)) MAG !ID]: %BLUE%%NAME%
 ItemDisplay[GLOVES MAG ID]: %NAME%{%GRAY%Hitpower%WHITE%: Perf %BLUE%O %WHITE%+ %ORANGE%Ort %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Nef %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
 ItemDisplay[BOOTS MAG ID]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Thul %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Eth %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
 ItemDisplay[BELT MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Tal %WHITE%+ %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Ith %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
