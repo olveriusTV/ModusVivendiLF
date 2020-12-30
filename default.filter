@@ -470,7 +470,7 @@ ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc 
 ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOOOOOOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOOOOOOOOO%NL%%GREEN%Pick it!
 
 //Good SET parts
-ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%PURPLE%OOOOOOO %GOLD%%NAME%%PURPLE% OOOOOOO%NL%%GREEN%Pick it!
+ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%GREEN%%NAME%
 
 //Not OK Uniques and Sets
 //Armors
@@ -485,15 +485,15 @@ ItemDisplay[UNI !ID CLVL<80]: %PX-68%%NAME%
 ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
 //Shophunt
-ItemDisplay[WEAPON TABSK34>2]: %NAME%%NL%%RED%OOO%GREEN%Warcries Weapon%RED%OOO{%RED%OOO%GREEN%Warcries Weapon%RED%OOO%NL%%TAN%Note%WHITE%: Notice me:}
-ItemDisplay[CL5 (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %NAME%%NL%%RED%OOO%GREEN%Traps Claws%RED%OOO{%RED%OOO%GREEN%Traps Claws%RED%OOO%NL%%TAN%Note%WHITE%: Notice me:}
-ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME%%NL%%RED%OOO%GREEN%3sk, 20ias Gloves%RED%OOO{%RED%OOO%GREEN%3sk, 20ias Gloves%RED%OOO%NL%%TAN%Note%WHITE%: Notice me:}
-ItemDisplay[WP13 ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %NAME%%NL%%RED%OOO%GREEN%Holy Bolt Scepter%RED%OOO{%RED%OOO%GREEN%Holy Bolt Scepter%RED%OOO%NL%%TAN%Note%WHITE%Notice me:}
-ItemDisplay[WP13 ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %NAME%%NL%%RED%OOO%GREEN%Fist of Heavens' Scepter%RED%OOO{%RED%OOO%GREEN%FoH Scepter%RED%OOO%NL%%TAN%Note%WHITE%Notice me:}
-ItemDisplay[WP13 ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %NAME%%NL%%RED%OOO%GREEN%Holy Shock Scepter%RED%   OOO{%RED%OOO%GREEN%Holy Shock Scepter%RED%OOO%NL%%TAN%Note%WHITE%Notice me:}
-ItemDisplay[STAFF CHSK54>0]: %NAME%%NL%%RED%OOO%GREEN%Teleport Charges%RED%OOO{%RED%OOO%GREEN%Teleport Charges%RED%OOO%NL%%TAN%Note%WHITE%Notice me:}
-ItemDisplay[WAND CHSK91>0]: %NAME%%NL%%RED%OOO%GREEN%Lower Resist Charges%RED%OOO{%RED%OOO%GREEN%Lower Resist Charges%RED%OOO%NL%%TAN%Note%WHITE%Notice me:}
-ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%RED%OOO%GREEN%Life Tap Charges%RED%OOO{%RED%OOO%GREEN%Life Tap Charges%RED%OOO%NL%%TAN%Note%WHITE%Notice me:}
+ItemDisplay[WEAPON TABSK34>2]: %NAME%%NL%%PURPLE%OOO %GREEN%Warcries Weapon%PURPLE% OOO{%PURPLE%OOO %GREEN%Warcries Weapon%PURPLE%OOO %NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[CL5 (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %NAME%%NL%%PURPLE%OOO %GREEN%Traps Claws%PURPLE% OOO{%PURPLE%OOO %GREEN%Traps Claws%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME%%NL%%PURPLE%OOO %GREEN%3sk, 20ias Gloves%PURPLE% OOO{%PURPLE%OOO %GREEN%3sk, 20ias Gloves%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[WP13 ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %NAME%%NL%%PURPLE%OOO %GREEN%Holy Bolt Scepter%PURPLE% OOO{%PURPLE%OOO %GREEN%Holy Bolt Scepter%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[WP13 ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %NAME%%NL%%PURPLE%OOO %GREEN%Fist of Heavens' Scepter%PURPLE% OOO{%PURPLE%OOO %GREEN%FoH Scepter%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[WP13 ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %NAME%%NL%%PURPLE%OOO %GREEN%Holy Shock Scepter%PURPLE%   OOO{%PURPLE%OOO %GREEN%Holy Shock Scepter%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[STAFF CHSK54>0]: %NAME%%NL%%PURPLE%OOO %GREEN%Teleport Charges%PURPLE% OOO{%PURPLE%OOO %GREEN%Teleport Charges%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[WAND CHSK91>0]: %NAME%%NL%%PURPLE%OOO %GREEN%Lower Resist Charges%PURPLE% OOO{%PURPLE%OOO %GREEN%Lower Resist Charges%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
+ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%PURPLE%OOO %GREEN%Life Tap Charges%PURPLE% OOO{%PURPLE%OOO %GREEN%Life Tap Charges%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
 
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
