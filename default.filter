@@ -442,10 +442,10 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
 
 //Good Magic Items
-ItemDisplay[jew MAG !ID]: %DOT-9A%%PURPLE%O %BLUE%%NAME%%PURPLE% O
+ItemDisplay[jew MAG !ID]: %DOT-9A%%RED%%NAME%
 
 //Good Rare Items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%PURPLE%OO %YELLOW%%NAME%%PURPLE% OO
+ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%%NAME%
 
 //GG UNIQUES
 ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OO %GOLD%%NAME%%PURPLE% OO%NL%
