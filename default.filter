@@ -33,8 +33,6 @@ ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %WHITE%(%TAN%%WHITE%%PRICE%%WHITE%)%CONTINUE%
 
 //Utilites
-//SHORTEN COMMON ITEM NAMES
-
 ItemDisplay[tsc CLVL<20]: %BLUE%*%WHITE%Portal
 ItemDisplay[isc CLVL<20]: %RED%*%WHITE%Identify
 ItemDisplay[tsc CLVL>19]:
@@ -131,7 +129,6 @@ ItemDisplay[ice]: %NAME%%MAP% //Malah's Potion
 ItemDisplay[tr2]: %NAME%%MAP% //Scroll of Resistance
 
 //Gems
-//fix for flaweless and perfects for some reason it need that fix?
 ItemDisplay[gzv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
 ItemDisplay[glw]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
 ItemDisplay[glg]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
@@ -147,31 +144,6 @@ ItemDisplay[gpr]: %NAME% %ORANGE%[%RED%O%ORANGE%]
 ItemDisplay[gpb]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gpy]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skz]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]
-
-//HIDE Low Items
-ItemDisplay[GEM<3 DIFF>0]:
-ItemDisplay[GEM<4 DIFF>1]:
-//amethysts
-ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]
-ItemDisplay[GEMTYPE=1 GEM>3]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
-//diamonds
-ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]
-ItemDisplay[GEMTYPE=2 GEM>3]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
-//emeralds
-ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]
-ItemDisplay[GEMTYPE=3 GEM>3]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
-//rubys
-ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]
-ItemDisplay[GEMTYPE=4 GEM>3]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
-//sapphires
-ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]
-ItemDisplay[GEMTYPE=5 GEM>3]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
-//topazes
-ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]
-ItemDisplay[GEMTYPE=6 GEM>3]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
-//skulls
-ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
-ItemDisplay[GEMTYPE=7 GEM>3]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
 
 //Runes
 //TAKEN OUT to customize Stacked Vs Unstacked
@@ -308,7 +280,7 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 // {%WHITE%AHS: %GRAY% %NL% %WHITE%W: %GRAY% }
 
 //All Charms
-ItemDisplay[cm2 MAG !ID]: %TAN%%BLUE%%NAME%%TAN%
+ItemDisplay[cm2 MAG !ID]: %TAN%%NAME%%TAN%
 ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%PURPLE%%BLUE%%NAME%%PURPLE%
 ItemDisplay[(cm1 OR cm2 OR cm3) UNI !ID]: %PX-68%%NAME%
 
@@ -656,19 +628,6 @@ ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG]: %MAP-7F
 ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %MAP-7F%%NAME%{%TAN%Note%WHITE%: Modify > At Anya}
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
-//Essences
-//Essences non stacked
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
-ItemDisplay[fed]: %RED%Destruction [Baal]
-
-//Essences stacked
-ItemDisplay[tes]: %GOLD%Suffering [Andariel]
-ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
-ItemDisplay[bet]: %GOLD%Terror [Diablo]
-ItemDisplay[fed]: %RED%Destruction [Baal]
-
 //Uber Keys
 ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%ORANGE%%MAP%
 ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%ORANGE%%MAP%
@@ -701,7 +660,6 @@ ItemDisplay[dcbls]: %PURPLE%Pure Demonic Essence %PURPLE%%M
 ItemDisplay[dchos]: %PURPLE%Black Soulstone %PURPLE%%MAP%
 ItemDisplay[dcsos]: %PURPLE%Prime Evil Soul %PURPLE%%MAP%
 
-
 //High level remove non-Elite MAGIC RARE WEAPONS (NOT GLOVES "EQ4")
 
 ItemDisplay[(NMAG OR MAG OR RARE) !UNI !SET !RW (NORM OR EXC) (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP9 OR WP10 OR WP11 OR WP12 OR WP13) CLVL>84:
@@ -719,5 +677,31 @@ ItemDisplay[(CHEST OR HELM OR SHIELD) OR (WEAPON AND !THROWING) (EXC OR ELT) NMA
 //HIDE EVERYTHING part 2
 ItemDisplay[(ARMOR OR WEAPON) INF]: 
 ItemDisplay[(ARMOR OR WEAPON) !leg CLVL>18]: 
+
+
+//HIDE EVERYTHING part 3
+ItemDisplay[GEM<3 DIFF>0]:
+ItemDisplay[GEM<4 DIFF>1]:
+//amethysts
+ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]
+ItemDisplay[GEMTYPE=1 GEM>3]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
+//diamonds
+ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]
+ItemDisplay[GEMTYPE=2 GEM>3]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
+//emeralds
+ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]
+ItemDisplay[GEMTYPE=3 GEM>3]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
+//rubys
+ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]
+ItemDisplay[GEMTYPE=4 GEM>3]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
+//sapphires
+ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]
+ItemDisplay[GEMTYPE=5 GEM>3]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
+//topazes
+ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]
+ItemDisplay[GEMTYPE=6 GEM>3]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
+//skulls
+ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
+ItemDisplay[GEMTYPE=7 GEM>3]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
 
 //END
