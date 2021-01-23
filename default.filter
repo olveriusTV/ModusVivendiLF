@@ -215,26 +215,26 @@ ItemDisplay[r08s]: %TAN%Ral [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRA
 /Ort 
 ItemDisplay[r09s]: %TAN%Ort [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRAY%+35% LIGHTNING RES %NL% %WHITE%A/H: %GRAY%+30% LIGHTNING RES %NL% %WHITE%W: %GRAY%+1-50 LIGHTNING DAMAGE } 
 /Thul
-ItemDisplay[r10s]: %DARK_GREEN%Thul [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%S: %GRAY%+35% COLD RES %NL% %WHITE%A/H: %GRAY%+30% COLD RES %NL% %WHITE%W: %GRAY%+3-14 COLD DAMAGE }
+ItemDisplay[r10s]: %YELLOW%Thul [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%S: %GRAY%+35% COLD RES %NL% %WHITE%A/H: %GRAY%+30% COLD RES %NL% %WHITE%W: %GRAY%+3-14 COLD DAMAGE }
 /Amn
-ItemDisplay[r11s]: %DARK_GREEN%Amn [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%ATTACKERS TAKE DAMAGE of 14 %NL% %WHITE%W: %GRAY%7% LIFE STOLEN PER HIT } 
+ItemDisplay[r11s]: %YELLOW%Amn [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%ATTACKERS TAKE DAMAGE of 14 %NL% %WHITE%W: %GRAY%7% LIFE STOLEN PER HIT } 
 /Sol
-ItemDisplay[r12s]: %DARK_GREEN%Sol [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%+9 to MINIMUM DAMAGE } 
+ItemDisplay[r12s]: %YELLOW%Sol [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%+9 to MINIMUM DAMAGE } 
 /Shael
-ItemDisplay[r13s]: %DARK_GREEN%Shael [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%S: %GRAY%+20% FASTER BLOCK RATE %NL% %WHITE%A/H: %GRAY%+20% FASTER HIT RECOVERY %NL% %WHITE%W: %GRAY%+20% INCREASED ATTACK SPEED } 
+ItemDisplay[r13s]: %YELLOW%Shael [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%S: %GRAY%+20% FASTER BLOCK RATE %NL% %WHITE%A/H: %GRAY%+20% FASTER HIT RECOVERY %NL% %WHITE%W: %GRAY%+20% INCREASED ATTACK SPEED } 
 /Dol
-ItemDisplay[r14s]: %DARK_GREEN%Dol [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%REPLENISH LIFE +10 %NL% %WHITE%W: %GRAY%REPLENISH LIFE +15 } 
+ItemDisplay[r14s]: %YELLOW%Dol [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%REPLENISH LIFE +10 %NL% %WHITE%W: %GRAY%REPLENISH LIFE +15 } 
 /Hel
-ItemDisplay[r15s]: %DARK_GREEN%Hel [%RUNENUM%]%GRAY% [#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%-15% REQUIREMENTS %NL% %WHITE%W: %GRAY%-20% REQUIREMENTS }
+ItemDisplay[r15s]: %YELLOW%Hel [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%-15% REQUIREMENTS %NL% %WHITE%W: %GRAY%-20% REQUIREMENTS }
 /Io
-ItemDisplay[r16s]: %DARK_GREEN%Io [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to VITALITY } 
+ItemDisplay[r16s]: %YELLOW%Io [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to VITALITY } 
 //17-23
 /Lum
-ItemDisplay[r17s]: %DARK_GREEN%Lum [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to ENERGY }
+ItemDisplay[r17s]: %YELLOW%Lum [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to ENERGY }
 /Ko
-ItemDisplay[r18s]: %ORANGE%   %RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to DEXTERITY }
+ItemDisplay[r18s]: %ORANGE%Ko [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to DEXTERITY }
 /Fal
-ItemDisplay[r19s]: %ORANGE%   %RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to STRENGTH }
+ItemDisplay[r19s]: %ORANGE%Fal [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to STRENGTH }
 /Lem
 ItemDisplay[r20s]: %PURPLE%  OO %RED%%RUNENAME%%PURPLE% OO %RED%[%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+50% EXTRA GOLD from MONSTERS %NL% %WHITE%W: %GRAY%+75% EXTRA GOLD from MONSTERS } 
 /Pul
@@ -280,8 +280,9 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 // {%WHITE%AHS: %GRAY% %NL% %WHITE%W: %GRAY% }
 
 //All Charms
-ItemDisplay[cm1 OR cm2 MAG !ID]: %BLUE%%NAME%
-ItemDisplay[cm3 MAG !ID]: %TAN%%NAME%
+ItemDisplay[cm2 MAG !ID]: %DARK_GREEN%%NAME%
+ItemDisplay[cm1 MAG !ID]: %BLUE%%NAME%
+ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm1 OR cm2 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
 //GG Charms
@@ -629,18 +630,18 @@ ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %MAP-7F%%NAME
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Uber Keys
-ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%ORANGE%%MAP%
-ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%ORANGE%%MAP%
-ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%ORANGE%%MAP%
+ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE% [Countess/Blood Raven]%ORANGE%%MAP%
+ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE% [Summoner/Blood Witch the Wild]%ORANGE%%MAP%
+ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE% [Izual/Nihlathak]%ORANGE%%MAP%
 ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%
 ItemDisplay[mbr]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
 ItemDisplay[std]:%BLUE%Standard of Heroes
 
 //Uber Keys stacked
-ItemDisplay[pk1s]:%ORANGE%Key of Terror%WHITE%[Countess/Blood Raven]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
-ItemDisplay[pk2s]:%ORANGE%Key of Hate%WHITE%[Summoner/Blood Witch the Wild]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
-ItemDisplay[pk3s]:%ORANGE%Key of Destruction%WHITE%[Izual/Nihlathak]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%%NL%
+ItemDisplay[pk1s]:%ORANGE%Key of Terror%WHITE% [Countess/Blood Raven]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
+ItemDisplay[pk2s]:%ORANGE%Key of Hate%WHITE% [Summoner/Blood Witch the Wild]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
+ItemDisplay[pk3s]:%ORANGE%Key of Destruction%WHITE% [Izual/Nihlathak]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%%NL%
 ItemDisplay[dhns]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[beys]:%ORANGE%Baal's Eye%ORANGE%%MAP%
 ItemDisplay[mbrs]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
