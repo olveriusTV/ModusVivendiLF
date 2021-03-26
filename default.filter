@@ -105,7 +105,7 @@ ItemDisplay[key CLVL>35]:
 //Quest Items
 ItemDisplay[bks]: %NAME%%MAP% //Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP% //Key to the Cairn Stones
-ItemDisplay[leg]: %NAME%%MAP% //Wirts Leg
+ItemDisplay[leg]: %NAME%%MAP% //Wirt's Leg
 ItemDisplay[hdm]: %NAME%%MAP% //Horadric Malus
 ItemDisplay[ass]: %NAME%%MAP% //Book of Skill
 ItemDisplay[tr1]: %NAME%%MAP% //Horadric Scroll
@@ -625,8 +625,8 @@ ItemDisplay[upma]: %NAME%{%WHITE%Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%
 ItemDisplay[imma]: %NAME%{%WHITE%Item + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: Imbue White to %BLUE%Magic%WHITE% Map:}%CONTINUE%
 ItemDisplay[scou]: %NAME%{%WHITE%Item + %ORANGE%Hel%NL%%RED%Note%WHITE%: White Map:}%CONTINUE%
 ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: Use it to %TAN%Socket %WHITE%an Item}%CONTINUE%
-ItemDisplay[(t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18) MAG]: %MAP-7F%%NAME%{%WHITE%Modify > At Anya%NL%%TAN%Note%WHITE%: Reroll = Add 3x Perf %GRAY%O}
-ItemDisplay[t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18]: %MAP-7F%%NAME%{%TAN%Note%WHITE%: Modify > At Anya}
+ItemDisplay[(t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42) MAG]: %MAP-7F%%NAME%{%WHITE%Modify > At Anya%NL%%TAN%Note%WHITE%: Reroll = Add 3x Perf %GRAY%O}
+ItemDisplay[t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42]: %MAP-7F%%NAME%{%TAN%Note%WHITE%: %RED%Modify%WHITE% > At %GRAY%Anya}
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Uber Keys
