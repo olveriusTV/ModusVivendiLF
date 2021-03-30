@@ -421,26 +421,25 @@ ItemDisplay[jew MAG !ID]: %DOT-9A%%RED%%NAME%
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%%NAME%
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOO %GOLD%%NAME%%PURPLE% OOOOO%NL%%GREEN%Pick it!
-
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOO %GOLD%%NAME%%PURPLE% OOOOO
 //Good UNIQUES
 //belts
-ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 //armors
-ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 //gloves
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 //helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 //boots
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 //shields
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 //weapons
-ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO%NL%%GREEN%Pick it!
+ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
 
 //Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOO %GOLD%%NAME%%PURPLE% OOOOO%NL%%GREEN%Pick it!
+ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOO %GOLD%%NAME%%PURPLE% OOOOO
 
 //Good SET parts
 ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%GREEN%%NAME%
@@ -625,13 +624,13 @@ ItemDisplay[upma]: %NAME%{%WHITE%Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%
 ItemDisplay[imma]: %NAME%{%WHITE%Item + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: Imbue White to %BLUE%Magic%WHITE% Map:}%CONTINUE%
 ItemDisplay[scou]: %NAME%{%WHITE%Item + %ORANGE%Hel%NL%%RED%Note%WHITE%: White Map:}%CONTINUE%
 ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: Use it to %TAN%Socket %WHITE%an Item}%CONTINUE%
-ItemDisplay[(t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42) MAG]: %MAP-7F%%NAME%{%WHITE%Modify > At Anya%NL%%TAN%Note%WHITE%: Reroll = Add 3x Perf %GRAY%O}
+ItemDisplay[(t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42) MAG]: %MAP-7F%%NAME%{%RED%Modify%WHITE% > At %GRAY%Anya%NL%%TAN%Note%WHITE%: Reroll = Add 3x Perf %GRAY%O}
 ItemDisplay[t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42]: %MAP-7F%%NAME%{%TAN%Note%WHITE%: %RED%Modify%WHITE% > At %GRAY%Anya}
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Uber Keys
 ItemDisplay[pk1]:%ORANGE%Key of Terror%WHITE% [Countess/Blood Raven]%ORANGE%%MAP%
-ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE% [Summoner/Blood Witch the Wild]%ORANGE%%MAP%
+ItemDisplay[pk2]:%ORANGE%Key of Hate%WHITE% [Summoner/Blood Witch]%ORANGE%%MAP%
 ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE% [Izual/Nihlathak]%ORANGE%%MAP%
 ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%
@@ -640,7 +639,7 @@ ItemDisplay[std]:%BLUE%Standard of Heroes
 
 //Uber Keys stacked
 ItemDisplay[pk1s]:%ORANGE%Key of Terror%WHITE% [Countess/Blood Raven]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
-ItemDisplay[pk2s]:%ORANGE%Key of Hate%WHITE% [Summoner/Blood Witch the Wild]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
+ItemDisplay[pk2s]:%ORANGE%Key of Hate%WHITE% [Summoner/Blood Witch]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
 ItemDisplay[pk3s]:%ORANGE%Key of Destruction%WHITE% [Izual/Nihlathak]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%%NL%
 ItemDisplay[dhns]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[beys]:%ORANGE%Baal's Eye%ORANGE%%MAP%
