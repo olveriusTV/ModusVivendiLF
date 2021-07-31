@@ -456,17 +456,6 @@ ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) 
 ItemDisplay[UNI !ID CLVL<80]: %PX-68%%NAME%
 ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
-//Shophunt
-ItemDisplay[WEAPON TABSK34>2]: %NAME%%NL%%PURPLE%OOO %GREEN%Warcries Weapon%PURPLE% OOO{%PURPLE%OOO %GREEN%Warcries Weapon%PURPLE%OOO %NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[CL5 (TABSK48>2 OR ((TABSK48>1 OR CLSK6>1) AND (SK276>1 OR SK272>1 OR SK271>1 OR SK262>1)))]: %NAME%%NL%%PURPLE%OOO %GREEN%Traps Claws%PURPLE% OOO{%PURPLE%OOO %GREEN%Traps Claws%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[EQ4 (TABSK0>2 OR TABSK2>2 OR TABSK50>2) AND IAS>19]: %NAME%%NL%%PURPLE%OOO %GREEN%3sk, 20ias Gloves%PURPLE% OOO{%PURPLE%OOO %GREEN%3sk, 20ias Gloves%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[WP13 ((TABSK24>2 AND SK101>1) OR (TABSK24>1 AND SK101>2) OR (CLSK3>1 AND SK101>2))]: %NAME%%NL%%PURPLE%OOO %GREEN%Holy Bolt Scepter%PURPLE% OOO{%PURPLE%OOO %GREEN%Holy Bolt Scepter%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[WP13 ((TABSK24>2 AND SK121>1) OR (TABSK24>1 AND SK121>2) OR (CLSK3>1 AND SK121>2))]: %NAME%%NL%%PURPLE%OOO %GREEN%Fist of Heavens' Scepter%PURPLE% OOO{%PURPLE%OOO %GREEN%FoH Scepter%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[WP13 ((TABSK25>2 AND SK118>1) OR (TABSK25>1 AND SK118>2) OR (CLSK3>1 AND SK118>2))]: %NAME%%NL%%PURPLE%OOO %GREEN%Holy Shock Scepter%PURPLE%   OOO{%PURPLE%OOO %GREEN%Holy Shock Scepter%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[STAFF CHSK54>0]: %NAME%%NL%%PURPLE%OOO %GREEN%Teleport Charges%PURPLE% OOO{%PURPLE%OOO %GREEN%Teleport Charges%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[WAND CHSK91>0]: %NAME%%NL%%PURPLE%OOO %GREEN%Lower Resist Charges%PURPLE% OOO{%PURPLE%OOO %GREEN%Lower Resist Charges%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-ItemDisplay[WAND CHSK82>0]: %NAME%%NL%%PURPLE%OOO %GREEN%Life Tap Charges%PURPLE% OOO{%PURPLE%OOO %GREEN%Life Tap Charges%PURPLE% OOO%NL%%TAN%Note:%RED% Notice me!}
-
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
 ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: Imbue > At Charsi}
