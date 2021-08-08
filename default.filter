@@ -1,5 +1,5 @@
 //THE UNHOLY CIRCLET (V.2) by Olverius (feat. NODRULE)
-//game: Path of Diablo/ Project Diablo II
+//game: Project D2
 //contact: twitch.tv/olveriusTV // Olverius#7222 (discord) // /w* olveriusTV
 //Very useful for beginners and pros.
 
@@ -146,7 +146,6 @@ ItemDisplay[gpy]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skz]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]
 
 //Runes
-//TAKEN OUT to customize Stacked Vs Unstacked
 /ItemDisplay[RUNE<20]: %GRAY%[%TAN%%RUNENUM%%GRAY%]%TAN%%RUNENAME%%GRAY%[#%GRAY%%QTY%%GRAY%]
 /ItemDisplay[RUNE>19 RUNE<26]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
 /ItemDisplay[RUNE>25 RUNE<28]: %RED%[%RUNENUM%]%PURPLE%OOOOOOOOOOOO%RED% %RUNENAME% %PURPLE%OOOOOOOOOOOO%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%
@@ -480,8 +479,8 @@ ItemDisplay[rin MAG]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANG
 
 //Runeword Bases
 ItemDisplay[(wsp OR 9ws OR 7ws) (NMAG OR RW) SOCK=4 !ETH]: %DOT-D6%%NAME%
-ItemDisplay[crs (NMAG OR RW) SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %DOT-D6%%NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]
-ItemDisplay[(bsd OR lsd) (NMAG OR RW) SOCK=0 ILVL>25 CLVL<80]: %DOT-D6%%NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]
+ItemDisplay[crs (NMAG OR RW) SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %DOT-D6%%NAME% %TAN%
+ItemDisplay[(bsd OR lsd) (NMAG OR RW) SOCK=0 ILVL>25 CLVL<80]: %DOT-D6%%NAME% %TAN%
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %DOT-D6%%NAME%
 ItemDisplay[fla (NMAG OR RW) SOCK>3]: %DOT-D6%%NAME%
 ItemDisplay[crs (NMAG OR RW) SOCK=5]: %DOT-D6%%NAME%
@@ -539,7 +538,7 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 ItemDisplay[(7tk OR 7bk OR 7ta) (MAG OR RARE OR NMAG) (!ETH AND !INF)]: %NAME% %GRAY%(%TAN%%WHITE%%PRICE%%GRAY%)
 ItemDisplay[(WAND OR SOR) NMAG (!ETH AND !INF) PRICE>18999]: %NAME% %GRAY%(%TAN%%WHITE%%PRICE%%GRAY%)
 
-//Quantitiy of Stackables
+//Quantity of Stackables
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
 //PD2 Items
@@ -585,11 +584,6 @@ ItemDisplay[dcmas]: %PURPLE%Vision of Terror %PURPLE%%MAP%
 ItemDisplay[dcbls]: %PURPLE%Pure Demonic Essence %PURPLE%%M
 ItemDisplay[dchos]: %PURPLE%Black Soulstone %PURPLE%%MAP%
 ItemDisplay[dcsos]: %PURPLE%Prime Evil Soul %PURPLE%%MAP%
-
-//High level remove non-Elite MAGIC RARE WEAPONS (NOT GLOVES "EQ4")
-
-ItemDisplay[(NMAG OR MAG OR RARE) !UNI !SET !RW (NORM OR EXC) (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP9 OR WP10 OR WP11 OR WP12 OR WP13) CLVL>84:
-
 
 //HIDE EVERYTHING part 1
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) CLVL<41]: %NAME%
