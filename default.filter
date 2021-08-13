@@ -66,11 +66,11 @@ ItemDisplay[opl CLVL>41]:
 
 
 / Health Potions SHOW LVL
-ItemDisplay[hp1 CLVL<18]: %GRAY%heal%RED%- 
-ItemDisplay[hp2 CLVL<26]: %GRAY%heal%RED%+
-ItemDisplay[hp3 CLVL<41]: %GRAY%HEAL%RED%-
-ItemDisplay[hp4 CLVL<81]: %GRAY%HEAL%RED%+
-ItemDisplay[hp5]: %GREEN%*%RED%HEAL
+ItemDisplay[hp1 CLVL<18]: %GRAY%health%RED%- 
+ItemDisplay[hp2 CLVL<26]: %GRAY%health%RED%+
+ItemDisplay[hp3 CLVL<41]: %GRAY%HEALTH%RED%-
+ItemDisplay[hp4 CLVL<81]: %GRAY%HEALTH%RED%+
+ItemDisplay[hp5]: %GREEN%*%RED%HEALTH
 / Health Potions NO SHOW LVL
 ItemDisplay[hp1 CLVL>17]:
 ItemDisplay[hp2 CLVL>25]: 
@@ -91,7 +91,7 @@ ItemDisplay[mp4 CLVL>80]:
 
 / Rejuvs
 ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
-ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%65%
+ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%100%
 
 / Extra Junk
 ItemDisplay[aqv CLVL<6]: Arrow
@@ -583,11 +583,9 @@ ItemDisplay[(CHEST OR HELM OR SHIELD) OR (WEAPON AND !THROWING) (EXC OR ELT) NMA
 ItemDisplay[(CHEST OR HELM OR SHIELD) OR (WEAPON AND !THROWING) (EXC OR ELT) NMAG !ETH (!INF OR SUP) SOCK>1 CLVL<80]: %NAME%
 ItemDisplay[(CHEST OR HELM OR SHIELD) OR (WEAPON AND !THROWING) (EXC OR ELT) NMAG !ETH !INF SOCK=0 CLVL<80]: %NAME%%CONTINUE%
 
-
 //HIDE EVERYTHING part 2
 ItemDisplay[(ARMOR OR WEAPON) INF]: 
 ItemDisplay[(ARMOR OR WEAPON) !leg CLVL>18]: 
-
 
 //HIDE EVERYTHING part 3
 ItemDisplay[GEM<3 DIFF>0]:
