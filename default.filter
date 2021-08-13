@@ -999,56 +999,6 @@ ItemDisplay[(7wa OR 7gd OR 7p7) (ETH AND !INF) AND (NMAG OR RW) (SOCK=6)]: %DOT-
 ItemDisplay[7cr (!ETH AND NMAG OR RW) SOCK=3]: %DOT-D6%%NAME%
 ItemDisplay[(72h OR 7fb OR 7gd) (ETH AND !INF) AND (NMAG OR RW) (SOCK=3)]: %DOT-D6%%NAME%
 
-//Possible Runewords
-//Chest, Head, Shield
-ItemDisplay[CHEST SOCK=2 NMAG !RW]: %NAME%{%GRAY%Prudence, Smoke, Stealth%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[CHEST SOCK=3 NMAG !RW]: %NAME%{%GRAY%Peace, Principle, Rain, Treachery, Wealth%NL%Enlightenment, Gloom, Lionheart, Myth,%NL%%TAN%RWs: %GRAY%Bone, Dragon, Duress, Enigma,}%CONTINUE%
-ItemDisplay[CHEST SOCK=4 NMAG !RW]: %NAME%{%GRAY%Chains of Honor, Fortitude, Stone%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Bramble,}%CONTINUE%
-ItemDisplay[(HELM OR CIRC) SOCK=2 NMAG !RW]: %NAME%{%GRAY%Lore, Nadir%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[(HELM OR CIRC) SOCK=3 NMAG !RW]: %NAME%{%GRAY%Dream, Delirium, Radiance%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[SHIELD SOCK=2 NMAG !RW]: %NAME%{%GRAY%Rhyme, Splendor%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[SHIELD SOCK=3 NMAG !RW]: %NAME%{%GRAY%Pledge, Dragon, Dream, Sanctuary%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Ancient's}%CONTINUE%
-ItemDisplay[SHIELD SOCK=4 NMAG !RW]: %NAME%{%GRAY%Phoenix, Spirit%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[DIN SOCK=4 NMAG !RW]: %NAME%{%GRAY%Exile, Phoenix, Spirit%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-//Weapons 2soc
-ItemDisplay[WEAPON !(BOW OR XBOW OR SOR OR leg) SOCK=2 NMAG !RW]: %NAME%{%GRAY%Strength, Wind%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[(BOW OR XBOW) SOCK=2 NMAG !RW]: %NAME%{%GRAY%Zephyr%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[WAND SOCK=2 NMAG !RW]: %NAME%{%GRAY%Strength, White, Wind%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[STAFF SOCK=2 NMAG !RW]: %NAME%{%GRAY%Leaf, Strength, Wind%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[(SWORD OR AXE OR SIN OR mac OR mst OR fla) !leg SOCK=2 NMAG !RW]: %NAME%{%GRAY%Steel, Strength, Wind%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-//Weapons 3soc
-ItemDisplay[WEAPON !leg SOCK=3 NMAG !RW]: %NAME%{%GRAY%Plague, Venom%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW OR SOR OR leg) SOCK=3 NMAG !RW]: %NAME%{%GRAY%Malice, Plague, Venom%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Fury,}%CONTINUE%
-ItemDisplay[(BOW OR XBOW) SOCK=3 NMAG !RW]: %NAME%{%GRAY%Edge, Melody, Plague, Venom%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[SIN SOCK=3 NMAG !RW]: %NAME%{%GRAY%Malice, Pattern, Plague, Venom%NL%Fury, King's grace, Lawbringer,%NL%%TAN%RWs: %GRAY%Black, Chaos, Crescent moon,}%CONTINUE%
-ItemDisplay[(AXE OR POLEARM OR SPEAR OR JAV) SOCK=3 NMAG !RW]: %NAME%{%GRAY%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[SWORD SOCK=3 NMAG !RW]: %NAME%{%GRAY%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, King's Grace,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[SCEPTER SOCK=3 NMAG !RW]: %NAME%{%GRAY%Malice, Plague, Venom%NL%Fury, King's Grace, Lawbringer,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[(clb OR spc OR mac OR mst OR fla OR 9cl OR 9sp OR 9ma OR 9mt OR 9fl OR 7cl OR 7sp OR 7ma OR 7mt OR 7fl) SOCK=3 NMAG !RW]: %NAME%{%GRAY%Fury, Malice, Plague, Venom%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Black,}%CONTINUE%
-ItemDisplay[(whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) SOCK=3 NMAG !RW]: %NAME%{%GRAY%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-//Weapons 4soc
-ItemDisplay[WEAPON SOCK=4 NMAG !RW]: %NAME%{%GRAY%Hand of Justice, Passion, Phoenix%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Fortitude,}%CONTINUE%
-ItemDisplay[(BOW OR XBOW) SOCK=4 NMAG !RW]: %NAME%{%GRAY%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Harmony, Passion,%NL%%TAN%RWs: %GRAY%Brand, Faith, Fortitude, Ice,}%CONTINUE%
-ItemDisplay[(fla OR 9fl OR 7fl) SOCK=4 NMAG !RW]: %NAME%{%GRAY%Oath, Passion, Phoenix, Voice of Reason%NL%Hand of Justice, Heart of the Oak,%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Fortitude,}%CONTINUE%
-ItemDisplay[SWORD SOCK=4 NMAG !RW]: %NAME%{%GRAY%Phoenix, Spirit, Voice of Reason%NL%Justice, Kingslayer, Oath, Passion,%NL%%TAN%RWs: %GRAY%Famine, Fortitude}%CONTINUE%
-ItemDisplay[(POLEARM OR SPEAR OR JAV) SOCK=4 NMAG !RW]: %NAME%{%GRAY%Passion, Phoenix, Pride, Rift%NL%Hand of Justice, Infinity, Insight,%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Fortitude,}%CONTINUE%
-ItemDisplay[SCEPTER SOCK=4 NMAG !RW]: %NAME%{%GRAY%Insight, Passion, Phoenix, Rift%NL%Holy Thunder, Hand of Justice,%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Fortitude, Hand of Justice}%CONTINUE%
-ItemDisplay[AXE SOCK=4 NMAG !RW]: %NAME%{%GRAY%Oath, Passion, Phoenix%NL%Fortitude, Hand of Justice, Kingslayer,%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Famine,}%CONTINUE%
-ItemDisplay[STAFF SOCK=4 NMAG !RW]: %NAME%{%GRAY%Memory, Passion, Phoenix, Spirit%NL%Heart of the Oak, Infinity, Insight,%NL%%TAN%RWs: %GRAY%Fortitude, Hand of Justice,}%CONTINUE%
-ItemDisplay[(whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) SOCK=4 NMAG !RW]: %NAME%{%GRAY%Justice, Passion, Phoenix%NL%Famine, Fortitude, Hand of%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-//Weapons 5soc
-ItemDisplay[WEAPON SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[WEAPON !(BOW OR XBOW OR SOR) SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms, Eternity, Honor%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[STAFF SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms, Doom, Eternity, Honor%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[SCEPTER SOCK=5 NMAG !RW]: %NAME%{%GRAY%Call to Arms, Eternity, Honor%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Beast,}%CONTINUE%
-ItemDisplay[(whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm) SOCK=5 NMAG !RW]: %NAME%{%GRAY%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[AXE SOCK=5 NMAG !RW]: %NAME%{%GRAY%Eternity, Grief, Honor%NL%Call to Arms, Death, Doom,%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Beast,}%CONTINUE%
-ItemDisplay[SWORD SOCK=5 NMAG !RW]: %NAME%{%GRAY%Destruction, Doom, Grief, Honor%NL%Call to Arms, Eternity, Death,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[(POLEARM OR SPEAR OR JAV) SOCK=5 NMAG !RW]: %NAME%{%GRAY%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-//Weapons 6soc
-ItemDisplay[WEAPON SOCK=6 NMAG !RW]: %NAME%{%GRAY%Breath of the Dying, Silence%NL%%TAN%Note%WHITE%: Possible Runeword:}%CONTINUE%
-ItemDisplay[(AXE OR SWORD OR (whm OR mau OR gma OR 9wh OR 9m9 OR 9gm OR 7wh OR 7m7 OR 7gm)) SOCK=6 NMAG !RW]: %NAME%{%GRAY%of the Dying, Last Wish, Silence%NL%%TAN%Note%WHITE%: Possible Runeword: %GRAY%Breath}%CONTINUE%
-
 //Class Items
 ItemDisplay[xtp !ETH AND (NMAG OR RW) SOCK=2]: %DOT-D6%%NAME%
 ItemDisplay[(xtp OR utp OR uui OR uea OR ula OR utu OR urs) (!INF AND !ETH) AND (NMAG OR RW) (SOCK>2)]: %DOT-D6%%NAME%
