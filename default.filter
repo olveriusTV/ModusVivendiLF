@@ -988,17 +988,17 @@ ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) !SOCK=1 (RES>29 AND CLVL<80)]: 
 ItemDisplay[uit !INF AND (NMAG OR RW) (SOCK=4)]: %DOT-D6%%NAME%
 ItemDisplay[(SOR OR STAFF OR WAND OR SCEPTER OR DRU OR BAR OR NEC OR SIN) NMAG CLVL<41]: %NAME% %GRAY%(%TAN%%WHITE%%PRICE%%GRAY%)
 ItemDisplay[(SOR OR WAND OR (wsp OR 9ws OR 7ws) OR (am5 OR ama OR amf) OR DRU OR BAR OR NEC OR SIN) (MAG OR RARE) !ID]: %NAME%
-ItemDisplay[(cap OR skp OR hlm OR fhl OR msk OR bhm OR ghm OR crn OR xap OR xkp OR xlm OR xhl OR xsk OR xh9 OR xhm OR xrn OR uap OR ukp OR ulm OR uhl OR usk OR uh9 OR uhm OR urn OR ci0 OR ci1 OR ci2 OR ci3) (!INF AND !ETH) AND (NMAG OR RW) (SOCK>1)]: %DOT-D6%%NAME%
-ItemDisplay[ (!INF AND !ETH) AND (NMAG OR RW) (SOCK>1)]: %DOT-D6%%NAME%
+ItemDisplay[(ghm OR xtp OR ci0 OR ci1 OR ci2 OR ci3) (!INF AND !ETH) AND (NMAG OR RW) (SOCK>1)]: %DOT-D6%%NAME%
 ItemDisplay[(wsp OR 9ws OR 7ws) (NMAG OR RW) SOCK=4 !ETH]: %DOT-D6%%NAME%
 ItemDisplay[crs (NMAG OR RW) SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %DOT-D6%%NAME% %TAN%
 ItemDisplay[(bsd OR lsd) (NMAG OR RW) SOCK=0 ILVL>25 CLVL<80]: %DOT-D6%%NAME% %TAN%
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %DOT-D6%%NAME%
 ItemDisplay[fla (NMAG OR RW) SOCK>3]: %DOT-D6%%NAME%
 ItemDisplay[crs (NMAG OR RW) SOCK=5]: %DOT-D6%%NAME%
+ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW) (SOCK=2 OR SOCK=3)]: %DOT-D6%%NAME%
 ItemDisplay[6cb SOCK=3]: %NAME%
 ItemDisplay[(6cb OR 8rx OR 6rx) SOCK=4]: %DOT-D6%%NAME%
-ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) (ETH AND (NMAG OR RW)) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
+ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) (!INF AND !ETH) AND (NMAG OR RW)) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
 ItemDisplay[(7vo OR 7tr) (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %DOT-D6%%NAME%
 ItemDisplay[(7cr OR 7wa) !ETH (NMAG OR RW) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
 ItemDisplay[(7bt OR 7ba) ETH (NMAG OR RW) (SOCK=5)]: %DOT-D6%%NAME%
