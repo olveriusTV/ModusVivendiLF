@@ -1,6 +1,6 @@
-//THE UNHOLY CIRCLET (V.2) by Olverius (feat. NODRULE)
+//THE UNHOLY CIRCLET by Ólverius (ft. NODRULE)
 //game: Project D2
-//contact: twitch.tv/olveriusTV // Olverius#7222 (discord) // /w* olveriusTV
+//contact: twitch.tv/olveriusTV // Ólverius#7222 (discord) // /w* olveriusTV
 //Very useful for beginners and pros.
 
 //Gold
@@ -521,10 +521,10 @@ ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[CRAFT]: %ORANGE%%NAME%%CONTINUE%
 
 //Superiors, and Inferiors
-ItemDisplay[SUP ED<5]: %WHITE%Sup %NAME%%CONTINUE%
-ItemDisplay[WEAPON SUP ED>4]: %RED%Sup %NAME%%CONTINUE%
-ItemDisplay[ARMOR SUP ED>4]: %BLUE%Sup %NAME%%CONTINUE%
-ItemDisplay[INF !(rin OR amu) ID]: %GRAY%Inf %NAME%%CONTINUE%
+ItemDisplay[SUP ED<5]: %GRAY%[%GREEN%SUP%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[WEAPON SUP ED>4]: %GRAY%[%RED%SUP%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[ARMOR SUP ED>4]: %GRAY%[%BLUE%SUP%GRAY%] %NAME%%CONTINUE%
+ItemDisplay[INF !(rin OR amu) ID]: %GRAY%[%WHITE%inf%GRAY%] %NAME%%CONTINUE%
 
 //Gambling Items
 ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME%
@@ -614,30 +614,30 @@ ItemDisplay[cqv CLVL>5]:
 ItemDisplay[key CLVL>35]:
 
 //Quest Items
-ItemDisplay[bks]: %MAP%%Orange%Scroll of Inifuss
-ItemDisplay[bkd]: %MAP%%Orange%Key to the Cairn Stones
-ItemDisplay[leg]: %MAP%%Orange%Wirt's Leg
-ItemDisplay[hdm]: %MAP%%Orange%Horadric Malus
-ItemDisplay[ass]: %MAP%%Orange%Book of Skill
-ItemDisplay[tr1]: %MAP%%Orange%Horadric Scroll
-ItemDisplay[box]: %MAP%%Orange%Horadric Cube
-ItemDisplay[msf]: %MAP%%Orange%Staff of Kings
-ItemDisplay[vip]: %MAP%%Orange%Viper Amulet
-ItemDisplay[hst]: %MAP%%Orange%Horadric Staff
-ItemDisplay[j34]: %MAP%%Orange%Jade Figurine
-ItemDisplay[g34]: %MAP%%Orange%The Golden Bird
-ItemDisplay[xyz]: %MAP%%Orange%Potion of Life
-ItemDisplay[g33]: %MAP%%Orange%Gidbinn 
-ItemDisplay[bbb]: %MAP%%Orange%Lam Esen's Tome
-ItemDisplay[qbr]: %MAP%%Orange%Khalim's Brain
-ItemDisplay[qey]: %MAP%%Orange%Khalim's Eye
-ItemDisplay[qhr]: %MAP%%Orange%Khalim's Heart
-ItemDisplay[qf1]: %MAP%%Orange%Khalim's Flail
-ItemDisplay[qf2]: %MAP%%Orange%Khalim's Will
-ItemDisplay[mss]: %MAP%%Orange%Mephisto's Soulstone
-ItemDisplay[hfh]: %MAP%%Orange%Hellforge Hammer
-ItemDisplay[ice]: %MAP%%Orange%Malah's Potion
-ItemDisplay[tr2]: %MAP%%Orange%Scroll of Resistance
+ItemDisplay[bks]: %MAP%%TAN%Scroll of Inifuss
+ItemDisplay[bkd]: %MAP%%TAN%Key to the Cairn Stones
+ItemDisplay[leg]: %MAP%%TAN%Wirt's Leg
+ItemDisplay[hdm]: %MAP%%TAN%Horadric Malus
+ItemDisplay[ass]: %MAP%%TAN%Book of Skill
+ItemDisplay[tr1]: %MAP%%TAN%Horadric Scroll
+ItemDisplay[box]: %MAP%%TAN%Horadric Cube
+ItemDisplay[msf]: %MAP%%TAN%Staff of Kings
+ItemDisplay[vip]: %MAP%%TAN%Viper Amulet
+ItemDisplay[hst]: %MAP%%TAN%Horadric Staff
+ItemDisplay[j34]: %MAP%%TAN%Jade Figurine
+ItemDisplay[g34]: %MAP%%TAN%Golden Bird
+ItemDisplay[xyz]: %MAP%%TAN%Potion of Life
+ItemDisplay[g33]: %MAP%%TAN%Gidbinn 
+ItemDisplay[bbb]: %MAP%%TAN%Lam Esen's Tome
+ItemDisplay[qbr]: %MAP%%TAN%Khalim's Brain
+ItemDisplay[qey]: %MAP%%TAN%Khalim's Eye
+ItemDisplay[qhr]: %MAP%%TAN%Khalim's Heart
+ItemDisplay[qf1]: %MAP%%TAN%Khalim's Flail
+ItemDisplay[qf2]: %MAP%%TAN%Khalim's Will
+ItemDisplay[mss]: %MAP%%TAN%Mephisto's Soulstone
+ItemDisplay[hfh]: %MAP%%TAN%Hellforge Hammer
+ItemDisplay[ice]: %MAP%%TAN%Malah's Potion
+ItemDisplay[tr2]: %MAP%%TAN%Scroll of Resistance
 
 //Gems
 ItemDisplay[gzv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
