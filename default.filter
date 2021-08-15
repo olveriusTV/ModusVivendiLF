@@ -614,30 +614,30 @@ ItemDisplay[cqv CLVL>5]:
 ItemDisplay[key CLVL>35]:
 
 //Quest Items
-ItemDisplay[bks]: %NAME%%MAP% //Scroll of Inifuss
-ItemDisplay[bkd]: %NAME%%MAP% //Key to the Cairn Stones
-ItemDisplay[leg]: %NAME%%MAP% //Wirt's Leg
-ItemDisplay[hdm]: %NAME%%MAP% //Horadric Malus
-ItemDisplay[ass]: %NAME%%MAP% //Book of Skill
-ItemDisplay[tr1]: %NAME%%MAP% //Horadric Scroll
-ItemDisplay[box]: %NAME%%MAP% //Horadric Cube
-ItemDisplay[msf]: %NAME%%MAP% //Staff of Kings
-ItemDisplay[vip]: %NAME%%MAP% //Viper Amulet
-ItemDisplay[hst]: %NAME%%MAP% //Horadric Staff
-ItemDisplay[j34]: %NAME%%MAP% //A Jade Figurine
-ItemDisplay[g34]: %NAME%%MAP% //The Golden Bird
-ItemDisplay[xyz]: %NAME%%MAP% //Potion of Life
-ItemDisplay[g33]: %NAME%%MAP% //Gidbinn 
-ItemDisplay[bbb]: %NAME%%MAP% //Lam Esen's Tome
-ItemDisplay[qbr]: %NAME%%MAP% //Khalim's Brain
-ItemDisplay[qey]: %NAME%%MAP% //Khalim's Eye
-ItemDisplay[qhr]: %NAME%%MAP% //Khalim's Heart
-ItemDisplay[qf1]: %NAME%%MAP% //Khalim's Flail
-ItemDisplay[qf2]: %NAME%%MAP% //Khalim's Will
-ItemDisplay[mss]: %NAME%%MAP% //Mephisto's Soulstone
-ItemDisplay[hfh]: %NAME%%MAP% //Hellforge Hammer
-ItemDisplay[ice]: %NAME%%MAP% //Malah's Potion
-ItemDisplay[tr2]: %NAME%%MAP% //Scroll of Resistance
+ItemDisplay[bks]: %MAP%%Orange%Scroll of Inifuss
+ItemDisplay[bkd]: %MAP%%Orange%Key to the Cairn Stones
+ItemDisplay[leg]: %MAP%%Orange%Wirt's Leg
+ItemDisplay[hdm]: %MAP%%Orange%Horadric Malus
+ItemDisplay[ass]: %MAP%%Orange%Book of Skill
+ItemDisplay[tr1]: %MAP%%Orange%Horadric Scroll
+ItemDisplay[box]: %MAP%%Orange%Horadric Cube
+ItemDisplay[msf]: %MAP%%Orange%Staff of Kings
+ItemDisplay[vip]: %MAP%%Orange%Viper Amulet
+ItemDisplay[hst]: %MAP%%Orange%Horadric Staff
+ItemDisplay[j34]: %MAP%%Orange%Jade Figurine
+ItemDisplay[g34]: %MAP%%Orange%The Golden Bird
+ItemDisplay[xyz]: %MAP%%Orange%Potion of Life
+ItemDisplay[g33]: %MAP%%Orange%Gidbinn 
+ItemDisplay[bbb]: %MAP%%Orange%Lam Esen's Tome
+ItemDisplay[qbr]: %MAP%%Orange%Khalim's Brain
+ItemDisplay[qey]: %MAP%%Orange%Khalim's Eye
+ItemDisplay[qhr]: %MAP%%Orange%Khalim's Heart
+ItemDisplay[qf1]: %MAP%%Orange%Khalim's Flail
+ItemDisplay[qf2]: %MAP%%Orange%Khalim's Will
+ItemDisplay[mss]: %MAP%%Orange%Mephisto's Soulstone
+ItemDisplay[hfh]: %MAP%%Orange%Hellforge Hammer
+ItemDisplay[ice]: %MAP%%Orange%Malah's Potion
+ItemDisplay[tr2]: %MAP%%Orange%Scroll of Resistance
 
 //Gems
 ItemDisplay[gzv]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
