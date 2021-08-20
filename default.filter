@@ -999,6 +999,7 @@ ItemDisplay[ush (!INF AND !ETH) AND (NMAG OR RW) (SOCK=2 OR SOCK=3)]: %DOT-D6%%N
 ItemDisplay[6cb SOCK=3]: %NAME%
 ItemDisplay[(6cb OR 8rx OR 6rx) SOCK=4]: %DOT-D6%%NAME%
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7vo OR 7h7 OR 7tr OR 7br OR 7st OR 7p7) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
+ItemDisplay[(7h7) !ETH AND (NMAG OR RW) (SOCK=6)]: %DOT-D6%%NAME%
 ItemDisplay[(7vo OR 7tr) (ETH AND !INF) AND (NMAG OR RW) SOCK=0]: %DOT-D6%%NAME%
 ItemDisplay[(7cr OR 7wa) !ETH (NMAG OR RW) (SOCK=4 OR SOCK=5)]: %DOT-D6%%NAME%
 ItemDisplay[(7bt OR 7ba) ETH (NMAG OR RW) (SOCK=5)]: %DOT-D6%%NAME%
@@ -1027,9 +1028,6 @@ ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Lum %WHITE%+
 //Quantitiy of All Stackables
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
-//Standard of Heroes
-ItemDisplay[std]: %PX-9D%%NAME%{%WHITE%+10% Experience%NL%+20% Magic&Gold Find%NL%+20% Monster Density%NL%%TAN%Note: %WHITE%Cube it with Map to gain:}
-
 //Always Show
 ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 
@@ -1038,23 +1036,23 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //PD2 Items
 ItemDisplay[wss]: %MAP-4A%%NAME%{%TAN%Note%WHITE%: Use it to %RED%Corrupt %WHITE%an Item}%CONTINUE%
-ItemDisplay[imra]: %NAME%{%WHITE%Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: Imbue White to %YELLOW%Rare %WHITE%Map:}%CONTINUE%
-ItemDisplay[scrb]: %MAP-A9%%NAME% %ORANGE%*{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: Cube it with %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Map to Make:}
-ItemDisplay[rera]: %NAME%{%WHITE%Item + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: Reroll %YELLOW%Rare %WHITE%Map:}%CONTINUE%
-ItemDisplay[upma]: %NAME%{%WHITE%Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: Upgrade %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE% Map:}%CONTINUE%
-ItemDisplay[imma]: %NAME%{%WHITE%Item + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: Imbue White to %BLUE%Magic%WHITE% Map:}%CONTINUE%
-ItemDisplay[scou]: %NAME%{%WHITE%Item + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: White Map:}%CONTINUE%
-ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: Use it to %TAN%Socket %WHITE%an Item}%CONTINUE%
-ItemDisplay[upmp]: %NAME% %WHITE%*{%WHITE%3x%GRAY%Map%WHITE% (Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: Upgrade to %RED%Higher Tier%WHITE%:}
+ItemDisplay[imra]: %NAME%{%WHITE%Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: White to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[scrb]: %MAP-A9%%NAME% %ORANGE%*{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: MAP + %GRAY%[%ORANGE%T3%GRAY%] %WHITE%Note:}
+ItemDisplay[rera]: %NAME%{%WHITE%Item + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %RED%Reroll %YELLOW%Rare %WHITE%:}%CONTINUE%
+ItemDisplay[upma]: %NAME%{%WHITE%Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[imma]: %NAME%{%WHITE%Item + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: White to %BLUE%Magic%WHITE%:}%CONTINUE%
+ItemDisplay[scou]: %NAME%{%WHITE%Item + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: White:}%CONTINUE%
+ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: %TAN%Socket %WHITE% Item}%CONTINUE%
+ItemDisplay[upmp]: %NAME% %WHITE%*{%WHITE%3x%GRAY%Map%WHITE% (Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
 ItemDisplay[ubtm]: %MAP-A9%%NAME% %ORANGE%*
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% %DARK_GREEN%*%CONTINUE%
-ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME% %TAN%*%CONTINUE%
-ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME% %ORANGE%*%CONTINUE%
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %GRAY%[%RED%Dungeon%GRAY%] %NAME% %RED%*%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% %CONTINUE%
+ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME% %CONTINUE%
+ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME% %CONTINUE%
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %GRAY%[%RED%Dungeon%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%WHITE%Modify > %RED%Anya%NL%%TAN%Note%WHITE%:%NL%%TAN%: to Reroll: Cube with 3xPerf %GRAY%O%TAN%Note}
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Modify > %RED%Anya%NL%%TAN%Note%WHITE%:}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%RED%Reroll: %BLUE%MAP %WHITE%+ %GRAY%3x %WHITE%Perf O%NL%%TAN%Note:}
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Modify > %RED%Anya%NL%%GRAY%Note%WHITE%:}
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Uber Keys
@@ -1064,7 +1062,12 @@ ItemDisplay[pk3]:%ORANGE%Key of Destruction%WHITE% [Izual/ Nihlathak]%ORANGE%%MA
 ItemDisplay[dhn]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[bey]:%ORANGE%Baal's Eye%ORANGE%%MAP%
 ItemDisplay[mbr]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
-ItemDisplay[std]:%BLUE%Standard of Heroes
+
+//Special Items
+ItemDisplay[std]: %PX-9D%%NAME%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GRAY%Note: %TAN%Item %WHITE%+ %RED%MAP:}
+ItemDisplay[UNI !ID cm1]: %MAP-62%%PURPLE%Annihilus
+ItemDisplay[UNI !ID cm2]: %MAP-62%%PURPLE%Hellfire Torch
+ItemDisplay[UNI !ID cm3]: %MAP-62%%TAN%Gheed's Charm
 
 //Uber Keys stacked
 ItemDisplay[pk1s]:%ORANGE%Key of Terror%WHITE% [Countess/ Blood Raven]%GRAY%(%GRAY%%QTY%%GRAY%)%ORANGE%%MAP%
@@ -1073,7 +1076,7 @@ ItemDisplay[pk3s]:%ORANGE%Key of Destruction%WHITE% [Izual/ Nihlathak]%GRAY%(%GR
 ItemDisplay[dhns]:%ORANGE%Diablo's Horn%ORANGE%%MAP%
 ItemDisplay[beys]:%ORANGE%Baal's Eye%ORANGE%%MAP%
 ItemDisplay[mbrs]:%ORANGE%Mephisto's Brain%ORANGE%%MAP%
-ItemDisplay[stds]:%BLUE%Standard of Heroes
+ItemDisplay[stds]:%BLUE%Standard of Heroes%BLUE%%MAP%
 
 //Vision of Terror + Pure Demonic Essence + Black Soulstone = Prime Evil Soul
 
