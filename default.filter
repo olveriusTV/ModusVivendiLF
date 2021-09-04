@@ -563,14 +563,14 @@ ItemDisplay[hp1 CLVL<18]: %GRAY%health%RED%-
 ItemDisplay[hp2 CLVL<26]: %GRAY%health%RED%+
 ItemDisplay[hp3 CLVL<41]: %GRAY%HEALTH%RED%-
 ItemDisplay[hp4 CLVL<81]: %GRAY%HEALTH%RED%+
-ItemDisplay[hp5 CLVL<99]: //%GREEN%*%RED%HEALTH
+ItemDisplay[hp5 CLVL<99]: %GREEN%*%RED%HEALTH
 
 /Mana
 ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
 ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
 ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
 ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%+ 
-ItemDisplay[mp5 CLVL<99]: //%GREEN%*%BLUE%MANA
+ItemDisplay[mp5 CLVL<99]: %GREEN%*%BLUE%MANA
 
 /Rejuv
 ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
