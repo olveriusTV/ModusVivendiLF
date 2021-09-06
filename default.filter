@@ -1004,12 +1004,12 @@ ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //PD2 Items
 ItemDisplay[wss]: %MAP-A9%%NAME%{%TAN%Note%WHITE%: %RED%Corrupt %WHITE%Item}%CONTINUE%
-ItemDisplay[imra]: %MAP-A9%%NAME%{%WHITE%Item + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: White to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[imra]: %MAP-A9%%NAME%{%WHITE%MAP %WHITE%+ %GOLD%Orb%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: White to %YELLOW%Rare%WHITE%:}%CONTINUE%
 ItemDisplay[scrb]: %MAP-A9%%NAME%{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: MAP + %GRAY%[%ORANGE%T3%GRAY%]}
-ItemDisplay[rera]: %MAP-A9%%NAME%{%WHITE%Item + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %RED%Reroll %YELLOW%Rare %WHITE%:}%CONTINUE%
-ItemDisplay[upma]: %MAP-A9%%NAME%{%WHITE%Item + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
-ItemDisplay[imma]: %MAP-A9%%NAME%{%WHITE%Item + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: White to %BLUE%Magic%WHITE%:}%CONTINUE%
-ItemDisplay[scou]: %MAP-A9%%NAME%{%WHITE%Item + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: White:}%CONTINUE%
+ItemDisplay[rera]: %MAP-A9%%NAME%{%YELLOW%MAP %WHITE%+ %GOLD%Orb%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %RED%Reroll%WHITE%:}%CONTINUE%
+ItemDisplay[upma]: %MAP-A9%%NAME%{%BLUE%MAP %WHITE%+ %GOLD%Orb%WHITE% + Perf %WHITE%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[imma]: %MAP-A9%%NAME%{%WHITE%MAP + %GOLD%Orb%WHITE% + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: White to %BLUE%Magic%WHITE%:}%CONTINUE%
+ItemDisplay[scou]: %MAP-A9%%NAME%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Orb%WHITE% + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: White:}%CONTINUE%
 ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: %TAN%Socket %WHITE%Item}%CONTINUE%
 ItemDisplay[upmp]: %MAP-A9%%NAME%{%WHITE%3x%GRAY%Map%WHITE% (Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Orb %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
 ItemDisplay[ubtm]: %MAP-A9%%NAME%{%WHITE%Note:%RED% Red Fountain%WHITE% > %GRAY%RIGHT CLICK %WHITE%for %RED%UBER TRISTRAM}
