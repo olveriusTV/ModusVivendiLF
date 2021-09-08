@@ -4,6 +4,7 @@
 //Very useful for beginners and pros.
 
 //Original Names
+//Original Names
 ItemDisplay[(SUP OR INF) !RW xul]: Chaos Armor%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW uul]: Shadow Plate%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW aar]: Ancient Armor%CONTINUE%
@@ -937,6 +938,20 @@ ItemDisplay[WEAPON MAG ID]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORA
 ItemDisplay[amu MAG]: %NAME%{%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Ral %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
 ItemDisplay[rin MAG]: %NAME%{%GRAY%Caster%WHITE%: Perf %PURPLE%O %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Jewel%NL%%GRAY%Blood%WHITE%: Perf %RED%O %WHITE%+ %ORANGE%Sol %WHITE%+ %BLUE%Jewel%NL%%TAN%Craft Recipe:}
 
+//Upgrading
+ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %PURPLE%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
+ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
+
 //Runeword Bases
 ItemDisplay[(ghm OR ci3 OR uh9) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=2 OR SOCK=3)]: %NAME%{%NAME%}
 ItemDisplay[BAR (SK149>2 OR SK154>2) !INF !ETH NMAG !RW SOCK=2]: %NAME%{%NAME%}
@@ -996,20 +1011,6 @@ ItemDisplay[((SIN ELT) OR 9tw OR 9lw) ((SK254>2 OR SK255>2 OR SK260>2 OR SK275>2
 ItemDisplay[SIN !(ktr OR wrb OR axf OR ces) (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK262>2 OR SK266>2 OR SK267>2 OR SK271>2 OR SK272>2 OR SK273>2 OR SK276>2 OR SK277>2 OR SK278>2 OR SK265>2 OR (SK278>1 AND SK265>1) OR SK366>2 OR SK280>2) !INF NMAG !RW (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
 ItemDisplay[((SIN ELT) OR 9tw OR 9lw) !INF ETH NMAG !RW (SOCK=0 OR SOCK=3)]: %NAME%{%NAME%}
 
-//Upgrading
-ItemDisplay[ARMOR NORM RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ Perf %PURPLE%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[ARMOR EXC RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %PURPLE%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[WEAPON NORM RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ Perf %BLUE%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[WEAPON EXC RARE ID]: %NAME%{%YELLOW%Item %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ Perf %BLUE%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[ARMOR NORM UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[ARMOR EXC UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[WEAPON NORM UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[WEAPON EXC UNI ID]: %NAME%{%GOLD%Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[ARMOR NORM SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[ARMOR EXC SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ Perf O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[WEAPON NORM SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
-ItemDisplay[WEAPON EXC SET ID]: %NAME%{%GREEN%Item %WHITE%+ %ORANGE%Lum %WHITE%+ %ORANGE%Pul %WHITE%+ Perf %GREEN%O%NL%%TAN%Upgrade Recipe:}
-
 //Quantitiy of All Stackables
 ItemDisplay[!(ARMOR OR WEAPON OR tbk OR ibk) QTY>0]: %NAME% %TAN%x %WHITE%%QTY%%CONTINUE%
 
@@ -1020,7 +1021,7 @@ ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //PD2 Items
-ItemDisplay[wss]: %MAP-A9%%NAME%{%GRAY%Note%WHITE%: %RED%Corrupt %WHITE%Item}%CONTINUE%
+ItemDisplay[wss]: %RED%Worldstone Shard %GOLD%x %WHITE%%QTY% %MAP-62%{%GRAY%Note%WHITE%: %RED%Corrupt %WHITE%Item}%CONTINUE%
 ItemDisplay[imra]: %MAP-A9%%NAME%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: White to %YELLOW%Rare%WHITE%:}%CONTINUE%
 ItemDisplay[scrb]: %MAP-A9%%NAME%{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: MAP + %GRAY%[%ORANGE%T3%GRAY%]}
 ItemDisplay[rera]: %MAP-A9%%NAME%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %RED%Reroll%WHITE%:}%CONTINUE%
@@ -1044,7 +1045,7 @@ ItemDisplay[tes]: %MAP-35%%BLUE%%NAME%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
 ItemDisplay[ceh]: %MAP-35%%YELLOW%%NAME%{%YELLOW%Mephisto}
 ItemDisplay[bet]: %MAP-35%%RED%%NAME%{%RED%Diablo}
 ItemDisplay[fed]: %MAP-35%%DARK_GREEN%%NAME%{%DARK_GREEN%Baal}
-ItemDisplay[toa]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%GREEN%Skill Reset)
+ItemDisplay[toa]: %GREEN%Token of Absolution %GOLD%x %WHITE%%QTY% %MAP-62%(%GREEN%Skill Reset)
 
 //Uber Ingredients
 ItemDisplay[pk1]: %MAP-45%%GRAY%%NAME%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
@@ -1056,16 +1057,17 @@ ItemDisplay[mbr]: %MAP-45%%GOLD%%NAME%{%GOLD%Izual}
 ItemDisplay[ubtm]: %MAP-45%%NAME%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone Ingredients
-ItemDisplay[dcmas]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Diablo Clone Access)
-ItemDisplay[dcbls]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Map Bosses)
-ItemDisplay[dchos]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Uber Bosses)
-ItemDisplay[dcsos]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Hell Diablo %WHITE%& %BLUE%Baal)
+ItemDisplay[dcho]: %PURPLE%Black Soulstone %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Uber Tristram Bosses}
+ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Hell Diablo %WHITE%& %PURPLE%Baal}
+ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Map Bosses}
+ItemDisplay[dcma]: %PURPLE%Vision of Terror %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Diablo Clone Access}
+
 
 //Special Items
 ItemDisplay[std]: %MAP-62%%NAME%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
-ItemDisplay[UNI !ID cm1]: %MAP-62%%GOLD%%NAME% //Annihilus
-ItemDisplay[UNI !ID cm2]: %MAP-62%%GOLD%%NAME% //Hellfire Torch
-ItemDisplay[UNI !ID cm3]: %MAP-62%%GOLD%%NAME% //Gheed's Fortune
+ItemDisplay[UNI !ID cm1]: %GOLD%Annihilus%MAP-62%{%GOLD%Diablo Clone}
+ItemDisplay[UNI !ID cm2]: %GOLD%Torch%MAP-62%{%GOLD%Uber Tristram}
+ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
 
 
 //HIDE EVERYTHING
