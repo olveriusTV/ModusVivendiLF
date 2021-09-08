@@ -563,14 +563,14 @@ ItemDisplay[hp1 CLVL<18]: %GRAY%health%RED%-
 ItemDisplay[hp2 CLVL<26]: %GRAY%health%RED%+
 ItemDisplay[hp3 CLVL<41]: %GRAY%HEALTH%RED%-
 ItemDisplay[hp4 CLVL<81]: %GRAY%HEALTH%RED%+
-ItemDisplay[hp5 CLVL<99]: //%GREEN%*%RED%HEALTH
+ItemDisplay[hp5 CLVL<99]: %GREEN%*%RED%HEALTH
 
 /Mana
 ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
 ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
 ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
 ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%+ 
-ItemDisplay[mp5 CLVL<99]: //%GREEN%*%BLUE%MANA
+ItemDisplay[mp5 CLVL<99]: %GREEN%*%BLUE%MANA
 
 /Rejuv
 ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
@@ -586,7 +586,7 @@ ItemDisplay[bkd]: %MAP-A9%%GOLD%Key to the Cairn Stones
 ItemDisplay[leg]: %MAP-A9%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP-A9%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP-A9%%GOLD%Book of Skill
-ItemDisplay[tr1]: //%MAP-A9%%GOLD%Horadric Scroll
+ItemDisplay[tr1]: %MAP-A9%%GOLD%Horadric Scroll
 ItemDisplay[box]: %MAP-A9%%GOLD%Horadric Cube
 ItemDisplay[msf]: %MAP-A9%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP-A9%%GOLD%Viper Amulet
@@ -596,11 +596,11 @@ ItemDisplay[g34]: %MAP-A9%%GOLD%Golden Bird
 ItemDisplay[xyz]: %MAP-A9%%GOLD%Potion of Life
 ItemDisplay[g33]: %MAP-A9%%GOLD%Gidbinn 
 ItemDisplay[bbb]: %MAP-A9%%GOLD%Lam Esen's Tome
-ItemDisplay[qbr]: //%MAP-A9%%GOLD%Khalim's Brain
-ItemDisplay[qey]: //%MAP-A9%%GOLD%Khalim's Eye
-ItemDisplay[qhr]: //%MAP-A9%%GOLD%Khalim's Heart
-ItemDisplay[qf1]: //%MAP-A9%%GOLD%Khalim's Flail
-ItemDisplay[qf2]: //%MAP-A9%%GOLD%Khalim's Will
+ItemDisplay[qbr]: %MAP-A9%%GOLD%Khalim's Brain
+ItemDisplay[qey]: %MAP-A9%%GOLD%Khalim's Eye
+ItemDisplay[qhr]: %MAP-A9%%GOLD%Khalim's Heart
+ItemDisplay[qf1]: %MAP-A9%%GOLD%Khalim's Flail
+ItemDisplay[qf2]: %MAP-A9%%GOLD%Khalim's Will
 ItemDisplay[mss]: %MAP-A9%%GOLD%Mephisto's Soulstone
 ItemDisplay[hfh]: %MAP-A9%%GOLD%Hellforge Hammer
 ItemDisplay[ice]: %MAP-A9%%GOLD%Malah's Potion
