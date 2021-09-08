@@ -4,70 +4,6 @@
 //Very useful for beginners and pros.
 
 //Original Names
-ItemDisplay[(SUP OR INF) !RW cap]: Cap%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xap]: War Hat%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uap]: Shako%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW skp]: Skull Cap%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xkp]: Sallet%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ukp]: Hydraskull%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW hlm]: Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xlm]: Casque%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ulm]: Armet%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW fhl]: Full Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xhl]: Basinet%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uhl]: Giant Conch%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW msk]: Mask%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xsk]: Death Mask%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW usk]: Demonhead%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW bhm]: Bone Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xh9]: Grim Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uh9]: Bone Visage%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ghm]: Great Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xhm]: Winged Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uhm]: Spired Helm%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW crn]: Crown%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xrn]: Grand Crown%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW urn]: Corona%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW qui]: Quilted Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xui]: Ghost Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uui]: Dusk Shroud%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW lea]: Leather Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xea]: Serpentskin%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uea]: Wyrmhide%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW hla]: Hard Leather Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xla]: Demonhide Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ula]: Scarab Husk%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW stu]: Studded Leather%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xtu]: Trellised Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW utu]: Wire Fleece%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW rng]: Ring Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xng]: Linked Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ung]: Diamond Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW scl]: Scale Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xcl]: Tigulated Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ucl]: Loricated Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW brs]: Breast Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xrs]: Cuirass%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW urs]: Great Hauberk%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW chn]: Chain Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xhn]: Mesh Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uhn]: Boneweave%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW spl]: Splint Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xpl]: Russet Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW upl]: Balrog Skin%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ltp]: Light Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xtp]: Mage Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW utp]: Archon Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW fld]: Field Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xld]: Sharktooth Armor%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uld]: Kraken Shell%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW plt]: Plate Mail%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xlt]: Templar Coat%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ult]: Hellforge Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW gth]: Gothic Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW xth]: Embossed Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW uth]: Lacquered Plate%CONTINUE%
-ItemDisplay[(SUP OR INF) !RW ful]: Full Plate Mail%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW xul]: Chaos Armor%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW uul]: Shadow Plate%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW aar]: Ancient Armor%CONTINUE%
@@ -497,6 +433,70 @@ ItemDisplay[(SUP OR INF) !RW ame]: Matriarchal Pike%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW am5]: Maiden Javelin%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW ama]: Ceremonial Javelin%CONTINUE%
 ItemDisplay[(SUP OR INF) !RW amf]: Matriarchal Javelin%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW cap]: Cap%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xap]: War Hat%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uap]: Shako%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW skp]: Skull Cap%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xkp]: Sallet%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ukp]: Hydraskull%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW hlm]: Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xlm]: Casque%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ulm]: Armet%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW fhl]: Full Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xhl]: Basinet%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uhl]: Giant Conch%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW msk]: Mask%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xsk]: Death Mask%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW usk]: Demonhead%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW bhm]: Bone Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xh9]: Grim Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uh9]: Bone Visage%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ghm]: Great Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xhm]: Winged Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uhm]: Spired Helm%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW crn]: Crown%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xrn]: Grand Crown%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW urn]: Corona%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW qui]: Quilted Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xui]: Ghost Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uui]: Dusk Shroud%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW lea]: Leather Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xea]: Serpentskin%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uea]: Wyrmhide%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW hla]: Hard Leather Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xla]: Demonhide Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ula]: Scarab Husk%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW stu]: Studded Leather%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xtu]: Trellised Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW utu]: Wire Fleece%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW rng]: Ring Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xng]: Linked Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ung]: Diamond Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW scl]: Scale Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xcl]: Tigulated Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ucl]: Loricated Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW brs]: Breast Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xrs]: Cuirass%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW urs]: Great Hauberk%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW chn]: Chain Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xhn]: Mesh Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uhn]: Boneweave%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW spl]: Splint Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xpl]: Russet Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW upl]: Balrog Skin%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ltp]: Light Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xtp]: Mage Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW utp]: Archon Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW fld]: Field Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xld]: Sharktooth Armor%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uld]: Kraken Shell%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW plt]: Plate Mail%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xlt]: Templar Coat%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ult]: Hellforge Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW gth]: Gothic Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW xth]: Embossed Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW uth]: Lacquered Plate%CONTINUE%
+ItemDisplay[(SUP OR INF) !RW ful]: Full Plate Mail%CONTINUE%
 
 //Original Coloring
 ItemDisplay[UNI]: %GOLD%%NAME%%CONTINUE%
@@ -563,14 +563,14 @@ ItemDisplay[hp1 CLVL<18]: %GRAY%health%RED%-
 ItemDisplay[hp2 CLVL<26]: %GRAY%health%RED%+
 ItemDisplay[hp3 CLVL<41]: %GRAY%HEALTH%RED%-
 ItemDisplay[hp4 CLVL<81]: %GRAY%HEALTH%RED%+
-ItemDisplay[hp5 CLVL<99]: //%GREEN%*%RED%HEALTH
+ItemDisplay[hp5 CLVL<99]: %GREEN%*%RED%HEALTH
 
 /Mana
 ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
 ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
 ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
 ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%+ 
-ItemDisplay[mp5 CLVL<99]: //%GREEN%*%BLUE%MANA
+ItemDisplay[mp5 CLVL<99]: %GREEN%*%BLUE%MANA
 
 /Rejuv
 ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
@@ -583,7 +583,7 @@ ItemDisplay[key NMAG CLVL<36]:
 //Quest Items
 ItemDisplay[bks]: %MAP-A9%%TAN%Scroll of Inifuss
 ItemDisplay[bkd]: %MAP-A9%%TAN%Key to the Cairn Stones
-ItemDisplay[leg]: %MAP-A1%%TAN%Wirt's Leg
+ItemDisplay[leg]: %MAP-A9%%TAN%Wirt's Leg
 ItemDisplay[hdm]: %MAP-A9%%TAN%Horadric Malus
 ItemDisplay[ass]: %MAP-A9%%TAN%Book of Skill
 ItemDisplay[tr1]: %MAP-A9%%TAN%Horadric Scroll
@@ -740,7 +740,7 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 
 //All Charms
 ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
-ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
+ItemDisplay[cm2 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm1 OR cm2 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
