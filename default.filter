@@ -581,39 +581,67 @@ ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 ItemDisplay[key NMAG CLVL<36]:
 
 //Quest Items
-ItemDisplay[bks]: %MAP-A9%%TAN%Scroll of Inifuss
-ItemDisplay[bkd]: %MAP-A9%%TAN%Key to the Cairn Stones
-ItemDisplay[leg]: %MAP-A9%%TAN%Wirt's Leg
-ItemDisplay[hdm]: %MAP-A9%%TAN%Horadric Malus
-ItemDisplay[ass]: %MAP-A9%%TAN%Book of Skill
-ItemDisplay[tr1]: %MAP-A9%%TAN%Horadric Scroll
-ItemDisplay[box]: %MAP-A9%%TAN%Horadric Cube
-ItemDisplay[msf]: %MAP-A9%%TAN%Staff of Kings
-ItemDisplay[vip]: %MAP-A9%%TAN%Viper Amulet
-ItemDisplay[hst]: %MAP-A9%%TAN%Horadric Staff
-ItemDisplay[j34]: %MAP-A9%%TAN%Jade Figurine
-ItemDisplay[g34]: %MAP-A9%%TAN%Golden Bird
-ItemDisplay[xyz]: %MAP-A9%%TAN%Potion of Life
-ItemDisplay[g33]: %MAP-A9%%TAN%Gidbinn 
-ItemDisplay[bbb]: %MAP-A9%%TAN%Lam Esen's Tome
-ItemDisplay[qbr]: %MAP-A9%%TAN%Khalim's Brain
-ItemDisplay[qey]: %MAP-A9%%TAN%Khalim's Eye
-ItemDisplay[qhr]: %MAP-A9%%TAN%Khalim's Heart
-ItemDisplay[qf1]: %MAP-A9%%TAN%Khalim's Flail
-ItemDisplay[qf2]: %MAP-A9%%TAN%Khalim's Will
-ItemDisplay[mss]: %MAP-A9%%TAN%Mephisto's Soulstone
-ItemDisplay[hfh]: %MAP-A9%%TAN%Hellforge Hammer
-ItemDisplay[ice]: %MAP-A9%%TAN%Malah's Potion
-ItemDisplay[tr2]: %MAP-A9%%TAN%Scroll of Resistance
+ItemDisplay[bks]: %MAP-A9%%GOLD%Scroll of Inifuss
+ItemDisplay[bkd]: %MAP-A9%%GOLD%Key to the Cairn Stones
+ItemDisplay[leg]: %MAP-A9%%GOLD%Wirt's Leg
+ItemDisplay[hdm]: %MAP-A9%%GOLD%Horadric Malus
+ItemDisplay[ass]: %MAP-A9%%GOLD%Book of Skill
+ItemDisplay[tr1]: //%MAP-A9%%GOLD%Horadric Scroll
+ItemDisplay[box]: %MAP-A9%%GOLD%Horadric Cube
+ItemDisplay[msf]: %MAP-A9%%GOLD%Staff of Kings
+ItemDisplay[vip]: %MAP-A9%%GOLD%Viper Amulet
+ItemDisplay[hst]: %MAP-A9%%GOLD%Horadric Staff
+ItemDisplay[j34]: %MAP-A9%%GOLD%Jade Figurine
+ItemDisplay[g34]: %MAP-A9%%GOLD%Golden Bird
+ItemDisplay[xyz]: %MAP-A9%%GOLD%Potion of Life
+ItemDisplay[g33]: %MAP-A9%%GOLD%Gidbinn 
+ItemDisplay[bbb]: %MAP-A9%%GOLD%Lam Esen's Tome
+ItemDisplay[qbr]: //%MAP-A9%%GOLD%Khalim's Brain
+ItemDisplay[qey]: //%MAP-A9%%GOLD%Khalim's Eye
+ItemDisplay[qhr]: //%MAP-A9%%GOLD%Khalim's Heart
+ItemDisplay[qf1]: //%MAP-A9%%GOLD%Khalim's Flail
+ItemDisplay[qf2]: //%MAP-A9%%GOLD%Khalim's Will
+ItemDisplay[mss]: %MAP-A9%%GOLD%Mephisto's Soulstone
+ItemDisplay[hfh]: %MAP-A9%%GOLD%Hellforge Hammer
+ItemDisplay[ice]: %MAP-A9%%GOLD%Malah's Potion
+ItemDisplay[tr2]: %MAP-A9%%GOLD%Scroll of Resistance
 
 //Gems
-ItemDisplay[gzvs OR gpvs]: %MAP-5%%NAME%%CONTINUE%
-ItemDisplay[glws OR gpws]: %MAP-5%%NAME%%CONTINUE%
-ItemDisplay[glgs OR gpgs]: %MAP-5%%NAME%%CONTINUE%
-ItemDisplay[glrs OR gprs]: %MAP-5%%NAME%%CONTINUE%
-ItemDisplay[glbs OR gpbs]: %MAP-5%%NAME%%CONTINUE%
-ItemDisplay[glys OR gpys]: %MAP-5%%NAME%%CONTINUE%
-ItemDisplay[skls OR skzs]: %MAP-5%%NAME%%CONTINUE%
+//Stacked
+//Pefect
+ItemDisplay[gpvs]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[gpws]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[gpgs]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[gprs]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+//Flawless
+ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glws]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glgs]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glrs]: %WHITE%Flawless Ruby %YELLOW%[%RED%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glbs]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glys]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[skls]: %WHITE%Flawless Skull %YELLOW%[%GRAY%o%YELLOW%]%GRAY%[%QTY%]
+
+//Unstacked
+//Perfect
+ItemDisplay[gpv]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]
+ItemDisplay[gpw]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]
+ItemDisplay[gpg]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]
+ItemDisplay[gpr]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]
+ItemDisplay[gpb]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]
+ItemDisplay[gpy]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]
+ItemDisplay[skz]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]
+//Flawless
+ItemDisplay[gzv]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%o%YELLOW%]
+ItemDisplay[glw]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%o%YELLOW%]
+ItemDisplay[glg]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%o%YELLOW%]
+ItemDisplay[glr]: %WHITE%Flawless Ruby %YELLOW%[%RED%o%YELLOW%]
+ItemDisplay[glb]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%o%YELLOW%]
+ItemDisplay[gly]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%o%YELLOW%]
+ItemDisplay[skl]: %WHITE%Flawless Skull %YELLOW%[%GRAY%o%YELLOW%]
 
 //Non Stacked Runes
 //1-16 
@@ -656,74 +684,73 @@ ItemDisplay[r33]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENU
 //Stacked Runes
 //1-16 
 /El
-ItemDisplay[r01s]: %TAN%El [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%AHS: %GRAY%+15 DEFENSE, +1 to LIGHT RADIUS %NL% %WHITE%W: %GRAY%+50 to ATTACK RATING, +1 to LIGHT RADIUS }
+ItemDisplay[r01s]: %TAN%El [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%AHS: %GRAY%+15 DEFENSE, +1 to LIGHT RADIUS %NL% %WHITE%W: %GRAY%+50 to ATTACK RATING, +1 to LIGHT RADIUS }
 /Eld
-ItemDisplay[r02s]: %TAN%Eld [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%S: %GRAY%+7% BLOCK CHANCE %NL% %WHITE%A/H: %GRAY%15% SLOWER STAM DRAIN %NL% %WHITE%W: %GRAY%+75% DAMAGE to UNDEAD, +50 to ATTACK RATING vs UNDEAD }
+ItemDisplay[r02s]: %TAN%Eld [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRAY%+7% BLOCK CHANCE %NL% %WHITE%A/H: %GRAY%15% SLOWER STAM DRAIN %NL% %WHITE%W: %GRAY%+75% DAMAGE to UNDEAD, +50 to ATTACK RATING vs UNDEAD }
 /Tir
-ItemDisplay[r03s]: %TAN%Tir [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%WAHS:%GRAY%+2 to MANA AFTER EACH KILL }
+ItemDisplay[r03s]: %TAN%Tir [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%WAHS:%GRAY%+2 to MANA AFTER EACH KILL }
 /Nef
-ItemDisplay[r04s]: %TAN%Nef [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%AHS: %GRAY%+30 DEFENSE VS MISSILE %NL% %WHITE%W: %GRAY%KNOCKBACK } 
+ItemDisplay[r04s]: %TAN%Nef [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%AHS: %GRAY%+30 DEFENSE VS MISSILE %NL% %WHITE%W: %GRAY%KNOCKBACK } 
 /Eth
-ItemDisplay[r05s]: %TAN%Eth [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%AHS: %GRAY%+15% MANA REGENERATION %NL% %WHITE%W: %GRAY%-25% TARGET DEFENSE }
+ItemDisplay[r05s]: %TAN%Eth [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%AHS: %GRAY%+15% MANA REGENERATION %NL% %WHITE%W: %GRAY%-25% TARGET DEFENSE }
 /Ith
-ItemDisplay[r06s]: %TAN%Ith [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%AHS: %GRAY%15% DAMAGE TAKEN GAINED as MANA WHEN HIT %NL% %WHITE%W: %GRAY%+9 to MAXIMUM DAMAGE }
+ItemDisplay[r06s]: %TAN%Ith [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%AHS: %GRAY%15% DAMAGE TAKEN GAINED as MANA WHEN HIT %NL% %WHITE%W: %GRAY%+9 to MAXIMUM DAMAGE }
 /Tal 
-ItemDisplay[r07s]: %TAN%Tal [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%S: %GRAY%+35% POISON RES %NL% %WHITE%A/H: %GRAY%+30% POISON RES %NL% %WHITE%W: %GRAY%+75 POISON DAMAGE OVER 5 SECONDS } 
+ItemDisplay[r07s]: %TAN%Tal [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRAY%+35% POISON RES %NL% %WHITE%A/H: %GRAY%+30% POISON RES %NL% %WHITE%W: %GRAY%+75 POISON DAMAGE OVER 5 SECONDS } 
 /Ral
-ItemDisplay[r08s]: %TAN%Ral [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%S: %GRAY%+35% FIRE RES %NL% %WHITE%A/H: %GRAY%+30% FIRE RES %NL% %WHITE%W: %GRAY%+5-30 FIRE DAMAGE }
+ItemDisplay[r08s]: %TAN%Ral [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRAY%+35% FIRE RES %NL% %WHITE%A/H: %GRAY%+30% FIRE RES %NL% %WHITE%W: %GRAY%+5-30 FIRE DAMAGE }
 /Ort 
-ItemDisplay[r09s]: %TAN%Ort [%RUNENUM%]%GOLD% x %WHITE%%QTY%{%WHITE%S: %GRAY%+35% LIGHTNING RES %NL% %WHITE%A/H: %GRAY%+30% LIGHTNING RES %NL% %WHITE%W: %GRAY%+1-50 LIGHTNING DAMAGE } 
+ItemDisplay[r09s]: %TAN%Ort [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRAY%+35% LIGHTNING RES %NL% %WHITE%A/H: %GRAY%+30% LIGHTNING RES %NL% %WHITE%W: %GRAY%+1-50 LIGHTNING DAMAGE } 
 /Thul
-ItemDisplay[r10s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%S: %GRAY%+35% COLD RES %NL% %WHITE%A/H: %GRAY%+30% COLD RES %NL% %WHITE%W: %GRAY%+3-14 COLD DAMAGE }
+ItemDisplay[r10s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%S: %GRAY%+35% COLD RES %NL% %WHITE%A/H: %GRAY%+30% COLD RES %NL% %WHITE%W: %GRAY%+3-14 COLD DAMAGE }
 /Amn
-ItemDisplay[r11s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%AHS: %GRAY%ATTACKERS TAKE DAMAGE of 14 %NL% %WHITE%W: %GRAY%7% LIFE STOLEN PER HIT } 
+ItemDisplay[r11s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%ATTACKERS TAKE DAMAGE of 14 %NL% %WHITE%W: %GRAY%7% LIFE STOLEN PER HIT } 
 /Sol
-ItemDisplay[r12s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%+9 to MINIMUM DAMAGE } 
+ItemDisplay[r12s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%+9 to MINIMUM DAMAGE } 
 /Shael
-ItemDisplay[r13s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%S: %GRAY%+20% FASTER BLOCK RATE %NL% %WHITE%A/H: %GRAY%+20% FASTER HIT RECOVERY %NL% %WHITE%W: %GRAY%+20% INCREASED ATTACK SPEED } 
+ItemDisplay[r13s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%S: %GRAY%+20% FASTER BLOCK RATE %NL% %WHITE%A/H: %GRAY%+20% FASTER HIT RECOVERY %NL% %WHITE%W: %GRAY%+20% INCREASED ATTACK SPEED } 
 /Dol
-ItemDisplay[r14s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%AHS: %GRAY%REPLENISH LIFE +10 %NL% %WHITE%W: %GRAY%REPLENISH LIFE +15 } 
+ItemDisplay[r14s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%REPLENISH LIFE +10 %NL% %WHITE%W: %GRAY%REPLENISH LIFE +15 } 
 /Hel
-ItemDisplay[r15s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%AHS: %GRAY%-15% REQUIREMENTS %NL% %WHITE%W: %GRAY%-20% REQUIREMENTS }
+ItemDisplay[r15s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%-15% REQUIREMENTS %NL% %WHITE%W: %GRAY%-20% REQUIREMENTS }
 /Io
-ItemDisplay[r16s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to VITALITY } 
+ItemDisplay[r16s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to VITALITY } 
 //17-23
 /Lum
-ItemDisplay[r17s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to ENERGY }
+ItemDisplay[r17s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to ENERGY }
 /Ko
-ItemDisplay[r18s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to DEXTERITY }
+ItemDisplay[r18s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to DEXTERITY }
 /Fal
-ItemDisplay[r19s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to STRENGTH }
+ItemDisplay[r19s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to STRENGTH }
 /Lem
-ItemDisplay[r20s]: %PURPLE%  OO %RED%%RUNENAME%%PURPLE% OO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+50% EXTRA GOLD from MONSTERS %NL% %WHITE%W: %GRAY%+75% EXTRA GOLD from MONSTERS } 
+ItemDisplay[r20s]: %PURPLE%  OO %RED%%RUNENAME%%PURPLE% OO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+50% EXTRA GOLD from MONSTERS %NL% %WHITE%W: %GRAY%+75% EXTRA GOLD from MONSTERS } 
 /Pul
-ItemDisplay[r21s]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+30% ENHANCED DEFENSE %NL% %WHITE%W: %GRAY%+75% DAMAGE to DEMONS, +100 to ATTACK RATING AGAINST DEMONS }
+ItemDisplay[r21s]: %PURPLE%  OOO %RED%%RUNENAME%%PURPLE% OOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+30% ENHANCED DEFENSE %NL% %WHITE%W: %GRAY%+75% DAMAGE to DEMONS, +100 to ATTACK RATING AGAINST DEMONS }
 /Um
-ItemDisplay[r22s]: %PURPLE%  OOOO %RED%%RUNENAME%%PURPLE% OOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%S: %GRAY%+22% @RES %NL% %WHITE%A/H: %GRAY%+15% @RES %NL% %WHITE%W: %GRAY%+25% CHANCE of OPEN WOUNDS }
+ItemDisplay[r22s]: %PURPLE%  OOOO %RED%%RUNENAME%%PURPLE% OOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%S: %GRAY%+22% @RES %NL% %WHITE%A/H: %GRAY%+15% @RES %NL% %WHITE%W: %GRAY%+25% CHANCE of OPEN WOUNDS }
 /Mal
-ItemDisplay[r23s]: %PURPLE%  OOOO %RED%%RUNENAME%%PURPLE% OOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%MAGIC DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%PREVENT MONSTER HEAL }
+ItemDisplay[r23s]: %PURPLE%  OOOO %RED%%RUNENAME%%PURPLE% OOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%MAGIC DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%PREVENT MONSTER HEAL }
 //24-33
 /Ist
-ItemDisplay[r24s]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+25% MAGIC FIND %NL% %WHITE%W: %GRAY%+30% MAGIC FIND }
+ItemDisplay[r24s]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+25% MAGIC FIND %NL% %WHITE%W: %GRAY%+30% MAGIC FIND }
 /Gul 
-ItemDisplay[r25s]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX POISON RES %NL% %WHITE%W: %GRAY%+20% BONUS to ATTACK RATING } 
+ItemDisplay[r25s]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX POISON RES %NL% %WHITE%W: %GRAY%+20% BONUS to ATTACK RATING } 
 /Vex
-ItemDisplay[r26s]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX FIRE RES %NL% %WHITE%W: %GRAY%+7% MANA STOLEN PER HIT }
+ItemDisplay[r26s]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX FIRE RES %NL% %WHITE%W: %GRAY%+7% MANA STOLEN PER HIT }
 /Ohm
-ItemDisplay[r27s]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX COLD RES %NL% %WHITE%W: %GRAY%+50% ENHANCED DAMAGE } 
+ItemDisplay[r27s]: %PURPLE% OOOOOO %RED%%RUNENAME%%PURPLE% OOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX COLD RES %NL% %WHITE%W: %GRAY%+50% ENHANCED DAMAGE } 
 /Lo
-ItemDisplay[r28s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX LIGHTNING RES %NL% %WHITE%W: %GRAY%+20% DEADLY STRIKE }
+ItemDisplay[r28s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+4% to MAX LIGHTNING RES %NL% %WHITE%W: %GRAY%+20% DEADLY STRIKE }
 /Sur
-ItemDisplay[r29s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%S: %GRAY%+50 to MANA %NL% %WHITE%A/H: %GRAY%MAX MANA +5% %NL% %WHITE%W: %GRAY%+4 LIFE AFTER EACH KILL }
+ItemDisplay[r29s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%S: %GRAY%+50 to MANA %NL% %WHITE%A/H: %GRAY%MAX MANA +5% %NL% %WHITE%W: %GRAY%+4 LIFE AFTER EACH KILL }
 /Ber
-ItemDisplay[r30s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 4% %NL% %WHITE%W: %GRAY%+20% CHANCE of CRUSHING BLOW }
+ItemDisplay[r30s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 4% %NL% %WHITE%W: %GRAY%+20% CHANCE of CRUSHING BLOW }
 /Jah
-ItemDisplay[r31s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%S: %GRAY%+50 LIFE %NL% %WHITE%A/H: %GRAY%MAX LIFE +5% %NL% %WHITE%W: %GRAY%IGNORE TARGET'S DEFENSE }
+ItemDisplay[r31s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%S: %GRAY%+50 LIFE %NL% %WHITE%A/H: %GRAY%MAX LIFE +5% %NL% %WHITE%W: %GRAY%IGNORE TARGET'S DEFENSE }
 /Cham
-ItemDisplay[r32s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%AHS:%GRAY% CANNOT BE FROZEN %NL% %WHITE%W:%GRAY% FREEZES TARGET +3} 
+ItemDisplay[r32s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS:%GRAY% CANNOT BE FROZEN %NL% %WHITE%W:%GRAY% FREEZES TARGET +3} 
 /Zod
-ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENUM%]%GOLD% x %WHITE%%QTY%%MAP%{%WHITE%WAHS:%GRAY% INDESTRUCTIBLE} 
-
+ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%WAHS:%GRAY% INDESTRUCTIBLE} 
 
 // {%WHITE%AHS: %GRAY% %NL% %WHITE%W: %GRAY% }
 // {%WHITE%AHS: %GRAY% %NL% %WHITE%W: %GRAY% }
@@ -799,7 +826,7 @@ ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 
 //Skillers
-//Comb Pally, Summ Necro/Dudu have a special affix
+//Comb Pally, Summ Necro/Dudu have a Special Affix
 ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%FHR
 ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%FHR
 ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
@@ -874,7 +901,7 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
 
 //Good Magic Items
-ItemDisplay[jew MAG !ID]: %DOT-9A%%WHITE%%NAME%
+ItemDisplay[jew MAG !ID]: %DOT-9A%%BLUE%%NAME%
 
 //Good Rare Items
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%%NAME%
@@ -1020,15 +1047,15 @@ ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //PD2 Items
-ItemDisplay[wss]: %RED%Worldstone Shard %GOLD%x %WHITE%%QTY% %MAP-62%{%GRAY%Note%WHITE%: %RED%Corrupt %WHITE%Item}%CONTINUE%
-ItemDisplay[imra]: %MAP-A9%%NAME%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: White to %YELLOW%Rare%WHITE%:}%CONTINUE%
-ItemDisplay[scrb]: %MAP-A9%%NAME%{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: MAP + %GRAY%[%ORANGE%T3%GRAY%]}
-ItemDisplay[rera]: %MAP-A9%%NAME%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %RED%Reroll%WHITE%:}%CONTINUE%
-ItemDisplay[upma]: %MAP-A9%%NAME%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %WHITE%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
-ItemDisplay[imma]: %MAP-A9%%NAME%{%WHITE%MAP + %GOLD%Item%WHITE% + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: White to %BLUE%Magic%WHITE%:}%CONTINUE%
-ItemDisplay[scou]: %MAP-A9%%NAME%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: White:}%CONTINUE%
-ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: %TAN%Socket %WHITE%Item}%CONTINUE%
-ItemDisplay[upmp]: %MAP-A9%%NAME%{%WHITE%3x%GRAY%Map%TAN% (%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
+ItemDisplay[wss]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GRAY%Note%WHITE%: %RED%Corrupts %WHITE%Items}%CONTINUE%
+ItemDisplay[imra]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: Common to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[scrb]: %GOLD%Horadrim Scarab %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: %GOLD%Item + %GRAY%[%ORANGE%T3%GRAY%]}
+ItemDisplay[rera]: %GOLD%Horadrim Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %GREEN%Reroll%WHITE%:}%CONTINUE%
+ItemDisplay[upma]: %GOLD%Angelic Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %WHITE%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[imma]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP + %GOLD%Item%WHITE% + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: Common to %BLUE%Magic%WHITE%:}%CONTINUE%
+ItemDisplay[scou]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: Downgrade:}%CONTINUE%
+ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GRAY%Note%WHITE%: %GOLD%Sockets %WHITE%Items}%CONTINUE%%MAP-4A%
+ItemDisplay[upmp]: %GOLD%Cartographer's Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%3x%GRAY%Map%TAN% (%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME% %CONTINUE%
@@ -1040,30 +1067,30 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences & Token
-ItemDisplay[tes]: %MAP-35%%BLUE%%NAME%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
-ItemDisplay[ceh]: %MAP-35%%YELLOW%%NAME%{%YELLOW%Mephisto}
-ItemDisplay[bet]: %MAP-35%%RED%%NAME%{%RED%Diablo}
-ItemDisplay[fed]: %MAP-35%%DARK_GREEN%%NAME%{%DARK_GREEN%Baal}
-ItemDisplay[toa]: %GREEN%Token of Absolution %GOLD%x %WHITE%%QTY% %MAP-62%(%GREEN%Skill Reset)
+ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
+ItemDisplay[ceh]: %YELLOW%Charged Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%YELLOW%Mephisto}
+ItemDisplay[bet]: %RED%Burning Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo}
+ItemDisplay[fed]: %GREEN%Festering Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%DARK_GREEN%Baal}
+ItemDisplay[toa]: %GREEN%Token of Absolution %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%(%GREEN%Skill Reset)
 
 //Uber Ingredients
-ItemDisplay[pk1]: %MAP-45%%GRAY%%NAME%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
-ItemDisplay[pk2]: %MAP-45%%GRAY%%NAME%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
-ItemDisplay[pk3]: %MAP-45%%GRAY%%NAME%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
-ItemDisplay[dhn]: %MAP-45%%GOLD%%NAME%{%GOLD%Lilith}
-ItemDisplay[bey]: %MAP-45%%GOLD%%NAME%{%GOLD%Duriel}
-ItemDisplay[mbr]: %MAP-45%%GOLD%%NAME%{%GOLD%Izual}
-ItemDisplay[ubtm]: %MAP-45%%NAME%{%GOLD%Uber Tristram Access}
+ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
+ItemDisplay[pk2]: %GRAY%Key of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
+ItemDisplay[pk3]: %GRAY%Key of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
+ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Lilith}
+ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Duriel}
+ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Izual}
+ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone Ingredients
-ItemDisplay[dcho]: %PURPLE%Black Soulstone %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Uber Tristram Bosses}
-ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Hell Diablo %WHITE%& %PURPLE%Baal}
-ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Map Bosses}
-ItemDisplay[dcma]: %PURPLE%Vision of Terror %GOLD%x %WHITE%%QTY% %MAP-62%{%PURPLE%Diablo Clone Access}
+ItemDisplay[dcho]: %PURPLE%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Uber Tristram}
+ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Hell Diablo %WHITE%& %PURPLE%Baal}
+ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Map Bosses}
+ItemDisplay[dcma]: %PURPLE%Vision of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Diablo Clone Access}
 
 
 //Special Items
-ItemDisplay[std]: %MAP-62%%NAME%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
+ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find%NL%%BLUE%+20% %WHITE%Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
 ItemDisplay[UNI !ID cm1]: %GOLD%Annihilus%MAP-62%{%GOLD%Diablo Clone}
 ItemDisplay[UNI !ID cm2]: %GOLD%Torch%MAP-62%{%GOLD%Uber Tristram}
 ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
@@ -1108,28 +1135,6 @@ ItemDisplay[(ARMOR OR WEAPON) INF]:
 ItemDisplay[(ARMOR OR WEAPON) !leg CLVL>18]: 
 
 //Gems
-ItemDisplay[GEM<3 DIFF>0]:
-ItemDisplay[GEM<4 DIFF>1]:
-//amethysts
-ItemDisplay[GEMTYPE=1 GEM<4]: %NAME% %ORANGE%[%PURPLE%*%ORANGE%]
-ItemDisplay[GEMTYPE=1 GEM>3]: %NAME% %ORANGE%[%PURPLE%O%ORANGE%]%CONTINUE%
-//diamonds
-ItemDisplay[GEMTYPE=2 GEM<4]: %NAME% %ORANGE%[%WHITE%*%ORANGE%]
-ItemDisplay[GEMTYPE=2 GEM>3]: %NAME% %ORANGE%[%WHITE%O%ORANGE%]%CONTINUE%
-//emeralds
-ItemDisplay[GEMTYPE=3 GEM<4]: %NAME% %ORANGE%[%GREEN%*%ORANGE%]
-ItemDisplay[GEMTYPE=3 GEM>3]: %NAME% %ORANGE%[%GREEN%O%ORANGE%]%CONTINUE%
-//rubys
-ItemDisplay[GEMTYPE=4 GEM<4]: %NAME% %ORANGE%[%RED%*%ORANGE%]
-ItemDisplay[GEMTYPE=4 GEM>3]: %NAME% %ORANGE%[%RED%O%ORANGE%]%CONTINUE%
-//sapphires
-ItemDisplay[GEMTYPE=5 GEM<4]: %NAME% %ORANGE%[%BLUE%*%ORANGE%]
-ItemDisplay[GEMTYPE=5 GEM>3]: %NAME% %ORANGE%[%BLUE%O%ORANGE%]%CONTINUE%
-//topazes
-ItemDisplay[GEMTYPE=6 GEM<4]: %NAME% %ORANGE%[%YELLOW%*%ORANGE%]
-ItemDisplay[GEMTYPE=6 GEM>3]: %NAME% %ORANGE%[%YELLOW%O%ORANGE%]%CONTINUE%
-//skulls
-ItemDisplay[GEMTYPE=7 GEM<4]: %NAME% %ORANGE%[%GRAY%*%ORANGE%]
-ItemDisplay[GEMTYPE=7 GEM>3]: %NAME% %ORANGE%[%GRAY%O%ORANGE%]%CONTINUE%
+ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc OR gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf OR gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: //
 
 //END
