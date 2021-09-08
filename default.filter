@@ -587,7 +587,7 @@ ItemDisplay[leg]: %MAP-A9%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP-A9%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP-A9%%GOLD%Book of Skill
 ItemDisplay[tr1]: %MAP-A9%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP-A9%%GOLD%Horadric Cube
+ItemDisplay[box]: %MAP-A9%%GOLD%Horadric Cube{%GRAY%Note%WHITE%:%GOLD% Transmute %WHITE%Items}
 ItemDisplay[msf]: %MAP-A9%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP-A9%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP-A9%%GOLD%Horadric Staff
@@ -617,13 +617,13 @@ ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%
 ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
 ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
 //Flawless
-ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%o%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glws]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%o%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glgs]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%o%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glrs]: %WHITE%Flawless Ruby %YELLOW%[%RED%o%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glbs]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%o%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glys]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%o%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[skls]: %WHITE%Flawless Skull %YELLOW%[%GRAY%o%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %GRAY%[%QTY%]
+ItemDisplay[glws]: %WHITE%Flawless Diamond %GRAY%[%QTY%]
+ItemDisplay[glgs]: %WHITE%Flawless Emerald %GRAY%[%QTY%]
+ItemDisplay[glrs]: %WHITE%Flawless Ruby %GRAY%[%QTY%]
+ItemDisplay[glbs]: %WHITE%Flawless Sapphire %GRAY%[%QTY%]
+ItemDisplay[glys]: %WHITE%Flawless Topaz %GRAY%[%QTY%]
+ItemDisplay[skls]: %WHITE%Flawless Skull %GRAY%[%QTY%]
 
 //Unstacked
 //Perfect
@@ -635,13 +635,13 @@ ItemDisplay[gpb]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]
 ItemDisplay[gpy]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]
 ItemDisplay[skz]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]
 //Flawless
-ItemDisplay[gzv]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%o%YELLOW%]
-ItemDisplay[glw]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%o%YELLOW%]
-ItemDisplay[glg]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%o%YELLOW%]
-ItemDisplay[glr]: %WHITE%Flawless Ruby %YELLOW%[%RED%o%YELLOW%]
-ItemDisplay[glb]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%o%YELLOW%]
-ItemDisplay[gly]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%o%YELLOW%]
-ItemDisplay[skl]: %WHITE%Flawless Skull %YELLOW%[%GRAY%o%YELLOW%]
+ItemDisplay[gzv]: %WHITE%Flawless Amethyst
+ItemDisplay[glw]: %WHITE%Flawless Diamond
+ItemDisplay[glg]: %WHITE%Flawless Emerald
+ItemDisplay[glr]: %WHITE%Flawless Ruby
+ItemDisplay[glb]: %WHITE%Flawless Sapphire
+ItemDisplay[gly]: %WHITE%Flawless Topaz
+ItemDisplay[skl]: %WHITE%Flawless Skull
 
 //Non Stacked Runes
 //1-16 
