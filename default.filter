@@ -563,23 +563,22 @@ ItemDisplay[hp1 CLVL<18]: %GRAY%health%RED%-
 ItemDisplay[hp2 CLVL<26]: %GRAY%health%RED%+
 ItemDisplay[hp3 CLVL<41]: %GRAY%HEALTH%RED%-
 ItemDisplay[hp4 CLVL<81]: %GRAY%HEALTH%RED%+
-ItemDisplay[hp5 CLVL<99]: //%GREEN%*%RED%HEALTH
+ItemDisplay[hp5 CLVL<99]: %GREEN%*%RED%HEALTH
 
 /Mana
 ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
 ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
 ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
 ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%+ 
-ItemDisplay[mp5 CLVL<99]: //%GREEN%*%BLUE%MANA
+ItemDisplay[mp5 CLVL<99]: %GREEN%*%BLUE%MANA
 
 /Rejuv
 ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%65%
 
-/Junk
-ItemDisplay[aqv CLVL<6]: Arrow
-ItemDisplay[cqv CLVL<6]: Bolt
-ItemDisplay[key CLVL<36]: Key
+/Arrows, Bolts and Keys
+ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
+ItemDisplay[key NMAG CLVL<36]:
 
 //Quest Items
 ItemDisplay[bks]: %MAP%%TAN%Scroll of Inifuss
@@ -608,20 +607,13 @@ ItemDisplay[ice]: %MAP%%TAN%Malah's Potion
 ItemDisplay[tr2]: %MAP%%TAN%Scroll of Resistance
 
 //Gems
-ItemDisplay[gzvs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[glws]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[glgs]: %PX-9D%%NAME%%%CONTINUE%
-ItemDisplay[glrs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[glbs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[glys]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[skls]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[gpvs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[gpws]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[gpgs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[gprs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[gpbs]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[gpys]: %PX-9D%%NAME%%CONTINUE%
-ItemDisplay[skzs]: %PX-9D%%NAME%%CONTINUE%
+ItemDisplay[gzvs OR gpvs]: %MAP%%PURPLE%%NAME%%CONTINUE%
+ItemDisplay[glws OR gpws]: %MAP%%WHITE%%NAME%%CONTINUE%
+ItemDisplay[glgs OR gpgs]: %MAP%%GREEN%%NAME%%CONTINUE%
+ItemDisplay[glrs OR gprs]: %MAP%%RED%%NAME%%CONTINUE%
+ItemDisplay[glbs OR gpbs]: %MAP%%BLUE%%NAME%%CONTINUE%
+ItemDisplay[glys OR gpys]: %MAP%%YELLOW%%NAME%%CONTINUE%
+ItemDisplay[skls OR skzs]: %MAP%%GRAY%%NAME%%CONTINUE%
 
 //Non Stacked Runes
 //1-16 
@@ -748,7 +740,7 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 
 //All Charms
 ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
-ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
+ItemDisplay[cm2 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm1 OR cm2 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
