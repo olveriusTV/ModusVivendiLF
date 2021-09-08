@@ -607,13 +607,13 @@ ItemDisplay[ice]: %MAP%%TAN%Malah's Potion
 ItemDisplay[tr2]: %MAP%%TAN%Scroll of Resistance
 
 //Gems
-ItemDisplay[gzvs OR gpvs]: %MAP%%PURPLE%%NAME%%CONTINUE%
-ItemDisplay[glws OR gpws]: %MAP%%WHITE%%NAME%%CONTINUE%
-ItemDisplay[glgs OR gpgs]: %MAP%%GREEN%%NAME%%CONTINUE%
-ItemDisplay[glrs OR gprs]: %MAP%%RED%%NAME%%CONTINUE%
-ItemDisplay[glbs OR gpbs]: %MAP%%BLUE%%NAME%%CONTINUE%
-ItemDisplay[glys OR gpys]: %MAP%%YELLOW%%NAME%%CONTINUE%
-ItemDisplay[skls OR skzs]: %MAP%%GRAY%%NAME%%CONTINUE%
+ItemDisplay[gzvs OR gpvs]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[glws OR gpws]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[glgs OR gpgs]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[glrs OR gprs]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[glbs OR gpbs]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[glys OR gpys]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[skls OR skzs]: %MAP%%NAME%%CONTINUE%
 
 //Non Stacked Runes
 //1-16 
@@ -1028,8 +1028,7 @@ ItemDisplay[upma]: %MAP-A9%%NAME%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %W
 ItemDisplay[imma]: %MAP-A9%%NAME%{%WHITE%MAP + %GOLD%Item%WHITE% + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: White to %BLUE%Magic%WHITE%:}%CONTINUE%
 ItemDisplay[scou]: %MAP-A9%%NAME%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: White:}%CONTINUE%
 ItemDisplay[lbox]: %MAP-4A%%NAME%{%WHITE%Two-Handed Weapon = 4 max%NL%One-Handed Weapon = 2 max%NL%Helmet, Chest, Shield = 2 max%NL%%TAN%Note%WHITE%: %TAN%Socket %WHITE%Item}%CONTINUE%
-ItemDisplay[upmp]: %MAP-A9%%NAME%{%WHITE%3x%GRAY%Map%WHITE% (Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
-ItemDisplay[ubtm]: %MAP-A9%%NAME%{%WHITE%Note:%RED% Red Fountain%WHITE% > %WHITE%Right Click for %RED%UBER TRISTRAM}
+ItemDisplay[upmp]: %MAP-A9%%NAME%{%WHITE%3x%GRAY%Map%TAN% (%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME% %CONTINUE%
@@ -1041,26 +1040,25 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences
-ItemDisplay[tes]: %PX-9D%%BLUE%%NAME%{%BLUE%Andariel %WHITE%/ %ORANGE%Duriel}
+ItemDisplay[tes]: %PX-9D%%BLUE%%NAME%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
 ItemDisplay[ceh]: %PX-9D%%YELLOW%%NAME%{%YELLOW%Mephisto}
 ItemDisplay[bet]: %PX-9D%%RED%%NAME%{%RED%Diablo}
 ItemDisplay[fed]: %PX-9D%%DARK_GREEN%%NAME%{%DARK_GREEN%Baal}
 
-//Uber Keys
-ItemDisplay[pk1]: %PX-9D%%GOLD%%NAME%{%GOLD%Countess %WHITE%/ %GOLD%Blood Raven}
-ItemDisplay[pk2]: %PX-9D%%ORANGE%%NAME%{%ORANGE%Summoner %WHITE%/ %ORANGE%Blood Witch}
-ItemDisplay[pk3]: %PX-9D%%GRAY%%NAME%{%GRAY%Izual %WHITE%/ %GRAY%Nihlathak}
-
-//Organs
-ItemDisplay[dhn]:%PX-9D%%RED%%NAME%
-ItemDisplay[bey]:%PX-9D%%RED%%NAME%
-ItemDisplay[mbr]:%PX-9D%%RED%%NAME%
+//Uber Ingredients
+ItemDisplay[pk1]: %MAP%%GRAY%%NAME%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
+ItemDisplay[pk2]: %MAP%%GRAY%%NAME%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
+ItemDisplay[pk3]: %MAP%%GRAY%%NAME%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
+ItemDisplay[dhn]: %PX-9D%%GOLD%%NAME%{%GOLD%Lilith}
+ItemDisplay[bey]: %PX-9D%%GOLD%%NAME%{%GOLD%Duriel}
+ItemDisplay[mbr]: %PX-9D%%GOLD%%NAME%{%GOLD%Izual}
+ItemDisplay[ubtm]: %MAP-A9%%NAME%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone Ingredients
-ItemDisplay[dcmas]: %PX-9D%%PURPLE%%NAME%
-ItemDisplay[dcbls]: %PX-9D%%PURPLE%%NAME%
-ItemDisplay[dchos]: %PX-9D%%PURPLE%%NAME%
-ItemDisplay[dcsos]: %PX-9D%%PURPLE%%NAME%
+ItemDisplay[dcmas]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Diablo Clone Access)
+ItemDisplay[dcbls]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Map Bosses)
+ItemDisplay[dchos]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Uber Bosses)
+ItemDisplay[dcsos]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Hell Diablo %WHITE%& %BLUE%Baal)
 
 //Special Items
 ItemDisplay[std]: %PX-9D%%NAME%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
