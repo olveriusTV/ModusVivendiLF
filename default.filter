@@ -587,7 +587,7 @@ ItemDisplay[leg]: %MAP-A9%%GOLD%Wirt's Leg
 ItemDisplay[hdm]: %MAP-A9%%GOLD%Horadric Malus
 ItemDisplay[ass]: %MAP-A9%%GOLD%Book of Skill
 ItemDisplay[tr1]: %MAP-A9%%GOLD%Horadric Scroll
-ItemDisplay[box]: %MAP-A9%%GOLD%Horadric Cube{%GRAY%Note%WHITE%:%GOLD% Transmute %WHITE%Items}
+ItemDisplay[box]: %MAP-A9%%GOLD%Horadric Cube{%GOLD%Transmute %WHITE%Item}
 ItemDisplay[msf]: %MAP-A9%%GOLD%Staff of Kings
 ItemDisplay[vip]: %MAP-A9%%GOLD%Viper Amulet
 ItemDisplay[hst]: %MAP-A9%%GOLD%Horadric Staff
@@ -609,21 +609,21 @@ ItemDisplay[tr2]: %MAP-A9%%GOLD%Scroll of Resistance
 //Gems
 //Stacked
 //Pefect
-ItemDisplay[gpvs]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
-ItemDisplay[gpws]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
-ItemDisplay[gpgs]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
-ItemDisplay[gprs]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
-ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
-ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
-ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%
+ItemDisplay[gpvs]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%+30 to Defense %NL% %WHITE%A/H: %GRAY%+10 to Strength %NL% %WHITE%W: %GRAY%+150 to Attack Rating}
+ItemDisplay[gpws]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%All Resistances +19 %NL% %WHITE%A/H: %GRAY%+100 to attack Rating %NL% %WHITE%W: %GRAY%+68% Damage vs. Undead}
+ItemDisplay[gpgs]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Poison %NL% %WHITE%A/H: %GRAY%+10 to Dexterity %NL% %WHITE%W: %GRAY%+100 Poison Damage over 7 Seconds}
+ItemDisplay[gprs]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Fire %NL% %WHITE%A/H: %GRAY%+38 to Life %NL% %WHITE%W: %GRAY%15-20 Fire Damage}
+ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Cold %NL% %WHITE%A/H: %GRAY%+38 Max Mana %NL% %WHITE%W: %GRAY%10-14 Cold Damage}
+ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Lightning %NL% %WHITE%A/H: %GRAY%+24% Chance to Find Magic Items %NL% %WHITE%W: %GRAY%1-40 Lightning Damage}
+ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%Attacker Takes 20 Damage %NL% %WHITE%A/H: %GRAY%Replenish Life +5, Regenerate Mana 19% %NL% %WHITE%W: %GRAY%Steals 4% life, 3% Mana}
 //Flawless
-ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %GRAY%[%QTY%]
-ItemDisplay[glws]: %WHITE%Flawless Diamond %GRAY%[%QTY%]
-ItemDisplay[glgs]: %WHITE%Flawless Emerald %GRAY%[%QTY%]
-ItemDisplay[glrs]: %WHITE%Flawless Ruby %GRAY%[%QTY%]
-ItemDisplay[glbs]: %WHITE%Flawless Sapphire %GRAY%[%QTY%]
-ItemDisplay[glys]: %WHITE%Flawless Topaz %GRAY%[%QTY%]
-ItemDisplay[skls]: %WHITE%Flawless Skull %GRAY%[%QTY%]
+ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%+24 to Defense %NL% %WHITE%A/H: %GRAY%+8 to Strength %NL% %WHITE%W: %GRAY%+100 to Attack Rating}
+ItemDisplay[glws]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%All Resistances +14 %NL% %WHITE%A/H: %GRAY%+80 to attack Rating %NL% %WHITE%W: %GRAY%+54% Damage vs. Undead}
+ItemDisplay[glgs]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%28% Resist Poison %NL% %WHITE%A/H: %GRAY%+8 to Dexterity %NL% %WHITE%W: %GRAY%+60 Poison Damage over 7 Seconds}
+ItemDisplay[glrs]: %WHITE%Flawless Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%28% Resist Fire %NL% %WHITE%A/H: %GRAY%+31 to Life %NL% %WHITE%W: %GRAY%10-16 Fire Damage}
+ItemDisplay[glbs]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%28% Resist Cold %NL% %WHITE%A/H: %GRAY%+31 Max Mana %NL% %WHITE%W: %GRAY%6-10 Cold Damage}
+ItemDisplay[glys]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%28% Resist Lightning %NL% %WHITE%A/H: %GRAY%+20% Chance to Find Magic Items %NL% %WHITE%W: %GRAY%1-30 Lightning Damage}
+ItemDisplay[skls]: %WHITE%Flawless Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%Attacker Takes 16 Damage %NL% %WHITE%A/H: %GRAY%Replenish Life +4, Regenerate Mana 12% %NL% %WHITE%W: %GRAY%Steals 3% life, 3% Mana}
 
 //Unstacked
 //Perfect
@@ -635,13 +635,13 @@ ItemDisplay[gpb]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]
 ItemDisplay[gpy]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]
 ItemDisplay[skz]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]
 //Flawless
-ItemDisplay[gzv]: %WHITE%Flawless Amethyst
-ItemDisplay[glw]: %WHITE%Flawless Diamond
-ItemDisplay[glg]: %WHITE%Flawless Emerald
-ItemDisplay[glr]: %WHITE%Flawless Ruby
-ItemDisplay[glb]: %WHITE%Flawless Sapphire
-ItemDisplay[gly]: %WHITE%Flawless Topaz
-ItemDisplay[skl]: %WHITE%Flawless Skull
+ItemDisplay[gzv]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%O%YELLOW%]
+ItemDisplay[glw]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%O%YELLOW%]
+ItemDisplay[glg]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%O%YELLOW%]
+ItemDisplay[glr]: %WHITE%Flawless Ruby %YELLOW%[%RED%O%YELLOW%]
+ItemDisplay[glb]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%O%YELLOW%]
+ItemDisplay[gly]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%O%YELLOW%]
+ItemDisplay[skl]: %WHITE%Flawless Skull %YELLOW%[%GRAY%O%YELLOW%]
 
 //Non Stacked Runes
 //1-16 
@@ -767,7 +767,7 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 
 //All Charms
 ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
-ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
+ItemDisplay[cm2 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm1 OR cm2 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
@@ -944,7 +944,7 @@ ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
 
 //Circlets
 ItemDisplay[EQ7 (MAG OR RARE) !ID]: %NAME%
-ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% %YELLOW%[%GRAY%imbue%YELLOW%]{%TAN%Note%WHITE%: Imbue > At Charsi}
+ItemDisplay[ci3 NMAG !ETH SOCK=0]: %NAME% {%GRAY%Imbue %WHITE%> %RED%Charsi}
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
@@ -1047,23 +1047,22 @@ ItemDisplay[UNI OR SET OR RW OR CRAFT]: %NAME%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE OR SET OR UNI OR CRAFT) ID]: %NAME%
 
 //PD2 Items
-ItemDisplay[wss]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GRAY%Note%WHITE%: %RED%Corrupts %WHITE%Items}%CONTINUE%
-ItemDisplay[imra]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: Common to %YELLOW%Rare%WHITE%:}%CONTINUE%
-ItemDisplay[scrb]: %GOLD%Horadrim Scarab %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%RED%Group Dungeon%NL%%GRAY%Note%WHITE%: %GOLD%Item + %GRAY%[%ORANGE%T3%GRAY%]}
-ItemDisplay[rera]: %GOLD%Horadrim Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %GREEN%Reroll%WHITE%:}%CONTINUE%
-ItemDisplay[upma]: %GOLD%Angelic Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %WHITE%O %WHITE%+ %ORANGE%Rune>9%NL%%GRAY%Note%WHITE%: %BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
-ItemDisplay[imma]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP + %GOLD%Item%WHITE% + %BLUE%Jewel %NL%%GRAY%Note%WHITE%: Common to %BLUE%Magic%WHITE%:}%CONTINUE%
-ItemDisplay[scou]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + %ORANGE%Hel%NL%%GRAY%Note%WHITE%: Downgrade:}%CONTINUE%
-ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GRAY%Note%WHITE%: %GOLD%Sockets %WHITE%Items}%CONTINUE%%MAP-4A%
-ItemDisplay[upmp]: %GOLD%Cartographer's Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%3x%GRAY%Map%TAN% (%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%GRAY%Note%WHITE%: %RED%Higher Tier%WHITE%:}
+ItemDisplay[wss]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Corrupt %WHITE%Item}%CONTINUE%
+ItemDisplay[imra]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%WHITE%Common to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[scrb]: %GOLD%Horadrim Scarab %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%RED%Group Dungeon%NL%%GOLD%Item + %GRAY%[%ORANGE%T3%GRAY%]}
+ItemDisplay[rera]: %GOLD%Horadrim Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GREEN%Reroll%WHITE%:}%CONTINUE%
+ItemDisplay[upma]: %GOLD%Angelic Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %WHITE%O %WHITE%+ %ORANGE%Rune>9%NL%%BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[imma]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP + %GOLD%Item%WHITE% + %BLUE%Jewel %NL%%WHITE%Common to %BLUE%Magic%WHITE%:}%CONTINUE%
+ItemDisplay[scou]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + %ORANGE%Hel%NL%%WHITE%Downgrade:}%CONTINUE%
+ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GOLD%Socket %WHITE%Item}%CONTINUE%%MAP-4A%
+ItemDisplay[upmp]: %GOLD%Cartographer's Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%3x%GRAY%Map%TAN% (%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%GREEN% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%RED%Higher Tier%WHITE%:}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) NMAG]: %WHITE%%NAME%%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)]: %GRAY%[%DARK_GREEN%T1%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %GRAY%[%RED%Dungeon%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) MAG]: %NAME%{%RED%Reroll: %BLUE%MAP %WHITE%+ %GRAY%3x %WHITE%Perf O%NL%%TAN%Note:} %MAP-4A%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Modify > %RED%Anya%NL%%GRAY%Note%WHITE%:} %MAP-4A%%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Modify > %RED%Anya} %MAP-4A%%CONTINUE%
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences & Token
@@ -1077,27 +1076,26 @@ ItemDisplay[toa]: %GREEN%Token of Absolution %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-
 ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
 ItemDisplay[pk2]: %GRAY%Key of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
 ItemDisplay[pk3]: %GRAY%Key of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
-ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Lilith}
-ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Duriel}
-ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Izual}
-ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram Access}
+ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Lilith %GOLD%(%WHITE%Miniuber%GOLD%)}
+ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Duriel %GOLD%(%WHITE%Miniuber%GOLD%)}
+ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Izual %GOLD%(%WHITE%Miniuber%GOLD%)}
+ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP-45%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone Ingredients
 ItemDisplay[dcho]: %PURPLE%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Uber Tristram}
-ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Hell Diablo %WHITE%& %PURPLE%Baal}
+ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Diablo %WHITE%& %PURPLE%Baal %PURPLE%(%WHITE%Hell%PURPLE%)}
 ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Map Bosses}
 ItemDisplay[dcma]: %PURPLE%Vision of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Diablo Clone Access}
 
 
 //Special Items
-ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find%NL%%BLUE%+20% %WHITE%Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
+ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find%NL%%BLUE%+20% %WHITE%Monster Density%NL%%YELLOW%MAP %WHITE%+ %GOLD%Item}
 ItemDisplay[UNI !ID cm1]: %GOLD%Annihilus%MAP-62%{%GOLD%Diablo Clone}
 ItemDisplay[UNI !ID cm2]: %GOLD%Torch%MAP-62%{%GOLD%Uber Tristram}
 ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
 
 
 //HIDE EVERYTHING
-
 //Utilities
 ItemDisplay[tsc CLVL>19]:
 ItemDisplay[isc CLVL>19]:
