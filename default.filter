@@ -563,14 +563,14 @@ ItemDisplay[hp1 CLVL<18]: %GRAY%health%RED%-
 ItemDisplay[hp2 CLVL<26]: %GRAY%health%RED%+
 ItemDisplay[hp3 CLVL<41]: %GRAY%HEALTH%RED%-
 ItemDisplay[hp4 CLVL<81]: %GRAY%HEALTH%RED%+
-ItemDisplay[hp5 CLVL<99]: %GREEN%*%RED%HEALTH
+ItemDisplay[hp5 CLVL<99]: //%GREEN%*%RED%HEALTH
 
 /Mana
 ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
 ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
 ItemDisplay[mp3 CLVL<41]: %GRAY%MANA%BLUE%- 
 ItemDisplay[mp4 CLVL<81]: %GRAY%MANA%BLUE%+ 
-ItemDisplay[mp5 CLVL<99]: %GREEN%*%BLUE%MANA
+ItemDisplay[mp5 CLVL<99]: //%GREEN%*%BLUE%MANA
 
 /Rejuv
 ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
@@ -581,39 +581,39 @@ ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
 ItemDisplay[key NMAG CLVL<36]:
 
 //Quest Items
-ItemDisplay[bks]: %MAP%%TAN%Scroll of Inifuss
-ItemDisplay[bkd]: %MAP%%TAN%Key to the Cairn Stones
-ItemDisplay[leg]: %MAP%%TAN%Wirt's Leg
-ItemDisplay[hdm]: %MAP%%TAN%Horadric Malus
-ItemDisplay[ass]: %MAP%%TAN%Book of Skill
-ItemDisplay[tr1]: %MAP%%TAN%Horadric Scroll
-ItemDisplay[box]: %MAP%%TAN%Horadric Cube
-ItemDisplay[msf]: %MAP%%TAN%Staff of Kings
-ItemDisplay[vip]: %MAP%%TAN%Viper Amulet
-ItemDisplay[hst]: %MAP%%TAN%Horadric Staff
-ItemDisplay[j34]: %MAP%%TAN%Jade Figurine
-ItemDisplay[g34]: %MAP%%TAN%Golden Bird
-ItemDisplay[xyz]: %MAP%%TAN%Potion of Life
-ItemDisplay[g33]: %MAP%%TAN%Gidbinn 
-ItemDisplay[bbb]: %MAP%%TAN%Lam Esen's Tome
-ItemDisplay[qbr]: %MAP%%TAN%Khalim's Brain
-ItemDisplay[qey]: %MAP%%TAN%Khalim's Eye
-ItemDisplay[qhr]: %MAP%%TAN%Khalim's Heart
-ItemDisplay[qf1]: %MAP%%TAN%Khalim's Flail
-ItemDisplay[qf2]: %MAP%%TAN%Khalim's Will
-ItemDisplay[mss]: %MAP%%TAN%Mephisto's Soulstone
-ItemDisplay[hfh]: %MAP%%TAN%Hellforge Hammer
-ItemDisplay[ice]: %MAP%%TAN%Malah's Potion
-ItemDisplay[tr2]: %MAP%%TAN%Scroll of Resistance
+ItemDisplay[bks]: %MAP-A9%%TAN%Scroll of Inifuss
+ItemDisplay[bkd]: %MAP-A9%%TAN%Key to the Cairn Stones
+ItemDisplay[leg]: %MAP-A1%%TAN%Wirt's Leg
+ItemDisplay[hdm]: %MAP-A9%%TAN%Horadric Malus
+ItemDisplay[ass]: %MAP-A9%%TAN%Book of Skill
+ItemDisplay[tr1]: %MAP-A9%%TAN%Horadric Scroll
+ItemDisplay[box]: %MAP-A9%%TAN%Horadric Cube
+ItemDisplay[msf]: %MAP-A9%%TAN%Staff of Kings
+ItemDisplay[vip]: %MAP-A9%%TAN%Viper Amulet
+ItemDisplay[hst]: %MAP-A9%%TAN%Horadric Staff
+ItemDisplay[j34]: %MAP-A9%%TAN%Jade Figurine
+ItemDisplay[g34]: %MAP-A9%%TAN%Golden Bird
+ItemDisplay[xyz]: %MAP-A9%%TAN%Potion of Life
+ItemDisplay[g33]: %MAP-A9%%TAN%Gidbinn 
+ItemDisplay[bbb]: %MAP-A9%%TAN%Lam Esen's Tome
+ItemDisplay[qbr]: %MAP-A9%%TAN%Khalim's Brain
+ItemDisplay[qey]: %MAP-A9%%TAN%Khalim's Eye
+ItemDisplay[qhr]: %MAP-A9%%TAN%Khalim's Heart
+ItemDisplay[qf1]: %MAP-A9%%TAN%Khalim's Flail
+ItemDisplay[qf2]: %MAP-A9%%TAN%Khalim's Will
+ItemDisplay[mss]: %MAP-A9%%TAN%Mephisto's Soulstone
+ItemDisplay[hfh]: %MAP-A9%%TAN%Hellforge Hammer
+ItemDisplay[ice]: %MAP-A9%%TAN%Malah's Potion
+ItemDisplay[tr2]: %MAP-A9%%TAN%Scroll of Resistance
 
 //Gems
-ItemDisplay[gzvs OR gpvs]: %MAP%%NAME%%CONTINUE%
-ItemDisplay[glws OR gpws]: %MAP%%NAME%%CONTINUE%
-ItemDisplay[glgs OR gpgs]: %MAP%%NAME%%CONTINUE%
-ItemDisplay[glrs OR gprs]: %MAP%%NAME%%CONTINUE%
-ItemDisplay[glbs OR gpbs]: %MAP%%NAME%%CONTINUE%
-ItemDisplay[glys OR gpys]: %MAP%%NAME%%CONTINUE%
-ItemDisplay[skls OR skzs]: %MAP%%NAME%%CONTINUE%
+ItemDisplay[gzvs OR gpvs]: %MAP-5%%NAME%%CONTINUE%
+ItemDisplay[glws OR gpws]: %MAP-5%%NAME%%CONTINUE%
+ItemDisplay[glgs OR gpgs]: %MAP-5%%NAME%%CONTINUE%
+ItemDisplay[glrs OR gprs]: %MAP-5%%NAME%%CONTINUE%
+ItemDisplay[glbs OR gpbs]: %MAP-5%%NAME%%CONTINUE%
+ItemDisplay[glys OR gpys]: %MAP-5%%NAME%%CONTINUE%
+ItemDisplay[skls OR skzs]: %MAP-5%%NAME%%CONTINUE%
 
 //Non Stacked Runes
 //1-16 
@@ -674,26 +674,26 @@ ItemDisplay[r08s]: %TAN%Ral [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRA
 /Ort 
 ItemDisplay[r09s]: %TAN%Ort [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]{%WHITE%S: %GRAY%+35% LIGHTNING RES %NL% %WHITE%A/H: %GRAY%+30% LIGHTNING RES %NL% %WHITE%W: %GRAY%+1-50 LIGHTNING DAMAGE } 
 /Thul
-ItemDisplay[r10s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%S: %GRAY%+35% COLD RES %NL% %WHITE%A/H: %GRAY%+30% COLD RES %NL% %WHITE%W: %GRAY%+3-14 COLD DAMAGE }
+ItemDisplay[r10s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%S: %GRAY%+35% COLD RES %NL% %WHITE%A/H: %GRAY%+30% COLD RES %NL% %WHITE%W: %GRAY%+3-14 COLD DAMAGE }
 /Amn
-ItemDisplay[r11s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%ATTACKERS TAKE DAMAGE of 14 %NL% %WHITE%W: %GRAY%7% LIFE STOLEN PER HIT } 
+ItemDisplay[r11s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%ATTACKERS TAKE DAMAGE of 14 %NL% %WHITE%W: %GRAY%7% LIFE STOLEN PER HIT } 
 /Sol
-ItemDisplay[r12s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%+9 to MINIMUM DAMAGE } 
+ItemDisplay[r12s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%PHYSICAL DAMAGE TAKEN REDUCED by 7 %NL% %WHITE%W: %GRAY%+9 to MINIMUM DAMAGE } 
 /Shael
-ItemDisplay[r13s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%S: %GRAY%+20% FASTER BLOCK RATE %NL% %WHITE%A/H: %GRAY%+20% FASTER HIT RECOVERY %NL% %WHITE%W: %GRAY%+20% INCREASED ATTACK SPEED } 
+ItemDisplay[r13s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%S: %GRAY%+20% FASTER BLOCK RATE %NL% %WHITE%A/H: %GRAY%+20% FASTER HIT RECOVERY %NL% %WHITE%W: %GRAY%+20% INCREASED ATTACK SPEED } 
 /Dol
-ItemDisplay[r14s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%REPLENISH LIFE +10 %NL% %WHITE%W: %GRAY%REPLENISH LIFE +15 } 
+ItemDisplay[r14s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%REPLENISH LIFE +10 %NL% %WHITE%W: %GRAY%REPLENISH LIFE +15 } 
 /Hel
-ItemDisplay[r15s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%AHS: %GRAY%-15% REQUIREMENTS %NL% %WHITE%W: %GRAY%-20% REQUIREMENTS }
+ItemDisplay[r15s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%AHS: %GRAY%-15% REQUIREMENTS %NL% %WHITE%W: %GRAY%-20% REQUIREMENTS }
 /Io
-ItemDisplay[r16s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to VITALITY } 
+ItemDisplay[r16s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to VITALITY } 
 //17-23
 /Lum
-ItemDisplay[r17s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to ENERGY }
+ItemDisplay[r17s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to ENERGY }
 /Ko
-ItemDisplay[r18s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to DEXTERITY }
+ItemDisplay[r18s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to DEXTERITY }
 /Fal
-ItemDisplay[r19s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP%{%WHITE%WAHS:%GRAY%+10 to STRENGTH }
+ItemDisplay[r19s]: %ORANGE%%RUNENAME% [%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%ORANGE%%MAP-63%{%WHITE%WAHS:%GRAY%+10 to STRENGTH }
 /Lem
 ItemDisplay[r20s]: %PURPLE%  OO %RED%%RUNENAME%%PURPLE% OO %RED%[%RUNENUM%]%GRAY%[#%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%AHS: %GRAY%+50% EXTRA GOLD from MONSTERS %NL% %WHITE%W: %GRAY%+75% EXTRA GOLD from MONSTERS } 
 /Pul
@@ -740,7 +740,7 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 
 //All Charms
 ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
-ItemDisplay[cm2 MAG !ID]: %ORANGE%%NAME%
+ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
 ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm1 OR cm2 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
@@ -1040,28 +1040,28 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
 
 //Essences
-ItemDisplay[tes]: %PX-9D%%BLUE%%NAME%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
-ItemDisplay[ceh]: %PX-9D%%YELLOW%%NAME%{%YELLOW%Mephisto}
-ItemDisplay[bet]: %PX-9D%%RED%%NAME%{%RED%Diablo}
-ItemDisplay[fed]: %PX-9D%%DARK_GREEN%%NAME%{%DARK_GREEN%Baal}
+ItemDisplay[tes]: %MAP-35%%BLUE%%NAME%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
+ItemDisplay[ceh]: %MAP-35%%YELLOW%%NAME%{%YELLOW%Mephisto}
+ItemDisplay[bet]: %MAP-35%%RED%%NAME%{%RED%Diablo}
+ItemDisplay[fed]: %MAP-35%%DARK_GREEN%%NAME%{%DARK_GREEN%Baal}
 
 //Uber Ingredients
-ItemDisplay[pk1]: %MAP%%GRAY%%NAME%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
-ItemDisplay[pk2]: %MAP%%GRAY%%NAME%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
-ItemDisplay[pk3]: %MAP%%GRAY%%NAME%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
-ItemDisplay[dhn]: %PX-9D%%GOLD%%NAME%{%GOLD%Lilith}
-ItemDisplay[bey]: %PX-9D%%GOLD%%NAME%{%GOLD%Duriel}
-ItemDisplay[mbr]: %PX-9D%%GOLD%%NAME%{%GOLD%Izual}
-ItemDisplay[ubtm]: %MAP-A9%%NAME%{%GOLD%Uber Tristram Access}
+ItemDisplay[pk1]: %MAP-45%%GRAY%%NAME%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
+ItemDisplay[pk2]: %MAP-45%%GRAY%%NAME%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
+ItemDisplay[pk3]: %MAP-45%%GRAY%%NAME%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
+ItemDisplay[dhn]: %MAP-45%%GOLD%%NAME%{%GOLD%Lilith}
+ItemDisplay[bey]: %MAP-45%%GOLD%%NAME%{%GOLD%Duriel}
+ItemDisplay[mbr]: %MAP-45%%GOLD%%NAME%{%GOLD%Izual}
+ItemDisplay[ubtm]: %MAP-45%%NAME%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone Ingredients
-ItemDisplay[dcmas]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Diablo Clone Access)
-ItemDisplay[dcbls]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Map Bosses)
-ItemDisplay[dchos]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Uber Bosses)
-ItemDisplay[dcsos]: %MAP%%BLUE%%NAME%%CONTINUE% (%BLUE%Hell Diablo %WHITE%& %BLUE%Baal)
+ItemDisplay[dcmas]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Diablo Clone Access)
+ItemDisplay[dcbls]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Map Bosses)
+ItemDisplay[dchos]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Uber Bosses)
+ItemDisplay[dcsos]: %MAP-98%%BLUE%%NAME%%CONTINUE% (%BLUE%Hell Diablo %WHITE%& %BLUE%Baal)
 
 //Special Items
-ItemDisplay[std]: %PX-9D%%NAME%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
+ItemDisplay[std]: %MAP-62%%NAME%{%WHITE%+10% Experience%NL%+20% Magic & Gold Find%NL%+20% Monster Density%NL%%GRAY%Note%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
 ItemDisplay[UNI !ID cm1]: %MAP-62%%GOLD%%NAME% //Annihilus
 ItemDisplay[UNI !ID cm2]: %MAP-62%%GOLD%%NAME% //Hellfire Torch
 ItemDisplay[UNI !ID cm3]: %MAP-62%%GOLD%%NAME% //Gheed's Fortune
