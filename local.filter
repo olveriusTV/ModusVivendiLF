@@ -1070,7 +1070,7 @@ ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLO
 ItemDisplay[ceh]: %YELLOW%Charged Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%YELLOW%Mephisto}
 ItemDisplay[bet]: %RED%Burning Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo}
 ItemDisplay[fed]: %GREEN%Festering Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%DARK_GREEN%Baal}
-ItemDisplay[toa]: %GREEN%Token of Absolution %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%(%GREEN%Skill Reset)
+ItemDisplay[toa]: %GREEN%Token of Absolution %MAP-62%{%GREEN%Skill Reset}
 
 //Uber Ingredients
 ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
