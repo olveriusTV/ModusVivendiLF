@@ -577,8 +577,8 @@ ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%65%
 
 /Arrows, Bolts and Keys
-ItemDisplay[(aqv OR cqv) NMAG CLVL>6]:
-ItemDisplay[key NMAG CLVL<36]:
+ItemDisplay[(aqv OR cqv)]: %NAME% %YELLOW%[%WHITE%%QTY%%YELLOW%]
+ItemDisplay[key NMAG CLVL<36]: %WHITE%Key %%YELLOW%[%WHITE%%QTY%%YELLOW%]
 
 //Quest Items
 ItemDisplay[bks]: %MAP-A9%%GOLD%Scroll of Inifuss
