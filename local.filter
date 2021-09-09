@@ -767,7 +767,7 @@ ItemDisplay[r33s]: %PURPLE% OOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOO %RED%[%RUNEN
 
 //All Charms
 ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
-ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
+ItemDisplay[cm2 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm1 OR cm2 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
