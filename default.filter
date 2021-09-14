@@ -577,8 +577,8 @@ ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%65%
 
 /Arrows, Bolts and Keys
-ItemDisplay[(aqv OR cqv)]: %NAME% %YELLOW%[%WHITE%%QTY%%YELLOW%]
-ItemDisplay[key NMAG CLVL<36]: %WHITE%Key %%YELLOW%[%WHITE%%QTY%%YELLOW%]
+ItemDisplay[(aqv OR cqv) NMAG CLVL<6]: //%NAME% %YELLOW%[%WHITE%%QTY%%YELLOW%]
+ItemDisplay[key NMAG CLVL<36]: //%WHITE%Key %%YELLOW%[%WHITE%%QTY%%YELLOW%]
 
 //Quest Items
 ItemDisplay[bks]: %MAP-A9%%GOLD%Scroll of Inifuss
@@ -996,8 +996,8 @@ ItemDisplay[(wsp OR 9ws OR 7ws) SK117>2 NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%N
 ItemDisplay[(SCEPTER !scp) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK121>2) (SOCK=0 OR SOCK=3)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>0 NMAG !RW (SOCK=0 OR SOCK=5)]: %NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF !ETH NMAG !RW (SOCK=0 OR SOCK=4)]: %NAME%{%NAME%}
-ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]{%NAME%}
-ItemDisplay[(bsd OR lsd) NMAG SOCK=0 ILVL>25 CLVL<80]: %NAME% %TAN%[%DARK_GREEN%Larzuk 4soc%TAN%]{%NAME%}
+ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41) CLVL<80]: %NAME% %TAN%{%NAME%}
+ItemDisplay[(bsd OR lsd) NMAG SOCK=0 ILVL>25 CLVL<80]: %NAME% %TAN%{%NAME%}
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
 ItemDisplay[crs ILVL>25 NMAG !INF !RW (SOCK=0 OR SOCK>4)]: %NAME%{%NAME%}
 ItemDisplay[7cr NMAG !RW !INF (SOCK=0 OR SOCK>2) ED>4]: %DOT-D6%%NAME%{%NAME%}
@@ -1089,7 +1089,7 @@ ItemDisplay[dcma]: %PURPLE%Vision of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-6
 
 
 //Special Items
-ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find%NL%%BLUE%+20% %WHITE%Monster Density%NL%%YELLOW%MAP %WHITE%+ %GOLD%Item}
+ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
 ItemDisplay[UNI !ID cm1]: %GOLD%Annihilus%MAP-62%{%GOLD%Diablo Clone}
 ItemDisplay[UNI !ID cm2]: %GOLD%Torch%MAP-62%{%GOLD%Uber Tristram}
 ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
