@@ -3134,7 +3134,6 @@ ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(clb OR spc)) NORM NMAG !RW !leg SO
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(clb OR spc)) NORM NMAG !RW !leg CLVL>44 DIFF>0]:
 ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) AND !ZON AND !(clb OR spc)) NORM MAG !ID !leg CLVL>34 DIFF>0]: 
 ItemDisplay[(GLOVES OR BOOTS OR BELT) NORM MAG !ID !leg CLVL>44 DIFF>0]:
-//Normal
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(clb OR spc)) NORM NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>24]: 
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(clb OR spc)) NORM NMAG !RW !leg SOCK<2 CLVL>39]:
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(clb OR spc)) NORM NMAG !RW !leg CLVL>49]:
@@ -3148,7 +3147,6 @@ ItemDisplay[(WEAPON AND !ZON AND !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>59
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>69 DIFF=2]: 
 ItemDisplay[((CHEST OR HELM OR SHIELD OR WEAPON) AND !ZON AND !(9cl OR 9sp)) EXC MAG !ID !leg CLVL>69 DIFF=2]:
 ItemDisplay[(GLOVES OR BOOTS OR BELT) EXC MAG !ID !leg CLVL>74 DIFF=2]:
-//Nightmare and Normal
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(9cl OR 9sp)) EXC NMAG SUP !RW !leg SOCK=0 ED<10 CLVL>64]: 
 ItemDisplay[(WEAPON AND !ZON AND !(9cl OR 9sp)) EXC NMAG !RW !leg SOCK<2 CLVL>69]: 
 ItemDisplay[((ARMOR OR WEAPON) AND !ZON AND !(9cl OR 9sp)) EXC NMAG !RW !leg CLVL>79]: 
