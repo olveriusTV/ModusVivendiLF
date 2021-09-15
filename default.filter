@@ -596,11 +596,11 @@ ItemDisplay[g34]: %MAP-A9%%GOLD%Golden Bird
 ItemDisplay[xyz]: %MAP-A9%%GOLD%Potion of Life
 ItemDisplay[g33]: %MAP-A9%%GOLD%Gidbinn 
 ItemDisplay[bbb]: %MAP-A9%%GOLD%Lam Esen's Tome
-ItemDisplay[qbr]: //%MAP-A9%%GOLD%Khalim's Brain
-ItemDisplay[qey]: //%MAP-A9%%GOLD%Khalim's Eye
-ItemDisplay[qhr]: //%MAP-A9%%GOLD%Khalim's Heart
-ItemDisplay[qf1]: //%MAP-A9%%GOLD%Khalim's Flail
-ItemDisplay[qf2]: //%MAP-A9%%GOLD%Khalim's Will
+ItemDisplay[qbr]: %MAP-A9%%GOLD%Khalim's Brain
+ItemDisplay[qey]: %MAP-A9%%GOLD%Khalim's Eye
+ItemDisplay[qhr]: %MAP-A9%%GOLD%Khalim's Heart
+ItemDisplay[qf1]: %MAP-A9%%GOLD%Khalim's Flail
+ItemDisplay[qf2]: %MAP-A9%%GOLD%Khalim's Will
 ItemDisplay[mss]: %MAP-A9%%GOLD%Mephisto's Soulstone
 ItemDisplay[hfh]: %MAP-A9%%GOLD%Hellforge Hammer
 ItemDisplay[ice]: %MAP-A9%%GOLD%Malah's Potion
@@ -814,7 +814,7 @@ ItemDisplay[cm1 MFIND>5]: %GREEN%MF %BLUE%Small Charm
 ItemDisplay[cm1 LIFE>16]: %RED%Life %BLUE%Small Charm 
 
 //Skillers
-//Comb Pally, Summ Necro/Dudu have a Special Affix
+//Comb Pally, Summ Necro/Dudu
 ItemDisplay[cm3 (TABSK0>0 AND FHR>0)]: %PURPLE%Bow and Crossbow %TAN%Skiller %WHITE%+ %ORANGE%FHR
 ItemDisplay[cm3 (TABSK2>0 AND FHR>0)]: %PURPLE%Javelin and Spear %TAN%Skiller %WHITE%+ %ORANGE%FHR
 ItemDisplay[cm3 (TABSK8>0 AND FHR>0)]: %PURPLE%Fire Spells %TAN%Skiller %WHITE%+ %ORANGE%FHR
