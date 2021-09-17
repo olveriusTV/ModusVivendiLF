@@ -2795,7 +2795,7 @@ ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLO
 ItemDisplay[ceh]: %YELLOW%Charged Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%YELLOW%Mephisto}
 ItemDisplay[bet]: %RED%Burning Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo}
 ItemDisplay[fed]: %GREEN%Festering Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%DARK_GREEN%Baal}
-ItemDisplay[toa]: %GREEN%Token of Absolution %MAP-62%{%GREEN%Skill Reset}
+ItemDisplay[toa]: %GREEN%Token of Absolution%MAP-62%{%GREEN%Skill Reset}
 
 //Uber Ingredients
 ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
@@ -2810,7 +2810,7 @@ ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP-45%{%GOLD%Uber Tristram Access
 ItemDisplay[dcho]: %PURPLE%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Uber Tristram}
 ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Diablo %WHITE%& %PURPLE%Baal %PURPLE%(%WHITE%Hell%PURPLE%)}
 ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Map Bosses}
-ItemDisplay[dcma]: %PURPLE%Vision of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Diablo Clone Access}
+ItemDisplay[dcma]: %PURPLE%Vision of Terror%YELLOW%%MAP-62%{%PURPLE%Diablo Clone Access}
 
 //Special Items
 ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
