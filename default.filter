@@ -2786,11 +2786,11 @@ ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19)
 ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29)]: %GRAY%[%TAN%T2%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39)]: %GRAY%[%ORANGE%T3%GRAY%] %NAME% %CONTINUE%
 ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %GRAY%[%RED%Dungeon%GRAY%] %NAME% %CONTINUE%
-ItemDisplay[(t62)]: %GRAY%[%ORANGE%T6%GRAY%] %NAME% %CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t62) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Modify > %RED%Anya} %MAP-4A%%CONTINUE%
-ItemDisplay[(t62)]: %NAME%{%BLUE%PvP Arena} %MAP-4A%%CONTINUE%
+ItemDisplay[(10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) (!ID OR NMAG)]: %MAP-7F%%NAME%%CONTINUE%
+ItemDisplay[(10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%{%WHITE%Modify > %RED%Anya} %MAP-4A%%CONTINUE%
 ItemDisplay[dcma OR dcbl OR dcho OR dcso]: %MAP-4A%%NAME%%CONTINUE%
+ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%BLUE%PvP Arena} %MAP-4A%%CONTINUE%
+
 
 //Essences & Token
 ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
@@ -2809,10 +2809,18 @@ ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{
 ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP-45%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone Ingredients
-ItemDisplay[dcho]: %PURPLE%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Uber Tristram}
-ItemDisplay[dcso]: %PURPLE%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Diablo %WHITE%& %PURPLE%Baal %PURPLE%(%WHITE%Hell%PURPLE%)}
-ItemDisplay[dcbl]: %PURPLE%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Map Bosses}
-ItemDisplay[dcma]: %PURPLE%Vision of Terror%YELLOW%%MAP-62%{%PURPLE%Diablo Clone Access}
+ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram}
+ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo %WHITE%& %RED%Baal %RED%(%WHITE%Hell%RED%)}
+ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Map Bosses}
+ItemDisplay[dcma]: %RED%Vision of Terror%YELLOW%%MAP-62%{%RED%Diablo Clone Access}
+
+//Rathma Items
+ItemDisplay[rtmf]: %PURPLE%Ancient Bone Fragment %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Trang-Oul's Jawbone ingredient}
+ItemDisplay[rtmv]: %PURPLE%Splinter of the Void %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Rathma ingredient}
+ItemDisplay[rtmo]: %PURPLE%Trang-Oul's Jawbone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Rathma ingredient}
+ItemDisplay[rtma]: %PURPLE%Voidstone%YELLOW%%MAP-62%{%PURPLE%Rathma Access}
+ItemDisplay[cwss]: %PURPLE%Tainted Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Corrupts Annihilus}
+
 
 //Special Items
 ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
