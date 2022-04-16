@@ -542,43 +542,25 @@ ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %WHITE%(%TAN%%WHITE%%PRICE%%WHITE%)%CONTINUE%
 
 //Utilites
-ItemDisplay[tsc CLVL<20]: %BLUE%*%WHITE%Portal
-ItemDisplay[isc CLVL<20]: %RED%*%WHITE%Identify
-ItemDisplay[tbk]: %BLUE%Tome of Portal
-ItemDisplay[ibk]: %RED%Tome of Identify
+ItemDisplay[tsc CLVL<20]: %BLUE%*%GRAY%tp
+ItemDisplay[isc CLVL<20]: %RED%*%GRAY%id
+ItemDisplay[tbk]: %BLUE%tp tome
+ItemDisplay[ibk]: %RED%id tome
 
 //Potions
-ItemDisplay[vps CLVL<18]: %WHITE%Stamina
-ItemDisplay[yps CLVL<18]: %GRAY%Antidote
-ItemDisplay[wms CLVL<26]: %YELLOW%Thaw
-ItemDisplay[gps CLVL<41]: %GREEN%Throw
-ItemDisplay[ops CLVL<41]: %ORANGE%Throw
-ItemDisplay[gpm CLVL<41]: %GREEN%Throw
-ItemDisplay[opm CLVL<41]: %ORANGE%Throw
-ItemDisplay[gpl CLVL<41]: %GREEN%Throw
-ItemDisplay[opl CLVL<41]: %ORANGE%Throw
 
-/Health
-ItemDisplay[hp1 CLVL<18]: %GRAY%heal%RED%- 
-ItemDisplay[hp2 CLVL<26]: %GRAY%heal%RED%+
-ItemDisplay[hp3 CLVL<41]: %RED%heal%GRAY%-
-ItemDisplay[hp4 CLVL<81]: %RED%heal%GRAY%+
-ItemDisplay[hp5 CLVL<99]: %RED%heal
-
-/Mana
-ItemDisplay[mp1 CLVL<18]: %GRAY%mana%BLUE%- 
-ItemDisplay[mp2 CLVL<26]: %GRAY%mana%BLUE%+  
-ItemDisplay[mp3 CLVL<41]: %BLUE%mana%GRAY%- 
-ItemDisplay[mp4 CLVL<81]: %BLUE%mana%GRAY%+ 
-ItemDisplay[mp5 CLVL<99]: %BLUE%mana
-
-/Rejuv
-ItemDisplay[rvs]: %PURPLE%rejuv %WHITE%35%
-ItemDisplay[rvl]: %PURPLE%REJUV %WHITE%65%
-
-/Arrows, Bolts and Keys
-ItemDisplay[(aqv OR cqv) NMAG CLVL<6]: //%NAME% %YELLOW%[%WHITE%%QTY%%YELLOW%]
-ItemDisplay[key NMAG CLVL<36]: //%WHITE%Key %%YELLOW%[%WHITE%%QTY%%YELLOW%]
+ItemDisplay[hp1 CLVL<5]: %RED%h %WHITE%minor 
+ItemDisplay[mp1 CLVL<10]: %BLUE%m %WHITE%minor
+ItemDisplay[hp2 CLVL<15]: %RED%h %WHITE%lite 
+ItemDisplay[mp2 CLVL<15]: %BLUE%m %WHITE%lite
+ItemDisplay[hp3 CLVL<25]: %RED%H %WHITE%regular
+ItemDisplay[mp3 CLVL<25]: %BLUE%M %WHITE%regular
+ItemDisplay[hp4 CLVL<45]: %RED%H %WHITE%great
+ItemDisplay[mp4 CLVL<45]: %BLUE%M %WHITE%great
+ItemDisplay[hp5 CLVL<90]: %RED%H %WHITE%super
+ItemDisplay[mp5 CLVL<90]: %BLUE%M %WHITE%super
+ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
+ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 
 //Quest Items
 ItemDisplay[bks]: %MAP-A9%%GOLD%Scroll of Inifuss
@@ -2831,6 +2813,11 @@ ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
 
 //HIDE EVERYTHING
 //Utilities
+ItemDisplay[(hp1 OR mp1) CLVL>4]: 
+ItemDisplay[(hp2 OR mp2) CLVL>14]: 
+ItemDisplay[(hp3 OR mp3) CLVL>24]: 
+ItemDisplay[(hp4 OR mp4) CLVL>44]: 
+ItemDisplay[(hp5 OR mp5) CLVL>89]: 
 ItemDisplay[tsc CLVL>19]:
 ItemDisplay[isc CLVL>19]:
 ItemDisplay[vps CLVL>18]:
@@ -2842,19 +2829,19 @@ ItemDisplay[gpm CLVL>41]:
 ItemDisplay[opm CLVL>41]:
 ItemDisplay[gpl CLVL>41]:
 ItemDisplay[opl CLVL>41]:
-ItemDisplay[hp1 CLVL>17]:
-ItemDisplay[hp2 CLVL>25]: 
-ItemDisplay[hp3 CLVL>40]: 
-ItemDisplay[hp4 CLVL>80]:
-ItemDisplay[hp5 CLVL>98]: 
-ItemDisplay[mp1 CLVL>17]:
-ItemDisplay[mp2 CLVL>25]: 
-ItemDisplay[mp3 CLVL>40]: 
-ItemDisplay[mp4 CLVL>80]: 
-ItemDisplay[mp5 CLVL>98]: 
+ItemDisplay[vps CLVL>=1]: 
+ItemDisplay[yps CLVL<18]: 
+ItemDisplay[wms CLVL<26]: 
+ItemDisplay[gps CLVL<41]: 
+ItemDisplay[ops CLVL<41]: 
+ItemDisplay[gpm CLVL<41]: 
+ItemDisplay[opm CLVL<41]: 
+ItemDisplay[gpl CLVL<41]: 
+ItemDisplay[opl CLVL<41]: 
 ItemDisplay[aqv CLVL>5]:
 ItemDisplay[cqv CLVL>5]:
-ItemDisplay[key CLVL>35]:
+ItemDisplay[(aqv OR cqv) NMAG CLVL>=1]: 
+ItemDisplay[key NMAG CLVL>=1]: 
 
 //Gems < Flawless
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc OR gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf OR gsv OR gsy OR gsb OR gsg OR gsr OR gsw OR sku]: //
