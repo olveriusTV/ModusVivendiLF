@@ -733,7 +733,6 @@ ItemDisplay[r32s]: %PURPLE% OOOOO %RED%%RUNENAME%%PURPLE% OOOOO %RED%[%RUNENUM%]
 /Zod
 ItemDisplay[r33s]: %PURPLE% OOOOOOOO %RED%%RUNENAME%%PURPLE% OOOOOOOO %RED%[%RUNENUM%]%GRAY%[%GRAY%%QTY%%GRAY%]%PURPLE%%MAP%{%WHITE%WAHS:%GRAY% INDESTRUCTIBLE} 
 
-
 //All Charms
 ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
 ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
@@ -870,34 +869,50 @@ ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
 
 //Good Magic Items
-ItemDisplay[jew MAG !ID]: %DOT-9A%%BLUE%%NAME%
+ItemDisplay[jew MAG !ID]: %DOT-9A%%NAME%
 
 //Good Rare Items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%YELLOW%%NAME%
+ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%NAME%
 
 //Good SET parts
-ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%GREEN%%NAME%
+ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-62%%DARK_GREEN%%NAME%%CONTINUE%
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%PURPLE%OOOOO %GOLD%%NAME%%PURPLE% OOOOO
-//Good UNIQUES
+ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%NAME%
+
+//GG only when ETH
+ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %BORDER-68%%NAME%
+
+//PD2 UNIQUES
+ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(rar OR rbe OR ram) UNI !ID]: %BORDER-68%%NAME%
+
+//NEW PD2 UNIQUES
+ItemDisplay[(drf OR utp OR 7tw OR baf OR 7qs OR 6bs OR ned OR ulb OR ame OR 7fb OR utg) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %BORDER-68%%NAME%
+
+//OK only when ETH
+ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %BORDER-68%%NAME%
+
+//OK UNIQUES
+ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%NAME%
 //belts
-ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %BORDER-68%%NAME%
 //armors
-ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %BORDER-68%%NAME%
 //gloves
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %BORDER-68%%NAME%
 //helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %BORDER-68%%NAME%
 //boots
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %BORDER-68%%NAME%
 //shields
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %BORDER-68%%NAME%
 //weapons
-ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %DOT-68%%PURPLE%OOOO %GOLD%%NAME%%PURPLE% OOOO
+ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %BORDER-68%%NAME%
 
 //Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%PURPLE%OOOOO %GOLD%%NAME%%PURPLE% OOOOO
+ItemDisplay[jew UNI !ID]: %BORDER-68%%NAME%
 
 //Unique and Set Alerts
 //Armors
@@ -908,17 +923,18 @@ ItemDisplay[((9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga OR 7wa
 ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
 
 //Sets and Uniques for LOW LEVEL
-ItemDisplay[UNI !ID CLVL<80]: %PX-68%%NAME%
-ItemDisplay[SET !ID CLVL<80]: %PX-84%%NAME%
+ItemDisplay[UNI !ID (FILTLVL<3 OR (CLVL<80 AND FILTLVL<4))]: %PX-68%%NAME%
+ItemDisplay[SET !ID (FILTLVL<3 OR (CLVL<80 AND FILTLVL<4))]: %PX-84%%NAME%
 
 //Circlets
-ItemDisplay[EQ7 MAG !ID]: %NAME%{%NAME%}
-ItemDisplay[EQ7 NMAG !INF !ETH SOCK=0]: %NAME%{%NAME%}
+ItemDisplay[CIRC (MAG OR RARE) !ID]: %NAME%
 
 //Rare Gloves, Belts and Boots
 ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
-//Rare ETH EXC and ELT weapons
-ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
+
+//Rare Chest Armor, Helmets and Shields
+ItemDisplay[(CHEST OR SHIELD) RARE !ID]: %NAME%
+ItemDisplay[HELM RARE !ID FILTLVL<4]: %NAME%
 
 //Craftables
 //Blood, Caster, Hitpower, Safety
@@ -2759,7 +2775,7 @@ ItemDisplay[wss]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%
 ItemDisplay[imra]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %BLUE%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%WHITE%Common to %YELLOW%Rare%WHITE%:}%CONTINUE%
 ItemDisplay[scrb]: %GOLD%Horadrim Scarab %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%GOLD%Item %WHITE%+ %GRAY%[%ORANGE%T3%GRAY%]%NL%%RED%Group Dungeon%WHITE%:}
 ItemDisplay[rera]: %GOLD%Horadrim Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GREEN%Reroll%WHITE%:}%CONTINUE%
-ItemDisplay[upma]: %GOLD%Angelic Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %WHITE%O %WHITE%+ %ORANGE%Rune>9%NL%%BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
+ItemDisplay[upma]: %GOLD%Angelic Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
 ItemDisplay[imma]: %GOLD%Arcane Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP + %GOLD%Item%WHITE% + %BLUE%Jewel %NL%%WHITE%Common to %BLUE%Magic%WHITE%:}%CONTINUE%
 ItemDisplay[scou]: %GOLD%Orb of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%GRAY%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + %ORANGE%Hel%NL%%WHITE%Downgrade:}%CONTINUE%
 ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GOLD%Socket %WHITE%Item}%CONTINUE%
@@ -2787,11 +2803,11 @@ ItemDisplay[NMAG t36]: %ORANGE%[T3] %WHITE%Fall of Caldeum%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t37]: %ORANGE%[T3] %WHITE%Pandemonium Citadel%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t38]: %ORANGE%[T3] %WHITE%Canyon of Sescheron%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t39]: %ORANGE%[T3] %WHITE%Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t41]: %RED%[T4] %WHITE%Cathedral of Light %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t42]: %RED%[T4] %WHITE%Plains of Torment %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert Duel %WHITE%Arena%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor Duel %WHITE%Arena%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t41]: %RED%[T4] %WHITE%Cathedral of Light %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t42]: %RED%[T4] %WHITE%Plains of Torment %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert Duel %RED%Arena%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor Duel %RED%Arena%MAP-62%%CONTINUE%
 
 //Magic
 ItemDisplay[MAG t11]: %GREEN%[T1] %BLUE%Ruins of Vizjun%MAP-62%%CONTINUE%
@@ -2814,9 +2830,9 @@ ItemDisplay[MAG t36]: %ORANGE%[T3] %BLUE%Fall of Caldeum%MAP-62%%CONTINUE%
 ItemDisplay[MAG t37]: %ORANGE%[T3] %BLUE%Pandemonium Citadel%MAP-62%%CONTINUE%
 ItemDisplay[MAG t38]: %ORANGE%[T3] %BLUE%Canyon of Sescheron%MAP-62%%CONTINUE%
 ItemDisplay[MAG t39]: %ORANGE%[T3] %BLUE%Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin %PURPLE%Dungeon%MAP-62%%CONTINUE%
 
 //Rare
 ItemDisplay[RARE t11]: %GREEN%[T1] %YELLOW%Ruins of Vizjun%MAP-62%%CONTINUE%
@@ -2839,9 +2855,9 @@ ItemDisplay[RARE t36]: %ORANGE%[T3] %YELLOW%Fall of Caldeum%MAP-62%%CONTINUE%
 ItemDisplay[RARE t37]: %ORANGE%[T3] %YELLOW%Pandemonium Citadel%MAP-62%%CONTINUE%
 ItemDisplay[RARE t38]: %ORANGE%[T3] %YELLOW%Canyon of Sescheron%MAP-62%%CONTINUE%
 ItemDisplay[RARE t39]: %ORANGE%[T3] %YELLOW%Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[RARE t41]: %RED%[T4] %YELLOW%Cathedral of Light %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment %ORANGE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t41]: %RED%[T4] %YELLOW%Cathedral of Light %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin %PURPLE%Dungeon%MAP-62%%CONTINUE%
 
 //Essences & Token
 ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel & Duriel}
@@ -2885,7 +2901,6 @@ ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62
 ItemDisplay[UNI !ID cm1]: %GOLD%Annihilus%MAP-62%{%GOLD%Diablo Clone}
 ItemDisplay[UNI !ID cm2]: %GOLD%Torch%MAP-62%{%GOLD%Uber Tristram}
 ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
-
 
 //HIDE EVERYTHING
 //Utilities
