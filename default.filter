@@ -2768,80 +2768,80 @@ ItemDisplay[upmp]: %GOLD%Cartographer's Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A
 //Maps
 //Normal
 ItemDisplay[NMAG t11]: %GREEN%[T1] %WHITE%Ruins of Vizjun%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t12]: %GREEN%[T1] %WHITE%Horazons Memory%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t12]: %GREEN%[T1] %WHITE%Horazon's Memory%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t13]: %GREEN%[T1] %WHITE%Bastion Keep%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t14]: %GREEN%[T1] %WHITE%The Sanatorium%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t15]: %GREEN%[T1] %WHITE%Royal Crypts%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t21]: %TAN%[T2] %WHITE%Phlegathon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t22]: %TAN%[T2] %WHITE%Torajan Jungle%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t23]: %TAN%[T2] %WHITE%Arreat Battlefield%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t24]: %TAN%[T2] %WHITE%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t25]: %TAN%[T2] %WHITE%Sewers of Harrogath%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t26]: %TAN%[T2] %WHITE%Shadows of Westmarch%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t21]: %DARK_GREEN%[T2] %WHITE%Phlegathon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t22]: %DARK_GREEN%[T2] %WHITE%Torajan Jungle%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t23]: %DARK_GREEN%[T2] %WHITE%Arreat Battlefield%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t24]: %DARK_GREEN%[T2] %WHITE%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t25]: %DARK_GREEN%[T2] %WHITE%Sewers of Harrogath%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t26]: %DARK_GREEN%[T2] %WHITE%Shadows of Westmarch%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t31]: %ORANGE%[T3] %WHITE%River of Blood%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t32]: %ORANGE%[T3] %WHITE%Throne of Insanity%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t33]: %ORANGE%[T3] %WHITE%Reziarfg's Lair%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t33]: %ORANGE%[T3] %WHITE%Lost Temple%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t34]: %ORANGE%[T3] %WHITE%Ancestral Trial%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t35]: %ORANGE%[T3] %WHITE%Blood Moon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t36]: %ORANGE%[T3] %WHITE%The Fall of Caldeum%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t37]: %ORANGE%[T3] %WHITE%The Pandemonium Citadel%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t38]: %ORANGE%[T3] %WHITE%The Canyon of Sescheron%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t39]: %ORANGE%[T3] %WHITE%The Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t41]: %RED%[T4] %WHITE%Cathedral of Light Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t42]: %RED%[T4] %WHITE%Plains of Torment Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert Duel Arena%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor Duel Arena%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t36]: %ORANGE%[T3] %WHITE%Fall of Caldeum%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t37]: %ORANGE%[T3] %WHITE%Pandemonium Citadel%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t38]: %ORANGE%[T3] %WHITE%Canyon of Sescheron%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t39]: %ORANGE%[T3] %WHITE%Kehjistan Marketplace%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t41]: %RED%[T4] %WHITE%Cathedral of Light %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t42]: %RED%[T4] %WHITE%Plains of Torment %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert Duel %WHITE%Arena%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor Duel %WHITE%Arena%MAP-62%%CONTINUE%
 
 //Magic
 ItemDisplay[MAG t11]: %GREEN%[T1] %BLUE%Ruins of Vizjun%MAP-62%%CONTINUE%
-ItemDisplay[MAG t12]: %GREEN%[T1] %BLUE%Horazons Memory%MAP-62%%CONTINUE%
+ItemDisplay[MAG t12]: %GREEN%[T1] %BLUE%Horazon's Memory%MAP-62%%CONTINUE%
 ItemDisplay[MAG t13]: %GREEN%[T1] %BLUE%Bastion Keep%MAP-62%%CONTINUE%
-ItemDisplay[MAG t14]: %GREEN%[T1] %BLUE%The Sanatorium%MAP-62%%CONTINUE%
+ItemDisplay[MAG t14]: %GREEN%[T1] %BLUE%Sanatorium%MAP-62%%CONTINUE%
 ItemDisplay[MAG t15]: %GREEN%[T1] %BLUE%Royal Crypts%MAP-62%%CONTINUE%
-ItemDisplay[MAG t21]: %TAN%[T2] %BLUE%Phlegathon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t22]: %TAN%[T2] %BLUE%Torajan Jungle%MAP-62%%CONTINUE%
-ItemDisplay[MAG t23]: %TAN%[T2] %BLUE%Arreat Battlefield%MAP-62%%CONTINUE%
-ItemDisplay[MAG t24]: %TAN%[T2] %BLUE%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
-ItemDisplay[MAG t25]: %TAN%[T2] %BLUE%Sewers of Harrogath%MAP-62%%CONTINUE%
-ItemDisplay[MAG t26]: %TAN%[T2] %BLUE%Shadows of Westmarch%MAP-62%%CONTINUE%
+ItemDisplay[MAG t21]: %DARK_GREEN%[T2] %BLUE%Phlegathon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t22]: %DARK_GREEN%[T2] %BLUE%Torajan Jungle%MAP-62%%CONTINUE%
+ItemDisplay[MAG t23]: %DARK_GREEN%[T2] %BLUE%Arreat Battlefield%MAP-62%%CONTINUE%
+ItemDisplay[MAG t24]: %DARK_GREEN%[T2] %BLUE%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
+ItemDisplay[MAG t25]: %DARK_GREEN%[T2] %BLUE%Sewers of Harrogath%MAP-62%%CONTINUE%
+ItemDisplay[MAG t26]: %DARK_GREEN%[T2] %BLUE%Shadows of Westmarch%MAP-62%%CONTINUE%
 ItemDisplay[MAG t31]: %ORANGE%[T3] %BLUE%River of Blood%MAP-62%%CONTINUE%
 ItemDisplay[MAG t32]: %ORANGE%[T3] %BLUE%Throne of Insanity%MAP-62%%CONTINUE%
-ItemDisplay[MAG t33]: %ORANGE%[T3] %BLUE%Reziarfg's Lair%MAP-62%%CONTINUE%
+ItemDisplay[MAG t33]: %ORANGE%[T3] %BLUE%Lost Temple%MAP-62%%CONTINUE%
 ItemDisplay[MAG t34]: %ORANGE%[T3] %BLUE%Ancestral Trial%MAP-62%%CONTINUE%
 ItemDisplay[MAG t35]: %ORANGE%[T3] %BLUE%Blood Moon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t36]: %ORANGE%[T3] %BLUE%The Fall of Caldeum%MAP-62%%CONTINUE%
-ItemDisplay[MAG t37]: %ORANGE%[T3] %BLUE%The Pandemonium Citadel%MAP-62%%CONTINUE%
-ItemDisplay[MAG t38]: %ORANGE%[T3] %BLUE%The Canyon of Sescheron%MAP-62%%CONTINUE%
-ItemDisplay[MAG t39]: %ORANGE%[T3] %BLUE%The Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t36]: %ORANGE%[T3] %BLUE%Fall of Caldeum%MAP-62%%CONTINUE%
+ItemDisplay[MAG t37]: %ORANGE%[T3] %BLUE%Pandemonium Citadel%MAP-62%%CONTINUE%
+ItemDisplay[MAG t38]: %ORANGE%[T3] %BLUE%Canyon of Sescheron%MAP-62%%CONTINUE%
+ItemDisplay[MAG t39]: %ORANGE%[T3] %BLUE%Kehjistan Marketplace%MAP-62%%CONTINUE%
+ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin %ORANGE%Dungeon%MAP-62%%CONTINUE%
 
 //Rare
 ItemDisplay[RARE t11]: %GREEN%[T1] %YELLOW%Ruins of Vizjun%MAP-62%%CONTINUE%
-ItemDisplay[RARE t12]: %GREEN%[T1] %YELLOW%Horazons Memory%MAP-62%%CONTINUE%
+ItemDisplay[RARE t12]: %GREEN%[T1] %YELLOW%Horazon's Memory%MAP-62%%CONTINUE%
 ItemDisplay[RARE t13]: %GREEN%[T1] %YELLOW%Bastion Keep%MAP-62%%CONTINUE%
 ItemDisplay[RARE t14]: %GREEN%[T1] %YELLOW%The Sanatorium%MAP-62%%CONTINUE%
 ItemDisplay[RARE t15]: %GREEN%[T1] %YELLOW%Royal Crypts%MAP-62%%CONTINUE%
-ItemDisplay[RARE t21]: %TAN%[T2] %YELLOW%Phlegathon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t22]: %TAN%[T2] %YELLOW%Torajan Jungle%MAP-62%%CONTINUE%
-ItemDisplay[RARE t23]: %TAN%[T2] %YELLOW%Arreat Battlefield%MAP-62%%CONTINUE%
-ItemDisplay[RARE t24]: %TAN%[T2] %YELLOW%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
-ItemDisplay[RARE t25]: %TAN%[T2] %YELLOW%Sewers of Harrogath%MAP-62%%CONTINUE%
-ItemDisplay[RARE t26]: %TAN%[T2] %YELLOW%Shadows of Westmarch%MAP-62%%CONTINUE%
+ItemDisplay[RARE t21]: %DARK_GREEN%[T2] %YELLOW%Phlegathon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t22]: %DARK_GREEN%[T2] %YELLOW%Torajan Jungle%MAP-62%%CONTINUE%
+ItemDisplay[RARE t23]: %DARK_GREEN%[T2] %YELLOW%Arreat Battlefield%MAP-62%%CONTINUE%
+ItemDisplay[RARE t24]: %DARK_GREEN%[T2] %YELLOW%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
+ItemDisplay[RARE t25]: %DARK_GREEN%[T2] %YELLOW%Sewers of Harrogath%MAP-62%%CONTINUE%
+ItemDisplay[RARE t26]: %DARK_GREEN%[T2] %YELLOW%Shadows of Westmarch%MAP-62%%CONTINUE%
 ItemDisplay[RARE t31]: %ORANGE%[T3] %YELLOW%River of Blood%MAP-62%%CONTINUE%
 ItemDisplay[RARE t32]: %ORANGE%[T3] %YELLOW%Throne of Insanity%MAP-62%%CONTINUE%
-ItemDisplay[RARE t33]: %ORANGE%[T3] %YELLOW%Reziarfg's Lair%MAP-62%%CONTINUE%
+ItemDisplay[RARE t33]: %ORANGE%[T3] %YELLOW%Lost Temple%MAP-62%%CONTINUE%
 ItemDisplay[RARE t34]: %ORANGE%[T3] %YELLOW%Ancestral Trial%MAP-62%%CONTINUE%
 ItemDisplay[RARE t35]: %ORANGE%[T3] %YELLOW%Blood Moon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t36]: %ORANGE%[T3] %YELLOW%The Fall of Caldeum%MAP-62%%CONTINUE%
-ItemDisplay[RARE t37]: %ORANGE%[T3] %YELLOW%The Pandemonium Citadel%MAP-62%%CONTINUE%
-ItemDisplay[RARE t38]: %ORANGE%[T3] %YELLOW%The Canyon of Sescheron%MAP-62%%CONTINUE%
-ItemDisplay[RARE t39]: %ORANGE%[T3] %YELLOW%The Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[RARE t41]: %RED%[T4] %YELLOW%Cathedral of Light Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t36]: %ORANGE%[T3] %YELLOW%Fall of Caldeum%MAP-62%%CONTINUE%
+ItemDisplay[RARE t37]: %ORANGE%[T3] %YELLOW%Pandemonium Citadel%MAP-62%%CONTINUE%
+ItemDisplay[RARE t38]: %ORANGE%[T3] %YELLOW%Canyon of Sescheron%MAP-62%%CONTINUE%
+ItemDisplay[RARE t39]: %ORANGE%[T3] %YELLOW%Kehjistan Marketplace%MAP-62%%CONTINUE%
+ItemDisplay[RARE t41]: %RED%[T4] %YELLOW%Cathedral of Light %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment %ORANGE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin %ORANGE%Dungeon%MAP-62%%CONTINUE%
 
 //Essences & Token
 ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel & Duriel}
