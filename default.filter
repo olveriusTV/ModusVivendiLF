@@ -2793,7 +2793,7 @@ ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin Dungeon%MAP-62%%CONTINU
 ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert Duel Arena%MAP-62%%CONTINUE%
 ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor Duel Arena%MAP-62%%CONTINUE%
 
-// Magic
+//Magic
 ItemDisplay[MAG t11]: %GREEN%[T1] %BLUE%Ruins of Vizjun%MAP-62%%CONTINUE%
 ItemDisplay[MAG t12]: %GREEN%[T1] %BLUE%Horazons Memory%MAP-62%%CONTINUE%
 ItemDisplay[MAG t13]: %GREEN%[T1] %BLUE%Bastion Keep%MAP-62%%CONTINUE%
@@ -2818,7 +2818,7 @@ ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light Dungeon%MAP-62%%CONTINU
 ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment Dungeon%MAP-62%%CONTINUE%
 ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin Dungeon%MAP-62%%CONTINUE%
 
-// Rare
+//Rare
 ItemDisplay[RARE t11]: %GREEN%[T1] %YELLOW%Ruins of Vizjun%MAP-62%%CONTINUE%
 ItemDisplay[RARE t12]: %GREEN%[T1] %YELLOW%Horazons Memory%MAP-62%%CONTINUE%
 ItemDisplay[RARE t13]: %GREEN%[T1] %YELLOW%Bastion Keep%MAP-62%%CONTINUE%
@@ -2844,35 +2844,35 @@ ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment Dungeon%MAP-62%%CONTI
 ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin Dungeon%MAP-62%%CONTINUE%
 
 //Essences & Token
-ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel %WHITE%/ %BLUE%Duriel}
+ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel & Duriel}
 ItemDisplay[ceh]: %YELLOW%Charged Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%YELLOW%Mephisto}
 ItemDisplay[bet]: %RED%Burning Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo}
 ItemDisplay[fed]: %GREEN%Festering Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GREEN%Baal}
 ItemDisplay[toa]: %GREEN%Token of Absolution%MAP-62%{%GREEN%Skill Reset}
 
-//Uber Tristram Ingredients
-ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess%WHITE% & %GRAY%Blood Raven}
-ItemDisplay[pk2]: %GRAY%Key of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Summoner%WHITE% & %GRAY%Blood Witch}
-ItemDisplay[pk3]: %GRAY%Key of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Izual%WHITE% & %GRAY%Nihlathak}
-ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Lilith %GOLD%(%WHITE%Miniuber%GOLD%)}
-ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Duriel %GOLD%(%WHITE%Miniuber%GOLD%)}
-ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Izual %GOLD%(%WHITE%Miniuber%GOLD%)}
+//Uber Tristram
+ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess / Blood Raven}
+ItemDisplay[pk2]: %GRAY%Key of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Summoner / Blood Witch}
+ItemDisplay[pk3]: %GRAY%Key of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Izual / Nihlathak}
+ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram Ingredient}
+ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram Ingredient}
+ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram Ingredient}
 ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP-45%{%GOLD%Uber Tristram Access}
 
-//Diablo Clone Ingredients
-ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram}
-ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo %WHITE%& %RED%Baal %RED%(%WHITE%Hell%RED%)}
-ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Map Bosses}
+//Diablo Clone
+ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram Ingredient}
+ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram Ingredient}
+ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram Ingredient}
 ItemDisplay[dcma]: %RED%Vision of Terror%YELLOW%%MAP-62%{%RED%Diablo Clone Access}
 
-//Rathma Items
+//Rathma
 ItemDisplay[rtmf]: %PURPLE%Ancient Bone Fragment %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Trang-Oul's Jawbone ingredient}
 ItemDisplay[rtmv]: %PURPLE%Splinter of the Void %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Rathma ingredient}
 ItemDisplay[rtmo]: %PURPLE%Trang-Oul's Jawbone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Rathma ingredient}
 ItemDisplay[rtma]: %PURPLE%Voidstone%YELLOW%%MAP-62%{%PURPLE%Rathma Access}
 ItemDisplay[cwss]: %PURPLE%Tainted Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Corrupts Annihilus}
 
-//Uber Ancients Items
+//Uber Ancients
 ItemDisplay[uba]: %BLUE%Relic of the Ancients%MAP-45%{%BLUE%Uber Ancients Access}
 ItemDisplay[ubaa]: %BLUE%Sigil of Madawc %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Ancients ingredient}
 ItemDisplay[ubab]: %BLUE%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Ancients ingredient}
@@ -2880,11 +2880,12 @@ ItemDisplay[ubac]: %BLUE%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{
 ItemDisplay[lsvl]: %RED%Vial of Lightsong %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Makes Item ETH}
 ItemDisplay[llmr]: %RED%Lilith's Mirror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Item Copy}
 
-//Special Items
+//Special
 ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
 ItemDisplay[UNI !ID cm1]: %GOLD%Annihilus%MAP-62%{%GOLD%Diablo Clone}
 ItemDisplay[UNI !ID cm2]: %GOLD%Torch%MAP-62%{%GOLD%Uber Tristram}
 ItemDisplay[UNI !ID cm3]: %GOLD%Gheed's Fortune%MAP-62%
+
 
 //HIDE EVERYTHING
 //Utilities
