@@ -2876,9 +2876,9 @@ ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{
 ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP-45%{%GOLD%Uber Tristram Access}
 
 //Diablo Clone
-ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram Ingredient}
-ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram Ingredient}
-ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Uber Tristram Ingredient}
+ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo Clone Ingredient}
+ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo Clone Ingredient}
+ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo Clone Ingredient}
 ItemDisplay[dcma]: %RED%Vision of Terror%YELLOW%%MAP-62%{%RED%Diablo Clone Access}
 
 //Rathma
