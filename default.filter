@@ -867,64 +867,61 @@ ItemDisplay[cm3 TABSK42>0]: %PURPLE%Elemental %TAN%Skiller
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%Traps %TAN%Skiller
 ItemDisplay[cm3 TABSK49>0]: %PURPLE%Shadow Disciplines %TAN%Skiller
 ItemDisplay[cm3 TABSK50>0]: %PURPLE%Martial Arts %TAN%Skiller
-
-//Good Magic Items
+//Good Magics
 ItemDisplay[jew MAG !ID]: %DOT-9A%%NAME%
 
-//Good Rare Items
-ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%NAME%
-
-//Good SET parts
-ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %BORDER-68%%NAME%
+//Good Rares
+ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%NAME%
 
 //GG UNIQUES
-ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%ORANGE%OOOOOOO %NAME%%ORANGE% OOOOOOO
 
-//GG only when ETH
-ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %BORDER-68%%NAME%
+//GG only ETH
+ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %BORDER-68%%ORANGE%OOOOOO %NAME%%ORANGE% OOOOOO
 
 //PD2 UNIQUES
-ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %BORDER-68%%NAME%
-ItemDisplay[(rar OR rbe OR ram) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %BORDER-68%%ORANGE%OOOO %NAME%%ORANGE% OOOO
+ItemDisplay[(rar OR rbe OR ram) UNI !ID]: %BORDER-68%%ORANGE%OOOO %NAME%%ORANGE% OOOO
 
 //NEW PD2 UNIQUES
-ItemDisplay[(drf OR utp OR 7tw OR baf OR 7qs OR 6bs OR ned OR ulb OR ame OR 7fb OR utg) UNI !ID]: %BORDER-68%%NAME%
-ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(drf OR utp OR 7tw OR baf OR 7qs OR 6bs OR ned OR ulb OR ame OR 7fb OR utg) UNI !ID]: %BORDER-68%%ORANGE%OOOO %NAME%%ORANGE% OOOO
+ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %BORDER-68%%ORANGE%OOOOO %NAME%%ORANGE% OOOOO
 
-//OK only when ETH
-ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %BORDER-68%%NAME%
+//OK only ETH
+ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 
-//OK UNIQUES
-ItemDisplay[(rin OR amu OR uar OR ulc OR xea OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %BORDER-68%%NAME%
+//OK Uniques
 //belts
-ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(ztb OR zlb OR zvb OR zhb OR umc OR uvc) UNI !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 //armors
-ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(xea OR uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 //gloves
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 //helmets
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 //boots
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 //shields
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 //weapons
-ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh) UNI !ID]: %BORDER-68%%NAME%
+ItemDisplay[(7ts OR 7s8 OR 9bw OR 7wc OR 7bw OR 7cs OR 7ws OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR obc OR 7lw OR amf OR 7wh) UNI !ID] %DOT-68%%ORANGE%OOO %NAME%%ORANGE% OOO
 
-//Rainbow Facet
-ItemDisplay[jew UNI !ID]: %BORDER-68%%NAME%
+//Facet
+ItemDisplay[jew UNI !ID]: %BORDER-68%%GOLD%OOOO %NAME%%GOLD% OOOO
 
-//Unique and Set Alerts
+//OK Sets ItemDisplay[(amu OR rin OR uar OR ci3 OR 7qr OR uth OR paf) SET !ID]: %MAP-84%%WHITE%OOOO %NAME%%WHITE% OOOO
+
+//Low Level Uniques and Sets
+ItemDisplay[UNI !ID CLVL<80]: %NAME%
+ItemDisplay[SET !ID CLVL<80]: %NAME%
+
+//NOT OK Uniques and Sets
 //Armors
-ItemDisplay[(xcl OR chn OR uul OR xng OR xui OR spl OR pac OR xmg OR xsk OR xml OR xlb OR xpl OR xap OR xld OR xrs OR gth OR aar OR BELT OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR umb OR lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xtg OR xhg OR ush OR upk OR uml OR xts OR xrg OR xuc OR tow OR kit OR gts) UNI !ID]: %PX-68%%NAME%
+ItemDisplay[(brs OR fld OR xkp OR xul OR xlm OR drb OR 9sp OR mbt OR xcl OR rng OR uul OR xng OR xui OR spl OR pac OR xmg OR xsk OR xml OR xlb OR xpl OR xap OR xld OR xrs OR gth OR aar OR (BELT !(vbl OR zmb OR hbl)) OR skp OR xhl OR xrn OR vbt OR xmb OR uvb OR umb OR lgl OR vgl OR mgl OR tgl OR hgl OR xlg OR xvg OR xtg OR xhg OR ush OR upk OR uml OR xts OR xrg OR tow OR kit OR gts) UNI !ID]: %NAME%
 //Weapons
-ItemDisplay[((9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 7bw OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 6l7 OR 8hx OR 8rx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 7s8 OR 7wc OR 9ws OR 6cs OR 7b7 OR 7gs OR 9sb) OR (ELT (WP5 OR WP6)) OR 9bw OR ywn OR 7wb OR 7sp) UNI !ID]: %PX-68%%NAME%
+ItemDisplay[((8mx OR 6rx OR 6hx OR 9gw OR 7m7 OR 9cl OR mau OR 7ls OR 9ls OR 7br OR 7sr OR 7p7 OR 9ba OR 7ga OR 7wa OR 7gi OR 7pa OR 8ls OR 72a OR 7o7 OR 9yw OR 9fc OR 9kr OR amb OR 7sc OR 7mp OR 6sw OR 6l7 OR 8hx OR 8rx OR dgr OR 7dg OR 7bl OR 9ma OR 9wh OR 9gm OR 9ws OR 6cs OR 7b7 OR 7gs OR 9sb) OR (ELT (THROWING OR JAV)) OR 7wb OR 7sp) UNI !ID]: %NAME%
 //Sets
-ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) SET !ID]: %PX-84%%NAME%
-
-//Sets and Uniques for LOW LEVEL
-ItemDisplay[UNI !ID (FILTLVL<3 OR (CLVL<80 AND FILTLVL<4))]: %PX-68%%NAME%
-ItemDisplay[SET !ID (FILTLVL<3 OR (CLVL<80 AND FILTLVL<4))]: %PX-84%%NAME%
+ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5 OR lbt) !(9vo OR xcl OR xrn)) SET !ID]: %NAME%
 
 //Circlets
 ItemDisplay[CIRC (MAG OR RARE) !ID]: %NAME%
@@ -934,7 +931,7 @@ ItemDisplay[(GLOVES OR BOOTS OR BELT) RARE !ID]: %NAME%
 
 //Rare Chest Armor, Helmets and Shields
 ItemDisplay[(CHEST OR SHIELD) RARE !ID]: %NAME%
-ItemDisplay[HELM RARE !ID FILTLVL<4]: %NAME%
+ItemDisplay[WEAPON RARE (EXC OR ELT) ETH !ID]: %NAME%
 
 //Craftables
 //Blood, Caster, Hitpower, Safety
