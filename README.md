@@ -1,4 +1,5 @@
-# "ÓVERIUS' MODUS VIVENDI" Loot Filter (feat. NODRULE)
+# "ÓVERIUS' MODUS VIVENDI" Loot Filter
+# featuring: NODRULE (Co-founder - Path of Diablo)
 # game: Project D2
 # contact: http://twitch.tv/olveriusTV
 # account: /w *olveriusTV
