@@ -1,4 +1,4 @@
-# "THE UNHOLY CIRCLET" by Ólverius (feat. NODRULE)
+# "ÓVERIUS' MODUS VIVENDI" Loot Filter (feat. NODRULE)
 # game: Project D2
 # contact: http://twitch.tv/olveriusTV
 # account: /w *olveriusTV
