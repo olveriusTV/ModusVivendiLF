@@ -99,7 +99,7 @@ ItemDisplay[INF !(rin OR amu) ID]: %GRAY%[%WHITE%inf%GRAY%] %NAME%%CONTINUE%  //
 ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME%  //Gambling
 ItemDisplay[ETH UNI]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%%CONTINUE%  //Ethereals
 ItemDisplay[ETH RARE]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%%CONTINUE%
-ItemDisplay[ETH MAG]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%CONTINUE%
+ItemDisplay[ETH MAG]: //%GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%%CONTINUE%
 ItemDisplay[ETH NMAG]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%%NAME%%CONTINUE%
 ItemDisplay[SOCK>0]: %NAME% %TAN%[%WHITE%%SOCKETS%%TAN%]%CONTINUE%  //Sockets
 ItemDisplay[(ARMOR OR WEAPON) (MAG OR RARE) ID]: %NAME% %WHITE%(%TAN%%WHITE%%PRICE%%WHITE%)%CONTINUE%  //Prices after ID
@@ -265,9 +265,9 @@ ItemDisplay[r33s]: %PURPLE% oooooooo %RED%%RUNENAME%%PURPLE% oooooooo %RED%[%RUN
  //V. CHARMS
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-ItemDisplay[cm1 MAG !ID]: %ORANGE%%NAME%
-ItemDisplay[cm2 MAG !ID]: //%ORANGE%%NAME%
-ItemDisplay[cm3 MAG !ID]: %ORANGE%%NAME%
+ItemDisplay[cm1 MAG !ID]: %BLUE%%NAME%
+ItemDisplay[cm2 MAG !ID]: %BLUE%%NAME%
+ItemDisplay[cm3 MAG !ID]: %BLUE%%NAME%
 ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
  //Best
@@ -406,6 +406,7 @@ ItemDisplay[cm3 TABSK50>0]: %GRAY%Asa %PURPLE%Martial Arts %TAN%Skiller
 
  //Good
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+ItemDisplay[(jew) MAG !ID]: %GREEN%%DOT-A8%%NAME%
 ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%NAME%
 
  //High Tier
@@ -633,9 +634,7 @@ ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) !INF !ETH NMAG !
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW OR SOCK=5]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(SCEPTER !(scp)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !RW SOCK=4]: %NAME%{%NAME%}
-ItemDisplay[crs NMAG !INF !SUP (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%}
-ItemDisplay[crs NMAG !INF !RW SOCK=5]: %NAME%{%NAME%}
+ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !SUP (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%}
 ItemDisplay[7cr NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[fla NMAG !RW !INF SOCK>2]: %NAME%{%NAME%}
@@ -801,7 +800,7 @@ ItemDisplay[ubac]: %BLUE%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{
  //OTHERS
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
-ItemDisplay[jewf]: %BLUE%Frag %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Stackable Jewel}
+ItemDisplay[jewf]: %GREEN%Frag %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GREEN%Stackable Jewel}
 ItemDisplay[lsvl]: %RED%Vial of Lightsong %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Makes %GRAY%ETH}
 ItemDisplay[llmr]: %RED%Lilith's Mirror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Copies %WHITE%Items}
 ItemDisplay[rkey]: %GRAY%Skeleton Key %MAP-62%{%GRAY%Unlimited Keys}
