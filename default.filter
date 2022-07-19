@@ -423,7 +423,7 @@ ItemDisplay[jew UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP%  //Jewels: Fac
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[(xap OR stu OR vbt OR xlb OR umc OR ult OR ztb OR xhl) SET !ID]: %GREEN%oooo %NAME%%GREEN% oooo%MAP-62%  //Sets
 ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Uniques
-ItemDisplay[(zlb OR zvb OR zhb OR umc) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Belts
+ItemDisplay[(uvc OR zlb OR zvb OR zhb OR umc) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Belts
 ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Armors
 ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Gloves
 ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Helmets
@@ -637,7 +637,7 @@ ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !SUP (SOCK=4 OR SOCK=5)]: %NAME%{%NAME
 ItemDisplay[7cr NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[fla NMAG !RW !INF SOCK>2]: %NAME%{%NAME%}
-ItemDisplay[WAND !(wnd OR ywn OR 9wn OR 9bw) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW]: %NAME%{%NAME%}
+ItemDisplay[WAND !(wnd OR ywn OR 9wn OR 9bw) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW]: //%NAME%{%NAME%}
 ItemDisplay[(6cs OR 6bs OR 6ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(8cs OR 8bs OR 8ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW SOCK=4]: %NAME%{%NAME%}
 ItemDisplay[(8ws OR 6ws) ((SK44>2 OR SK64>2 OR SK65>2 OR SK59>2 OR SK369>2) OR ((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) AND SK65>0)) NMAG !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
@@ -1001,6 +1001,10 @@ ItemDisplay[(NMAG OR (MAG AND !ID AND !ETH)) (9tk OR 9ta OR 9bk) CLVL>69]: //
 ItemDisplay[(NMAG OR (MAG AND !ID AND !ETH)) (bal OR 9b8 OR 7b8) CLVL>59]: //
 ItemDisplay[(NMAG OR (MAG AND !ID AND !ETH)) (glv OR 9gl OR 7gl) CLVL>59]: //
 ItemDisplay[(NMAG OR (MAG AND !ID AND !ETH)) (tsp OR 9ts OR 7ts) CLVL>59]: //
+
+ //MISC#5D
+ 
+ItemDisplay[NMAG (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP7 OR WP8 OR WP9 OR WP10 OR WP11 OR WP12 OR WP13) CLVL>85]: //
 
  //MISC#6
 ItemDisplay[NMAG !ELT CL1 !(SK221>0 OR SK222>0 OR SK223>0 OR SK224>0 OR SK225>0 OR SK226>0 OR SK227>0 OR SK228>0 OR SK229>0 OR SK230>0 OR SK231>0 OR SK232>0 OR SK233>0 OR SK234>0 OR SK235>0 OR SK236>0 OR SK237>0 OR SK238>0 OR SK239>0 OR SK240>0 OR SK241>0 OR SK242>0 OR SK243>0 OR SK244>0 OR SK245>0 OR SK246>0 OR SK247>0 OR SK248>0 OR SK249>0 OR SK250>0)]: //
