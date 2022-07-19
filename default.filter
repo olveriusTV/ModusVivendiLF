@@ -862,7 +862,6 @@ ItemDisplay[(BOOTS OR GLOVES OR WP5) NMAG CLVL>14]: //
 ItemDisplay[BELT NMAG CLVL>29]: //
 
  //MISC#5A
- //SOK=0
  //Armors
 ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (cap OR skp OR hlm OR fhl OR msk OR bhm OR ghm OR crn OR qui OR lea OR hla OR stu OR rng OR scl OR chn OR brs OR spl OR plt OR fld OR gth OR ltp OR aar OR buc OR sml OR lrg OR spk OR kit OR bsh OR tow OR gts OR lgl OR vgl OR mgl OR tgl OR hgl OR lbt OR vbt OR mbt OR tbt OR hbt OR lbl OR vbl OR mbl OR tbl OR hbl OR ci0 OR ci1 OR dr1 OR dr2 OR dr3 OR dr4 OR dr5 OR ba1 OR ba2 OR ba3 OR ba4 OR ba5 OR pa1 OR pa2 OR pa3 OR pa4 OR pa5 OR ne1 OR ne2 OR ne3 OR ne4 OR ne5) CLVL>85]: //Normal
 ItemDisplay[(NMAG OR ((MAG OR RARE) AND !ID)) (xap OR xkp OR xlm OR xsk OR xh9 OR xhm OR xrn OR xui OR xea OR xla OR xtu OR xng OR xcl OR xhn OR xrs OR xpl OR xlt OR xld OR xth OR xtp OR xul OR xar OR xuc OR xml OR xrg OR xpk OR xit OR xsh OR xow OR xts OR xlg OR xvg OR xmg OR xtg OR xhg OR xlb OR xvb OR xmb OR xtb OR xhb OR zlb OR zvb OR zmb OR ztb OR zhb OR ci2 OR dr6 OR dr7 OR dr8 OR dr9 OR dra OR ba6 OR ba7 OR ba8 OR ba9 OR baa OR pa6 OR pa7 OR pa8 OR pa9 OR paa OR ne6 OR ne7 OR ne8 OR ne9 OR nea) CLVL>85]: //Exceptional
