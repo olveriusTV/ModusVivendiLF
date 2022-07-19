@@ -269,7 +269,7 @@ ItemDisplay[cm2 MAG !ID]: //%BLUE%%NAME%
 ItemDisplay[cm3 MAG !ID]: %BLUE%%NAME%
 ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%BLUE%%NAME%
 
- //Best
+ //Good
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[cm3 (MAXDMG>6 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Grand Charm 
 ItemDisplay[cm3 (MAXDMG>6 AND FRW>0)]: %TAN%Max Dmg %ORANGE%frw %BLUE%Grand Charm 
