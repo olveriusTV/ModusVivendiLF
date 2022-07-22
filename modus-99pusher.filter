@@ -85,7 +85,7 @@ ItemDisplay[tbk]: %BLUE%portal tome
 ItemDisplay[ibk]: %RED%identify tome
 
  //Others
- ItemDisplay[aqv RARE AMAZON !ID]: %NAME%%CONTINUE%%MAP% //Arrows/Bolts
+ ItemDisplay[aqv RARE AMAZON !ID]: %NAME%%CONTINUE%%MAP%//Arrows/Bolts
 
 
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -129,13 +129,13 @@ ItemDisplay[skl]: %WHITE%Flawless Skull %YELLOW%[%GRAY%O%YELLOW%]
  //Stacked
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
  //Pefect
-ItemDisplay[gpvs]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%+30 to Defense %NL% %WHITE%A/H: %GRAY%+10 to Strength %NL% %WHITE%W: %GRAY%+150 to Attack Rating}
-ItemDisplay[gpws]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%All Resistances +19 %NL% %WHITE%A/H: %GRAY%+100 to attack Rating %NL% %WHITE%W: %GRAY%+68% Damage vs. Undead}
-ItemDisplay[gpgs]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Poison %NL% %WHITE%A/H: %GRAY%+10 to Dexterity %NL% %WHITE%W: %GRAY%+100 Poison Damage over 7 Seconds}
-ItemDisplay[gprs]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Fire %NL% %WHITE%A/H: %GRAY%+38 to Life %NL% %WHITE%W: %GRAY%15-20 Fire Damage}
-ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Cold %NL% %WHITE%A/H: %GRAY%+38 Max Mana %NL% %WHITE%W: %GRAY%10-14 Cold Damage}
-ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%40% Resist Lightning %NL% %WHITE%A/H: %GRAY%+24% Chance to Find Magic Items %NL% %WHITE%W: %GRAY%1-40 Lightning Damage}
-ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-5%{%WHITE%S: %GRAY%Attacker Takes 20 Damage %NL% %WHITE%A/H: %GRAY%Replenish Life +5, Regenerate Mana 19% %NL% %WHITE%W: %GRAY%Steals 4% life, 3% Mana}
+ItemDisplay[gpvs]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%+30 to Defense %NL% %WHITE%A/H: %GRAY%+10 to Strength %NL% %WHITE%W: %GRAY%+150 to Attack Rating}
+ItemDisplay[gpws]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%All Resistances +19 %NL% %WHITE%A/H: %GRAY%+100 to attack Rating %NL% %WHITE%W: %GRAY%+68% Damage vs. Undead}
+ItemDisplay[gpgs]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%40% Resist Poison %NL% %WHITE%A/H: %GRAY%+10 to Dexterity %NL% %WHITE%W: %GRAY%+100 Poison Damage over 7 Seconds}
+ItemDisplay[gprs]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%40% Resist Fire %NL% %WHITE%A/H: %GRAY%+38 to Life %NL% %WHITE%W: %GRAY%15-20 Fire Damage}
+ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%40% Resist Cold %NL% %WHITE%A/H: %GRAY%+38 Max Mana %NL% %WHITE%W: %GRAY%10-14 Cold Damage}
+ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%40% Resist Lightning %NL% %WHITE%A/H: %GRAY%+24% Chance to Find Magic Items %NL% %WHITE%W: %GRAY%1-40 Lightning Damage}
+ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP%{%WHITE%S: %GRAY%Attacker Takes 20 Damage %NL% %WHITE%A/H: %GRAY%Replenish Life +5, Regenerate Mana 19% %NL% %WHITE%W: %GRAY%Steals 4% life, 3% Mana}
  //Flawless
 ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%+24 to Defense %NL% %WHITE%A/H: %GRAY%+8 to Strength %NL% %WHITE%W: %GRAY%+100 to Attack Rating}
 ItemDisplay[glws]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]{%WHITE%S: %GRAY%All Resistances +14 %NL% %WHITE%A/H: %GRAY%+80 to attack Rating %NL% %WHITE%W: %GRAY%+54% Damage vs. Undead}
@@ -172,21 +172,21 @@ ItemDisplay[r16]: %ORANGE%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r17]: %ORANGE%   %RUNENAME% [%RUNENUM%]
 ItemDisplay[r18]: %ORANGE%   %RUNENAME% [%RUNENUM%]%ORANGE%%MAP%
 ItemDisplay[r19]: %ORANGE%   %RUNENAME% [%RUNENUM%]%ORANGE%%MAP%
-ItemDisplay[r20]: %PURPLE%  oo %RED%%RUNENAME%%PURPLE% oo %RED%[%RUNENUM%]%PURPLE%%MAP%  
+ItemDisplay[r20]: %PURPLE%  oo %RED%%RUNENAME%%PURPLE% oo %RED%[%RUNENUM%]%PURPLE%%MAP% 
 ItemDisplay[r21]: %PURPLE%  oo %RED%%RUNENAME%%PURPLE% oo %RED%[%RUNENUM%]%PURPLE%%MAP%
 ItemDisplay[r22]: %PURPLE%  ooo %RED%%RUNENAME%%PURPLE% ooo %RED%[%RUNENUM%]%PURPLE%%MAP%
 ItemDisplay[r23]: %PURPLE%  ooo %RED%%RUNENAME%%PURPLE% ooo %RED%[%RUNENUM%]%PURPLE%%MAP%
  //24-33
-ItemDisplay[r24]: %PURPLE% oooo %RED%%RUNENAME%%PURPLE% oooo %RED%[%RUNENUM%]%PURPLE%%MAP% 
-ItemDisplay[r25]: %PURPLE% ooooo %RED%%RUNENAME%%PURPLE% ooooo %RED%[%RUNENUM%]%PURPLE%%MAP% 
-ItemDisplay[r26]: %PURPLE% oooooo %RED%%RUNENAME%%PURPLE% oooooo %RED%[%RUNENUM%]%PURPLE%%MAP% 
-ItemDisplay[r27]: %PURPLE% ooooooo %RED%%RUNENAME%%PURPLE% ooooooo %RED%[%RUNENUM%]%PURPLE%%MAP% 
+ItemDisplay[r24]: %PURPLE% oooo %RED%%RUNENAME%%PURPLE% oooo %RED%[%RUNENUM%]%PURPLE%%MAP%
+ItemDisplay[r25]: %PURPLE% ooooo %RED%%RUNENAME%%PURPLE% ooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
+ItemDisplay[r26]: %PURPLE% oooooo %RED%%RUNENAME%%PURPLE% oooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
+ItemDisplay[r27]: %PURPLE% ooooooo %RED%%RUNENAME%%PURPLE% ooooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
 ItemDisplay[r28]: %PURPLE% ooooooooo %RED%%RUNENAME%%PURPLE% ooooooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
 ItemDisplay[r29]: %PURPLE% ooooooooooo %RED%%RUNENAME%%PURPLE% ooooooooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
 ItemDisplay[r30]: %PURPLE% ooooooooooooo %RED%%RUNENAME%%PURPLE% ooooooooooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
 ItemDisplay[r31]: %PURPLE% oooooooooo %RED%%RUNENAME%%PURPLE% oooooooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
-ItemDisplay[r32]: %PURPLE% ooooo %RED%%RUNENAME%%PURPLE% ooooo %RED%[%RUNENUM%]%PURPLE%%MAP% 
-ItemDisplay[r33]: %PURPLE% oooooooo %RED%%RUNENAME%%PURPLE% oooooooo %RED%[%RUNENUM%]%PURPLE%%MAP% 
+ItemDisplay[r32]: %PURPLE% ooooo %RED%%RUNENAME%%PURPLE% ooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
+ItemDisplay[r33]: %PURPLE% oooooooo %RED%%RUNENAME%%PURPLE% oooooooo %RED%[%RUNENUM%]%PURPLE%%MAP%
 
  //Stacked
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -410,26 +410,26 @@ ItemDisplay[(jew OR rin OR amu OR EQ7) RARE !ID]: %DOT-A8%%NAME%
 
  //High Tier
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(uh9 OR xul OR ne9 OR utc OR xmg OR dr8 OR xtb OR uul OR 9mt OR ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb OR xar OR urn OR 7ws OR paf OR ci3 OR amc OR uld OR xtg OR zvb OR oba OR xsk OR uth OR zmb OR xh9 OR 7qr OR ucl OR xmb OR ulg OR xhm OR 6cs) SET !ID]: %GREEN%oooooo %NAME%%GREEN% oooooo%MAP%  //Sets
-ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%  //Uniques
+ItemDisplay[(uh9 OR xul OR ne9 OR utc OR xmg OR dr8 OR xtb OR uul OR 9mt OR ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb OR xar OR urn OR 7ws OR paf OR ci3 OR amc OR uld OR xtg OR zvb OR oba OR xsk OR uth OR zmb OR xh9 OR 7qr OR ucl OR xmb OR ulg OR xhm OR 6cs) SET !ID]: %GREEN%oooooo %NAME%%GREEN% oooooo%MAP% //Sets
+ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP% //Uniques
 ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%
-ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%  //Special Uniques
+ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP% //Special Uniques
 ItemDisplay[(rar OR rbe OR ram) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%
 ItemDisplay[(drf OR utp OR 7tw OR baf OR 7qs OR 6bs OR ned OR ulb OR ame OR 7fb OR utg) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%
 ItemDisplay[(ba6 OR 9ar OR dr2 OR ob6 OR am5 OR ne6) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%
-ItemDisplay[jew UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP%  //Jewels: Facet
+ItemDisplay[jew UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Jewels: Facet
 
  //Mid Tier
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(xap OR stu OR vbt OR xlb OR umc OR ult OR ztb OR xhl) SET !ID]: %GREEN%oooo %NAME%%GREEN% oooo%MAP-62%  //Sets
-ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Uniques
-ItemDisplay[(uvc OR zlb OR zvb OR zhb OR umc) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Belts
-ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Armors
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Gloves
-ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Helmets
-ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Boots
-ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Shields
-ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh OR 7s8) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP-62%  //Weapons
+ItemDisplay[(xap OR stu OR vbt OR xlb OR umc OR ult OR ztb OR xhl) SET !ID]: %GREEN%oooo %NAME%%GREEN% oooo%MAP% //Sets
+ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Uniques
+ItemDisplay[(uvc OR zlb OR zvb OR zhb OR umc) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Belts
+ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Armors
+ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Gloves
+ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Helmets
+ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb OR xlb) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Boots
+ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Shields
+ItemDisplay[(72a OR 7fl OR 7kr OR 7cr OR 7gm OR 9tw OR oba OR ama OR 6ws OR obc OR 7lw OR amf OR 7wh OR 7s8) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Weapons
 
  //BAD
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -439,7 +439,7 @@ ItemDisplay[((ARMOR OR WEAPON) (EXC OR ELT OR ci0 OR ba5) !(9vo OR xcl OR xrn)) 
  //Low Tier
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[UNI !ID CLVL<80]: %NAME%  //Uniques
-ItemDisplay[(amu OR ghm OR gth OR hbt OR tow OR hbl OR hgl) SET !ID]: %NAME%%MAP-62%  //Sets
+ItemDisplay[(amu OR ghm OR gth OR hbt OR tow OR hbl OR hgl) SET !ID]: %NAME%%MAP% //Sets
 
  //Others
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -623,12 +623,13 @@ ItemDisplay[(7m7 OR 7gm) !INF ETH NMAG !RW !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) (SK100>2 OR SK125>2 OR SK108>2) !INF !ETH NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) SK117>1 NMAG !INF !RW OR SOCK=5]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(wsp OR 9ws OR 7ws) !INF NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[(SCEPTER !(scp)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) !SOCK=1]: %DOT-D6%%NAME%{%NAME%}
+ItemDisplay[(SCEPTER !(scp)) !INF !ETH NMAG !RW (SK101>2 OR SK112>2 OR SK118>2 OR SK121>2) (SOCK=3 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(crs OR bsd OR lsd) NMAG !INF !SUP (SOCK=4 OR SOCK=5)]: %NAME%{%NAME%}
 ItemDisplay[7cr NMAG !INF !RW SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(72h OR 7fb OR 7gd OR 7gs OR 7ls) ETH NMAG !RW !INF SOCK>2]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[fla NMAG !RW !INF SOCK>2]: %NAME%{%NAME%}
-ItemDisplay[WAND !(wnd OR ywn OR 9wn OR 9bw) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW]: //%NAME%{%NAME%}
+ItemDisplay[WAND (wnd OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9bw OR 9gw OR 7wn OR 7yn OR 7bw OR 7gw) SOCK=0 NMAG !RW]: //%NAME%{%NAME%}
+ItemDisplay[SCEPTER (scp OR gsc OR wsp OR 9sc OR 9qs OR 9ws OR 7sc OR 7qs OR 7ws) SOCK=0 NMAG !RW]: //%NAME%{%NAME%}
 ItemDisplay[(6cs OR 6bs OR 6ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW SOCK=4]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(8cs OR 8bs OR 8ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW SOCK=4]: %NAME%{%NAME%}
 ItemDisplay[(8ws OR 6ws) ((SK44>2 OR SK64>2 OR SK65>2 OR SK59>2 OR SK369>2) OR ((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) AND SK65>0)) NMAG !RW SOCK=5]: %DOT-D6%%NAME%{%NAME%}
@@ -655,148 +656,148 @@ ItemDisplay[(ARMOR OR WEAPON OR (aqv OR cqv)) (MAG OR RARE OR SET OR UNI OR CRAF
  //XV. PROJECT D2
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-ItemDisplay[wss]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Corrupts %WHITE%Items}%CONTINUE%
+ItemDisplay[wss]: %RED%Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Corrupts %WHITE%Items}%CONTINUE%
 ItemDisplay[imra]: %GOLD%Zakarum Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP %WHITE%+ %GOLD%Item%WHITE% + %GREEN%Jewel %WHITE%+ %ORANGE%Rune>9%NL%%WHITE%Common to %YELLOW%Rare%WHITE%:}%CONTINUE%
 ItemDisplay[scrb]: %GOLD%Horadrim Scarab %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%GOLD%Item %WHITE%+ %GRAY%[%ORANGE%T3%GRAY%]%NL%%RED%Group Dungeon%WHITE%:}
 ItemDisplay[rera]: %GOLD%Horadrim Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%YELLOW%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf Gem + %ORANGE%Rune>9%NL%%GREEN%Reroll%WHITE%:}%CONTINUE%
 ItemDisplay[upma]: %GOLD%Angelic Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP %WHITE%+ %GOLD%Item%WHITE% + Perf %GRAY%O %WHITE%+ %ORANGE%Rune>9%NL%%BLUE%Magic %WHITE%to %YELLOW%Rare%WHITE%:}%CONTINUE%
 ItemDisplay[imma]: %GOLD%Arcane Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%MAP + %GOLD%Item%WHITE% + %GREEn%Jewel %NL%%WHITE%Common to %BLUE%Magic%WHITE%:}%CONTINUE%
 ItemDisplay[scou]: %GOLD%Orb of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%BLUE%MAP%WHITE%/ %YELLOW%MAP %WHITE%+ %GOLD%Item%NL%%WHITE%Downgrade to Common:}%CONTINUE%
-ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GOLD%Sockets %WHITE%Items}%CONTINUE%
-ItemDisplay[lpp]: %GOLD%Larzuk's Puzzlepiece %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GOLD%Sockets %WHITE%Items %GRAY%| %RED%NOT %GOLD%Uniques %WHITE%or %DARK_GREEN%Sets}%CONTINUE%
+ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GOLD%Sockets %WHITE%Items}%CONTINUE%
+ItemDisplay[lpp]: %GOLD%Larzuk's Puzzlepiece %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GOLD%Sockets %WHITE%Items %GRAY%| %RED%NOT %GOLD%Uniques %WHITE%or %DARK_GREEN%Sets}%CONTINUE%
 ItemDisplay[upmp]: %GOLD%Cartographer's Orb %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-A9%{%WHITE%3x%WHITE%Map%TAN% (%WHITE%Tier:%ORANGE%x%TAN%) %WHITE%+ %GOLD%Item %WHITE%=%RED% MAP %TAN%(%WHITE%Tier:%ORANGE%x%WHITE%+1%TAN%)%NL%%RED%Higher Tier%WHITE%:}
 
  //MAPS
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
  //Normal
-ItemDisplay[NMAG t11]: %GREEN%[T1] %WHITE%Ruins of Vizjun%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t12]: %GREEN%[T1] %WHITE%Horazon's Memory%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t13]: %GREEN%[T1] %WHITE%Bastion Keep%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t14]: %GREEN%[T1] %WHITE%The Sanatorium%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t15]: %GREEN%[T1] %WHITE%Royal Crypts%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t21]: %DARK_GREEN%[T2] %WHITE%Phlegathon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t22]: %DARK_GREEN%[T2] %WHITE%Torajan Jungle%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t23]: %DARK_GREEN%[T2] %WHITE%Arreat Battlefield%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t24]: %DARK_GREEN%[T2] %WHITE%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t25]: %DARK_GREEN%[T2] %WHITE%Sewers of Harrogath%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t26]: %DARK_GREEN%[T2] %WHITE%Shadows of Westmarch%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t31]: %ORANGE%[T3] %WHITE%River of Blood%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t32]: %ORANGE%[T3] %WHITE%Throne of Insanity%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t33]: %ORANGE%[T3] %WHITE%Lost Temple%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t34]: %ORANGE%[T3] %WHITE%Ancestral Trial%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t35]: %ORANGE%[T3] %WHITE%Blood Moon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t36]: %ORANGE%[T3] %WHITE%Fall of Caldeum%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t37]: %ORANGE%[T3] %WHITE%Pandemonium Citadel%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t38]: %ORANGE%[T3] %WHITE%Canyon of Sescheron%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t39]: %ORANGE%[T3] %WHITE%Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t41]: %RED%[T4] %WHITE%Cathedral of Light %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t42]: %RED%[T4] %WHITE%Plains of Torment %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert %RED%Duel Arena%MAP-62%%CONTINUE%
-ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor %RED%Duel Arena%MAP-62%%CONTINUE%
+ItemDisplay[NMAG t11]: %GREEN%[T1] %WHITE%Ruins of Vizjun%MAP%%CONTINUE%
+ItemDisplay[NMAG t12]: %GREEN%[T1] %WHITE%Horazon's Memory%MAP%%CONTINUE%
+ItemDisplay[NMAG t13]: %GREEN%[T1] %WHITE%Bastion Keep%MAP%%CONTINUE%
+ItemDisplay[NMAG t14]: %GREEN%[T1] %WHITE%The Sanatorium%MAP%%CONTINUE%
+ItemDisplay[NMAG t15]: %GREEN%[T1] %WHITE%Royal Crypts%MAP%%CONTINUE%
+ItemDisplay[NMAG t21]: %DARK_GREEN%[T2] %WHITE%Phlegathon%MAP%%CONTINUE%
+ItemDisplay[NMAG t22]: %DARK_GREEN%[T2] %WHITE%Torajan Jungle%MAP%%CONTINUE%
+ItemDisplay[NMAG t23]: %DARK_GREEN%[T2] %WHITE%Arreat Battlefield%MAP%%CONTINUE%
+ItemDisplay[NMAG t24]: %DARK_GREEN%[T2] %WHITE%Tomb of Zoltun Kulle%MAP%%CONTINUE%
+ItemDisplay[NMAG t25]: %DARK_GREEN%[T2] %WHITE%Sewers of Harrogath%MAP%%CONTINUE%
+ItemDisplay[NMAG t26]: %DARK_GREEN%[T2] %WHITE%Shadows of Westmarch%MAP%%CONTINUE%
+ItemDisplay[NMAG t31]: %ORANGE%[T3] %WHITE%River of Blood%MAP%%CONTINUE%
+ItemDisplay[NMAG t32]: %ORANGE%[T3] %WHITE%Throne of Insanity%MAP%%CONTINUE%
+ItemDisplay[NMAG t33]: %ORANGE%[T3] %WHITE%Lost Temple%MAP%%CONTINUE%
+ItemDisplay[NMAG t34]: %ORANGE%[T3] %WHITE%Ancestral Trial%MAP%%CONTINUE%
+ItemDisplay[NMAG t35]: %ORANGE%[T3] %WHITE%Blood Moon%MAP%%CONTINUE%
+ItemDisplay[NMAG t36]: %ORANGE%[T3] %WHITE%Fall of Caldeum%MAP%%CONTINUE%
+ItemDisplay[NMAG t37]: %ORANGE%[T3] %WHITE%Pandemonium Citadel%MAP%%CONTINUE%
+ItemDisplay[NMAG t38]: %ORANGE%[T3] %WHITE%Canyon of Sescheron%MAP%%CONTINUE%
+ItemDisplay[NMAG t39]: %ORANGE%[T3] %WHITE%Kehjistan Marketplace%MAP%%CONTINUE%
+ItemDisplay[NMAG t41]: %RED%[T4] %WHITE%Cathedral of Light %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[NMAG t42]: %RED%[T4] %WHITE%Plains of Torment %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[NMAG t43]: %RED%[T4] &WHITE%Sanctuary of Sin %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[NMAG t61]: %BLUE%[T6] %WHITE%Desert %RED%Duel Arena%MAP%%CONTINUE%
+ItemDisplay[NMAG t62]: %BLUE%[T6] %WHITE%Moor %RED%Duel Arena%MAP%%CONTINUE%
 
  //Magic
-ItemDisplay[MAG t11]: %GREEN%[T1] %BLUE%Ruins of Vizjun%MAP-62%%CONTINUE%
-ItemDisplay[MAG t12]: %GREEN%[T1] %BLUE%Horazon's Memory%MAP-62%%CONTINUE%
-ItemDisplay[MAG t13]: %GREEN%[T1] %BLUE%Bastion Keep%MAP-62%%CONTINUE%
-ItemDisplay[MAG t14]: %GREEN%[T1] %BLUE%Sanatorium%MAP-62%%CONTINUE%
-ItemDisplay[MAG t15]: %GREEN%[T1] %BLUE%Royal Crypts%MAP-62%%CONTINUE%
-ItemDisplay[MAG t21]: %DARK_GREEN%[T2] %BLUE%Phlegathon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t22]: %DARK_GREEN%[T2] %BLUE%Torajan Jungle%MAP-62%%CONTINUE%
-ItemDisplay[MAG t23]: %DARK_GREEN%[T2] %BLUE%Arreat Battlefield%MAP-62%%CONTINUE%
-ItemDisplay[MAG t24]: %DARK_GREEN%[T2] %BLUE%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
-ItemDisplay[MAG t25]: %DARK_GREEN%[T2] %BLUE%Sewers of Harrogath%MAP-62%%CONTINUE%
-ItemDisplay[MAG t26]: %DARK_GREEN%[T2] %BLUE%Shadows of Westmarch%MAP-62%%CONTINUE%
-ItemDisplay[MAG t31]: %ORANGE%[T3] %BLUE%River of Blood%MAP-62%%CONTINUE%
-ItemDisplay[MAG t32]: %ORANGE%[T3] %BLUE%Throne of Insanity%MAP-62%%CONTINUE%
-ItemDisplay[MAG t33]: %ORANGE%[T3] %BLUE%Lost Temple%MAP-62%%CONTINUE%
-ItemDisplay[MAG t34]: %ORANGE%[T3] %BLUE%Ancestral Trial%MAP-62%%CONTINUE%
-ItemDisplay[MAG t35]: %ORANGE%[T3] %BLUE%Blood Moon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t36]: %ORANGE%[T3] %BLUE%Fall of Caldeum%MAP-62%%CONTINUE%
-ItemDisplay[MAG t37]: %ORANGE%[T3] %BLUE%Pandemonium Citadel%MAP-62%%CONTINUE%
-ItemDisplay[MAG t38]: %ORANGE%[T3] %BLUE%Canyon of Sescheron%MAP-62%%CONTINUE%
-ItemDisplay[MAG t39]: %ORANGE%[T3] %BLUE%Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[MAG t11]: %GREEN%[T1] %BLUE%Ruins of Vizjun%MAP%%CONTINUE%
+ItemDisplay[MAG t12]: %GREEN%[T1] %BLUE%Horazon's Memory%MAP%%CONTINUE%
+ItemDisplay[MAG t13]: %GREEN%[T1] %BLUE%Bastion Keep%MAP%%CONTINUE%
+ItemDisplay[MAG t14]: %GREEN%[T1] %BLUE%Sanatorium%MAP%%CONTINUE%
+ItemDisplay[MAG t15]: %GREEN%[T1] %BLUE%Royal Crypts%MAP%%CONTINUE%
+ItemDisplay[MAG t21]: %DARK_GREEN%[T2] %BLUE%Phlegathon%MAP%%CONTINUE%
+ItemDisplay[MAG t22]: %DARK_GREEN%[T2] %BLUE%Torajan Jungle%MAP%%CONTINUE%
+ItemDisplay[MAG t23]: %DARK_GREEN%[T2] %BLUE%Arreat Battlefield%MAP%%CONTINUE%
+ItemDisplay[MAG t24]: %DARK_GREEN%[T2] %BLUE%Tomb of Zoltun Kulle%MAP%%CONTINUE%
+ItemDisplay[MAG t25]: %DARK_GREEN%[T2] %BLUE%Sewers of Harrogath%MAP%%CONTINUE%
+ItemDisplay[MAG t26]: %DARK_GREEN%[T2] %BLUE%Shadows of Westmarch%MAP%%CONTINUE%
+ItemDisplay[MAG t31]: %ORANGE%[T3] %BLUE%River of Blood%MAP%%CONTINUE%
+ItemDisplay[MAG t32]: %ORANGE%[T3] %BLUE%Throne of Insanity%MAP%%CONTINUE%
+ItemDisplay[MAG t33]: %ORANGE%[T3] %BLUE%Lost Temple%MAP%%CONTINUE%
+ItemDisplay[MAG t34]: %ORANGE%[T3] %BLUE%Ancestral Trial%MAP%%CONTINUE%
+ItemDisplay[MAG t35]: %ORANGE%[T3] %BLUE%Blood Moon%MAP%%CONTINUE%
+ItemDisplay[MAG t36]: %ORANGE%[T3] %BLUE%Fall of Caldeum%MAP%%CONTINUE%
+ItemDisplay[MAG t37]: %ORANGE%[T3] %BLUE%Pandemonium Citadel%MAP%%CONTINUE%
+ItemDisplay[MAG t38]: %ORANGE%[T3] %BLUE%Canyon of Sescheron%MAP%%CONTINUE%
+ItemDisplay[MAG t39]: %ORANGE%[T3] %BLUE%Kehjistan Marketplace%MAP%%CONTINUE%
+ItemDisplay[MAG t41]: %RED%[T4] %BLUE%Cathedral of Light %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[MAG t42]: %RED%[T4] %BLUE%Plains of Torment %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[MAG t43]: %RED%[T4] %BLUE%Sanctuary of Sin %PURPLE%Dungeon%MAP%%CONTINUE%
 
  //Rare
-ItemDisplay[RARE t11]: %GREEN%[T1] %YELLOW%Ruins of Vizjun%MAP-62%%CONTINUE%
-ItemDisplay[RARE t12]: %GREEN%[T1] %YELLOW%Horazon's Memory%MAP-62%%CONTINUE%
-ItemDisplay[RARE t13]: %GREEN%[T1] %YELLOW%Bastion Keep%MAP-62%%CONTINUE%
-ItemDisplay[RARE t14]: %GREEN%[T1] %YELLOW%The Sanatorium%MAP-62%%CONTINUE%
-ItemDisplay[RARE t15]: %GREEN%[T1] %YELLOW%Royal Crypts%MAP-62%%CONTINUE%
-ItemDisplay[RARE t21]: %DARK_GREEN%[T2] %YELLOW%Phlegathon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t22]: %DARK_GREEN%[T2] %YELLOW%Torajan Jungle%MAP-62%%CONTINUE%
-ItemDisplay[RARE t23]: %DARK_GREEN%[T2] %YELLOW%Arreat Battlefield%MAP-62%%CONTINUE%
-ItemDisplay[RARE t24]: %DARK_GREEN%[T2] %YELLOW%Tomb of Zoltun Kulle%MAP-62%%CONTINUE%
-ItemDisplay[RARE t25]: %DARK_GREEN%[T2] %YELLOW%Sewers of Harrogath%MAP-62%%CONTINUE%
-ItemDisplay[RARE t26]: %DARK_GREEN%[T2] %YELLOW%Shadows of Westmarch%MAP-62%%CONTINUE%
-ItemDisplay[RARE t31]: %ORANGE%[T3] %YELLOW%River of Blood%MAP-62%%CONTINUE%
-ItemDisplay[RARE t32]: %ORANGE%[T3] %YELLOW%Throne of Insanity%MAP-62%%CONTINUE%
-ItemDisplay[RARE t33]: %ORANGE%[T3] %YELLOW%Lost Temple%MAP-62%%CONTINUE%
-ItemDisplay[RARE t34]: %ORANGE%[T3] %YELLOW%Ancestral Trial%MAP-62%%CONTINUE%
-ItemDisplay[RARE t35]: %ORANGE%[T3] %YELLOW%Blood Moon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t36]: %ORANGE%[T3] %YELLOW%Fall of Caldeum%MAP-62%%CONTINUE%
-ItemDisplay[RARE t37]: %ORANGE%[T3] %YELLOW%Pandemonium Citadel%MAP-62%%CONTINUE%
-ItemDisplay[RARE t38]: %ORANGE%[T3] %YELLOW%Canyon of Sescheron%MAP-62%%CONTINUE%
-ItemDisplay[RARE t39]: %ORANGE%[T3] %YELLOW%Kehjistan Marketplace%MAP-62%%CONTINUE%
-ItemDisplay[RARE t41]: %RED%[T4] %YELLOW%Cathedral of Light %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment %PURPLE%Dungeon%MAP-62%%CONTINUE%
-ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin %PURPLE%Dungeon%MAP-62%%CONTINUE%
+ItemDisplay[RARE t11]: %GREEN%[T1] %YELLOW%Ruins of Vizjun%MAP%%CONTINUE%
+ItemDisplay[RARE t12]: %GREEN%[T1] %YELLOW%Horazon's Memory%MAP%%CONTINUE%
+ItemDisplay[RARE t13]: %GREEN%[T1] %YELLOW%Bastion Keep%MAP%%CONTINUE%
+ItemDisplay[RARE t14]: %GREEN%[T1] %YELLOW%The Sanatorium%MAP%%CONTINUE%
+ItemDisplay[RARE t15]: %GREEN%[T1] %YELLOW%Royal Crypts%MAP%%CONTINUE%
+ItemDisplay[RARE t21]: %DARK_GREEN%[T2] %YELLOW%Phlegathon%MAP%%CONTINUE%
+ItemDisplay[RARE t22]: %DARK_GREEN%[T2] %YELLOW%Torajan Jungle%MAP%%CONTINUE%
+ItemDisplay[RARE t23]: %DARK_GREEN%[T2] %YELLOW%Arreat Battlefield%MAP%%CONTINUE%
+ItemDisplay[RARE t24]: %DARK_GREEN%[T2] %YELLOW%Tomb of Zoltun Kulle%MAP%%CONTINUE%
+ItemDisplay[RARE t25]: %DARK_GREEN%[T2] %YELLOW%Sewers of Harrogath%MAP%%CONTINUE%
+ItemDisplay[RARE t26]: %DARK_GREEN%[T2] %YELLOW%Shadows of Westmarch%MAP%%CONTINUE%
+ItemDisplay[RARE t31]: %ORANGE%[T3] %YELLOW%River of Blood%MAP%%CONTINUE%
+ItemDisplay[RARE t32]: %ORANGE%[T3] %YELLOW%Throne of Insanity%MAP%%CONTINUE%
+ItemDisplay[RARE t33]: %ORANGE%[T3] %YELLOW%Lost Temple%MAP%%CONTINUE%
+ItemDisplay[RARE t34]: %ORANGE%[T3] %YELLOW%Ancestral Trial%MAP%%CONTINUE%
+ItemDisplay[RARE t35]: %ORANGE%[T3] %YELLOW%Blood Moon%MAP%%CONTINUE%
+ItemDisplay[RARE t36]: %ORANGE%[T3] %YELLOW%Fall of Caldeum%MAP%%CONTINUE%
+ItemDisplay[RARE t37]: %ORANGE%[T3] %YELLOW%Pandemonium Citadel%MAP%%CONTINUE%
+ItemDisplay[RARE t38]: %ORANGE%[T3] %YELLOW%Canyon of Sescheron%MAP%%CONTINUE%
+ItemDisplay[RARE t39]: %ORANGE%[T3] %YELLOW%Kehjistan Marketplace%MAP%%CONTINUE%
+ItemDisplay[RARE t41]: %RED%[T4] %YELLOW%Cathedral of Light %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[RARE t42]: %RED%[T4] %YELLOW%Plains of Torment %PURPLE%Dungeon%MAP%%CONTINUE%
+ItemDisplay[RARE t43]: %RED%[T4] %YELLOW%Sanctuary of Sin %PURPLE%Dungeon%MAP%%CONTINUE%
 
  //ESSENCES & TOKEN
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Andariel %WHITE%& %BLUE%Duriel}
-ItemDisplay[ceh]: %YELLOW%Charged Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%YELLOW%Mephisto}
-ItemDisplay[bet]: %RED%Burning Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo}
-ItemDisplay[fed]: %GREEN%Festering Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GREEN%Baal}
-ItemDisplay[toa]: %GREEN%Token of Absolution%MAP-62%{%GREEN%Resets %WHITE%Skills}
+ItemDisplay[tes]: %BLUE%Twisted Essence of Suffering %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%BLUE%Andariel %WHITE%& %BLUE%Duriel}
+ItemDisplay[ceh]: %YELLOW%Charged Essence of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%YELLOW%Mephisto}
+ItemDisplay[bet]: %RED%Burning Essence of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Diablo}
+ItemDisplay[fed]: %GREEN%Festering Essence of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GREEN%Baal}
+ItemDisplay[toa]: %GREEN%Token of Absolution%MAP%{%GREEN%Resets %WHITE%Skills}
 
  //UBER TRISTRAM
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Countess %WHITE%/ %GRAY%Blood Raven}
-ItemDisplay[pk2]: %GRAY%Key of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Summoner %WHITE%/ %GRAY%Blood Witch}
-ItemDisplay[pk3]: %GRAY%Key of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GRAY%Izual %WHITE%/ %GRAY%Nihlathak}
-ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram %WHITE%Ingredient}
-ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram %WHITE%Ingredient}
-ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-45%{%GOLD%Uber Tristram %WHITE%Ingredient}
-ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP-45%{%GOLD%Uber Tristram Access}
+ItemDisplay[pk1]: %GRAY%Key of Terror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GRAY%Countess %WHITE%/ %GRAY%Blood Raven}
+ItemDisplay[pk2]: %GRAY%Key of Hatred %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GRAY%Summoner %WHITE%/ %GRAY%Blood Witch}
+ItemDisplay[pk3]: %GRAY%Key of Destruction %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GRAY%Izual %WHITE%/ %GRAY%Nihlathak}
+ItemDisplay[dhn]: %GOLD%Diablo's Horn %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GOLD%Uber Tristram %WHITE%Ingredient}
+ItemDisplay[bey]: %GOLD%Baal's Eye %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GOLD%Uber Tristram %WHITE%Ingredient}
+ItemDisplay[mbr]: %GOLD%Mephisto's Brain %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GOLD%Uber Tristram %WHITE%Ingredient}
+ItemDisplay[ubtm]: %GOLD%Pandemonium Talisman%MAP%{%GOLD%Uber Tristram Access}
 
  //DIABLO CLONE
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo Clone %WHITE%Ingredient}
-ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo Clone %WHITE%Ingredient}
-ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Diablo Clone %WHITE%Ingredient}
-ItemDisplay[dcma]: %RED%Vision of Terror%YELLOW%%MAP-62%{%RED%Diablo Clone Access}
+ItemDisplay[dcho]: %RED%Black Soulstone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Diablo Clone %WHITE%Ingredient}
+ItemDisplay[dcso]: %RED%Prime Evil Soul %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Diablo Clone %WHITE%Ingredient}
+ItemDisplay[dcbl]: %RED%Pure Demonic Essence %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Diablo Clone %WHITE%Ingredient}
+ItemDisplay[dcma]: %RED%Vision of Terror%YELLOW%%MAP%{%RED%Diablo Clone Access}
 
  //RATHMA
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[rtmf]: %PURPLE%Ancient Bone Fragment %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Trang-Oul's Jawbone %WHITE%Ingredient}
-ItemDisplay[rtmv]: %PURPLE%Splinter of the Void %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Rathma %WHITE%Ingredient}
-ItemDisplay[rtmo]: %PURPLE%Trang-Oul's Jawbone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Rathma %WHITE%Ingredient}
-ItemDisplay[rtma]: %PURPLE%Voidstone%YELLOW%%MAP-62%{%PURPLE%Rathma Access}
-ItemDisplay[cwss]: %PURPLE%Tainted Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%PURPLE%Corrupts %GOLD%Annihilus}
-ItemDisplay[rtp]: %BLUE%Horadrim Navigator %MAP-62%{%BLUE%Unlimited TP}
-ItemDisplay[rid]: %RED%Horadrim Almanac %MAP-62%{%RED%Unlimited ID}
+ItemDisplay[rtmf]: %PURPLE%Ancient Bone Fragment %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%PURPLE%Trang-Oul's Jawbone %WHITE%Ingredient}
+ItemDisplay[rtmv]: %PURPLE%Splinter of the Void %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%PURPLE%Rathma %WHITE%Ingredient}
+ItemDisplay[rtmo]: %PURPLE%Trang-Oul's Jawbone %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%PURPLE%Rathma %WHITE%Ingredient}
+ItemDisplay[rtma]: %PURPLE%Voidstone%YELLOW%%MAP%{%PURPLE%Rathma Access}
+ItemDisplay[cwss]: %PURPLE%Tainted Worldstone Shard %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%PURPLE%Corrupts %GOLD%Annihilus}
+ItemDisplay[rtp]: %BLUE%Horadrim Navigator %MAP%{%BLUE%Unlimited TP}
+ItemDisplay[rid]: %RED%Horadrim Almanac %MAP%{%RED%Unlimited ID}
 
  //UBER ANCIENTS
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[uba]: %BLUE%Relic of the Ancients%MAP-45%{%BLUE%Uber Ancients Access}
-ItemDisplay[ubaa]: %BLUE%Sigil of Madawc %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Uber Ancients %WHITE%Ingredient}
-ItemDisplay[ubab]: %BLUE%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Uber Ancients %WHITE%Ingredient}
-ItemDisplay[ubac]: %BLUE%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%Uber Ancients %WHITE%Ingredient}
+ItemDisplay[uba]: %BLUE%Relic of the Ancients%MAP%{%BLUE%Uber Ancients Access}
+ItemDisplay[ubaa]: %BLUE%Sigil of Madawc %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%BLUE%Uber Ancients %WHITE%Ingredient}
+ItemDisplay[ubab]: %BLUE%Sigil of Talic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%BLUE%Uber Ancients %WHITE%Ingredient}
+ItemDisplay[ubac]: %BLUE%Sigil of Korlic %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%BLUE%Uber Ancients %WHITE%Ingredient}
 
  //OTHERS
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
-ItemDisplay[jewf]: %GREEN%Frag %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%GREEN%Stackable Jewel}
-ItemDisplay[lsvl]: %RED%Vial of Lightsong %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Makes %GRAY%ETH}
-ItemDisplay[llmr]: %RED%Lilith's Mirror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-62%{%RED%Copies %WHITE%Items}
-ItemDisplay[rkey]: %GRAY%Skeleton Key %MAP-62%{%GRAY%Unlimited Keys}
-ItemDisplay[UNI !ID cm1]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP% //Annihilus
-ItemDisplay[UNI !ID cm2]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP% //Torch
-ItemDisplay[UNI !ID cm3]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Gheed's
+ItemDisplay[std]: %GOLD%Standard of Heroes %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%BLUE%+10% %WHITE%Experience%NL%%BLUE%+20% %WHITE%Magic & Gold Find / Monster Density%NL%%DARK_GREEN%Heroic%WHITE%: %YELLOW%MAP %WHITE%+ %GOLD%Item}
+ItemDisplay[jewf]: %GREEN%Frag %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%GREEN%Stackable Jewel}
+ItemDisplay[lsvl]: %RED%Vial of Lightsong %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Makes %GRAY%ETH}
+ItemDisplay[llmr]: %RED%Lilith's Mirror %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP%{%RED%Copies %WHITE%Items}
+ItemDisplay[rkey]: %GRAY%Skeleton Key %MAP%{%GRAY%Unlimited Keys}
+ItemDisplay[UNI !ID cm1]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%//Annihilus
+ItemDisplay[UNI !ID cm2]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%//Torch
+ItemDisplay[UNI !ID cm3]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP%//Gheed's
 
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
  //XVI. RECYCLE BIN
