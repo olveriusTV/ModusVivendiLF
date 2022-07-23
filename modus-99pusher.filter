@@ -265,7 +265,7 @@ ItemDisplay[r33s]: %PURPLE% oooooooo %RED%%RUNENAME%%PURPLE% oooooooo %RED%[%RUN
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
 ItemDisplay[cm1 MAG !ID]: %YELLOW%%NAME%
-ItemDisplay[cm2 MAG !ID]: %YELLOW%%NAME%
+ItemDisplay[cm2 MAG !ID]: //%YELLOW%%NAME%
 ItemDisplay[cm3 MAG !ID]: %YELLOW%%NAME%
 ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%YELLOW%%NAME%
 
