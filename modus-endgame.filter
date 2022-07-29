@@ -15,7 +15,7 @@
  //Colors
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ItemDisplay[UNI]: %GOLD%%NAME%%CONTINUE%
-ItemDisplay[SET]: %DARK_GREEN%%NAME%%CONTINUE%
+ItemDisplay[SET]: %GREEN%%NAME%%CONTINUE%
 ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[CRAFT]: %RED%%NAME%%CONTINUE%
 
@@ -74,7 +74,7 @@ ItemDisplay[hp4 CLVL<45]: %RED%H %WHITE%great
 ItemDisplay[mp4 CLVL<45]: %BLUE%M %WHITE%great
 ItemDisplay[hp5]: %RED%H %WHITE%super
 ItemDisplay[mp5]: %BLUE%M %WHITE%super
-ItemDisplay[rvs]: //%PURPLE%r %WHITE%35%
+ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 
  //Tomes
@@ -264,10 +264,9 @@ ItemDisplay[r33s]: %PURPLE% oooooooo %RED%%RUNENAME%%PURPLE% oooooooo %RED%[%RUN
  //V. CHARMS
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 
-ItemDisplay[cm1 MAG !ID]: %YELLOW%%NAME%
-ItemDisplay[cm2 MAG !ID]: %YELLOW%%NAME%
-ItemDisplay[cm3 MAG !ID]: %YELLOW%%NAME%
-ItemDisplay[cm1 OR cm3 MAG !ID]: %DOT-9B%%YELLOW%%NAME%
+ItemDisplay[cm1 MAG !ID]: %DOT-9B%%GREEN%%NAME%
+ItemDisplay[cm2 MAG !ID]: %DOT-9B%%GREEN%%NAME%
+ItemDisplay[cm3 MAG !ID]: %DOT-9B%%GREEN%%NAME%
 
  //Good
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -410,7 +409,7 @@ ItemDisplay[(jew OR rin OR amu OR CIRC) RARE !ID]: %DOT-A8%%NAME%
 
  //High Tier
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(uh9 OR xul OR ne9 OR utc OR xmg OR dr8 OR xtb OR uul OR 9mt OR ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb OR xar OR urn OR 7ws OR paf OR ci3 OR amc OR uld OR xtg OR zvb OR oba OR xsk OR uth OR zmb OR xh9 OR 7qr OR ucl OR xmb OR ulg OR xhm OR 6cs) SET !ID]: %GREEN%oooooo %NAME%%GREEN% oooooo%MAP% //Sets
+ItemDisplay[(uh9 OR xul OR ne9 OR utc OR xmg OR dr8 OR xtb OR uul OR 9mt OR ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb OR xar OR urn OR 7ws OR paf OR ci3 OR amc OR uld OR xtg OR zvb OR oba OR xsk OR uth OR zmb OR xh9 OR 7qr OR ucl OR xmb OR ulg OR xhm OR 6cs) SET !ID]: %DARK_GREEN%oooooo %NAME%%DARK_GREEN% oooooo%MAP% //Sets
 ItemDisplay[(rin OR amu OR 6ws OR uar OR ulc OR urn OR uap OR ci3 OR xtb OR uit OR 6lw OR 7gw OR 7gd OR obf OR ulm) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP% //Uniques
 ItemDisplay[(9gm OR 7gm OR 7s8) UNI ETH !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP%
 ItemDisplay[(uhl OR uth OR utb OR 7bs OR 7qr) UNI !ID]: %ORANGE%ooooooo %NAME%%ORANGE% ooooooo%MAP% //Special Uniques
@@ -421,11 +420,11 @@ ItemDisplay[jew UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Jewels: Face
 
  //Mid Tier
  //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-ItemDisplay[(xap OR stu OR vbt OR xlb OR umc OR ult OR ztb OR xhl) SET !ID]: %GREEN%oooo %NAME%%GREEN% oooo%MAP% //Sets
+ItemDisplay[(xap OR stu OR vbt OR xlb OR umc OR ult OR ztb OR xhl) SET !ID]: %DARK_GREEN%oooo %NAME%%DARK_GREEN% oooo%MAP% //Sets
 ItemDisplay[(7pa OR 7bt OR 7gi OR 7wa OR 7m7 OR 7p7 OR 8ls OR 7gl OR 7b8 OR 7bk OR xpl) UNI ETH !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Uniques
 ItemDisplay[(uvc OR zlb OR zvb OR zhb OR umc) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Belts
 ItemDisplay[(uui OR xth OR xhn OR xtp OR xlt OR upl OR uld OR utu) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Armors
-ItemDisplay[(uvg OR uhg OR umg) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Gloves
+ItemDisplay[(tgl OR uvg OR uhg OR umg) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Gloves
 ItemDisplay[(xh9 OR usk OR ci2 OR baa OR bac OR dra OR dre OR uhm OR uh9 OR xhm OR drd OR bae) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Helmets
 ItemDisplay[(lbt OR xhb OR uhb OR tbt OR xvb OR xlb) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Boots
 ItemDisplay[(nee OR pa9 OR nea OR uts OR uow OR xsh OR xow OR pae OR nef) UNI !ID]: %ORANGE%ooooo %NAME%%ORANGE% ooooo%MAP% //Shields
@@ -855,7 +854,7 @@ ItemDisplay[gpm CLVL>41]: //
 ItemDisplay[opm CLVL>41]: //
 ItemDisplay[gpl CLVL>41]: //
 ItemDisplay[opl CLVL>41]: //
-ItemDisplay[vps CLVL>=1]: // 
+ItemDisplay[vps CLVL<18]: // 
 ItemDisplay[yps CLVL<18]: // 
 ItemDisplay[wms CLVL<26]: // 
 ItemDisplay[gps CLVL<41]: // 
